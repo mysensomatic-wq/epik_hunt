@@ -251,6 +251,16 @@ function generateReport(results, runMeta, config, snapshots = {}) {
   const jsonPath = path.join(config.reports_dir, `daily-${date}.json`);
   fs.writeFileSync(jsonPath, JSON.stringify(jsonContent, null, 2), 'utf8');
 
+  // ── Reports Index (for static UI) ──────────────────────────────────────────
+  try {
+    const files = fs.readdirSync(config.reports_dir)
+      .filter(f => f.startsWith('daily-') && f.endsWith('.md'))
+      .sort((a, b) => b.localeCompare(a)); // newest first
+    fs.writeFileSync(path.join(config.reports_dir, 'index.json'), JSON.stringify({ files }, null, 2), 'utf8');
+  } catch (err) {
+    console.error(`[report] Failed to update reports/index.json: ${err.message}`);
+  }
+
   return { mdPath, jsonPath };
 }
 

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>epik-watcher</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f1f5f9;color:#1e293b;font-size:14px;line-height:1.5}
+
+/* Header */
+.app-header{display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:52px;background:#1e293b;color:#f8fafc;position:sticky;top:0;z-index:100;gap:16px}
+.app-header h1{font-size:16px;font-weight:700;letter-spacing:.5px;white-space:nowrap;color:#38bdf8}
+.header-meta{font-size:12px;color:#94a3b8;white-space:nowrap}
+.tab-nav{display:flex;gap:4px}
+.tab-btn{background:none;border:none;color:#94a3b8;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:500;transition:background .15s,color .15s}
+.tab-btn:hover{background:#334155;color:#f8fafc}
+.tab-btn.active{background:#0f172a;color:#38bdf8}
+
+/* Layout */
+main{padding:24px;max-width:1400px;margin:0 auto}
+.tab{display:none}.tab.active{display:block}
+.section-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.section-header h2{font-size:18px;font-weight:600;color:#0f172a}
+.muted{color:#64748b;font-size:12px}
+
+/* Cards */
+.card{background:#fff;border-radius:10px;border:1px solid #e2e8f0;overflow:hidden}
+.card-header{padding:14px 18px;border-bottom:1px solid #e2e8f0;font-weight:600;font-size:13px;background:#f8fafc;color:#475569}
+
+/* Status badges */
+.badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.3px;text-transform:uppercase}
+.badge-changed  {background:#fef3c7;color:#92400e}
+.badge-unchanged{background:#dcfce7;color:#166534}
+.badge-new      {background:#dbeafe;color:#1e40af}
+.badge-never    {background:#f1f5f9;color:#64748b}
+.badge-stale    {background:#f3e8ff;color:#6b21a8}
+.badge-error    {background:#fee2e2;color:#991b1b}
+.status-pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:500;background:#e0f2fe;color:#0369a1;margin:1px 2px}
+
+/* Domain table */
+.domain-table{width:100%;border-collapse:collapse}
+.domain-table th{padding:10px 16px;text-align:left;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:#64748b;border-bottom:2px solid #e2e8f0;white-space:nowrap}
+.domain-table td{padding:12px 16px;border-bottom:1px solid #f1f5f9;vertical-align:middle}
+.domain-table tr:last-child td{border-bottom:none}
+.domain-table tr:hover td{background:#f8fafc}
+.domain-link{color:#2563eb;cursor:pointer;font-weight:600;text-decoration:none;font-size:13px}
+.domain-link:hover{text-decoration:underline}
+.hash-cell{font-family:monospace;font-size:11px;color:#94a3b8;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* Detail split view */
+.detail-split{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+@media(max-width:900px){.detail-split{grid-template-columns:1fr}}
+.back-btn{background:none;border:1px solid #e2e8f0;color:#475569;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:500}
+.back-btn:hover{background:#f1f5f9}
+
+/* ICANN record */
+.icann-section{margin-bottom:20px}
+.icann-section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#fff;background:#2563eb;padding:6px 14px;border-radius:6px 6px 0 0;display:block}
+.icann-table{width:100%;border-collapse:collapse;border:1px solid #e2e8f0;border-top:none}
+.icann-table th{width:25%;padding:8px 14px;font-weight:500;color:#475569;background:#f8fafc;border-bottom:1px solid #f1f5f9;font-size:12px;text-align:left;vertical-align:top}
+.icann-table td{width:37.5%;padding:8px 14px;color:#1e293b;border-bottom:1px solid #f1f5f9;font-size:13px;word-break:break-all}
+.icann-table tr:last-child th,.icann-table tr:last-child td{border-bottom:none}
+.ns-list{list-style:none;padding:10px 14px;border:1px solid #e2e8f0;border-top:none;font-family:monospace;font-size:12px}
+.ns-list li{padding:3px 0;color:#0f172a}
+.redacted{color:#94a3b8;font-style:italic}
+.raw-toggle{width:100%;text-align:left;background:#f8fafc;border:1px solid #e2e8f0;border-top:none;padding:8px 14px;font-size:12px;cursor:pointer;color:#475569;font-weight:500}
+.raw-toggle:hover{background:#f1f5f9}
+.raw-block{background:#0f172a;color:#e2e8f0;padding:16px;font-size:11px;line-height:1.6;overflow-x:auto;display:none;font-family:monospace;border-radius:0 0 6px 6px;white-space:pre-wrap;word-break:break-all}
+.raw-block.open{display:block}
+
+/* Diff panel */
+.diff-table{width:100%;border-collapse:collapse}
+.diff-table th{padding:8px 12px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:#64748b;border-bottom:2px solid #e2e8f0;text-align:left}
+.diff-table td{padding:8px 12px;border-bottom:1px solid #f1f5f9;font-size:12px;vertical-align:top}
+.diff-table tr:last-child td{border-bottom:none}
+.diff-field{font-family:monospace;color:#475569;font-size:11px;font-weight:600}
+.diff-before{color:#b91c1c;background:#fef2f2;padding:2px 5px;border-radius:3px;font-size:11px;font-family:monospace}
+.diff-after {color:#15803d;background:#f0fdf4;padding:2px 5px;border-radius:3px;font-size:11px;font-family:monospace}
+.no-change{color:#64748b;font-style:italic;padding:16px}
+
+/* History */
+.domain-pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.domain-pill{padding:6px 14px;border-radius:999px;border:2px solid #e2e8f0;background:#fff;cursor:pointer;font-size:12px;font-weight:600;color:#475569;transition:all .15s}
+.domain-pill.active,.domain-pill:hover{border-color:#2563eb;color:#2563eb;background:#eff6ff}
+.timeline{display:flex;flex-direction:column;gap:1px}
+.tl-entry{background:#fff;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;margin-bottom:8px}
+.tl-header{display:flex;align-items:center;gap:12px;padding:12px 16px;cursor:pointer;user-select:none}
+.tl-header:hover{background:#f8fafc}
+.tl-date{font-weight:700;font-size:13px;color:#0f172a;min-width:100px}
+.tl-fields{font-size:12px;color:#64748b}
+.tl-body{display:none;padding:0 16px 16px;border-top:1px solid #f1f5f9}
+.tl-body.open{display:block}
+
+/* Reports */
+.reports-layout{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start}
+@media(max-width:768px){.reports-layout{grid-template-columns:1fr}}
+.reports-sidebar{display:flex;flex-direction:column;gap:4px}
+.report-file-btn{text-align:left;background:#fff;border:1px solid #e2e8f0;padding:10px 14px;border-radius:8px;cursor:pointer;font-size:12px;color:#475569;font-weight:500;transition:all .15s}
+.report-file-btn:hover,.report-file-btn.active{background:#eff6ff;border-color:#2563eb;color:#2563eb}
+.reports-main{min-height:300px}
+.md-h1{font-size:22px;font-weight:700;color:#0f172a;margin:20px 0 12px}
+.md-h2{font-size:17px;font-weight:700;color:#1e293b;margin:18px 0 10px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+.md-h3{font-size:14px;font-weight:700;color:#334155;margin:14px 0 8px}
+.md-h4,.md-h5,.md-h6{font-size:13px;font-weight:600;color:#475569;margin:10px 0 6px}
+.md-table{width:100%;border-collapse:collapse;margin:10px 0}
+.md-table th{background:#f8fafc;padding:8px 12px;text-align:left;font-size:12px;font-weight:600;border:1px solid #e2e8f0}
+.md-table td{padding:7px 12px;border:1px solid #e2e8f0;font-size:12px;vertical-align:top}
+blockquote{border-left:4px solid #38bdf8;padding:8px 16px;background:#f0f9ff;margin:10px 0;border-radius:0 6px 6px 0;color:#0369a1;font-size:13px}
+pre.raw-block{background:#0f172a;color:#e2e8f0;padding:14px;border-radius:6px;font-size:11px;overflow-x:auto;white-space:pre-wrap;margin:8px 0}
+details summary{cursor:pointer;font-size:12px;color:#2563eb;padding:6px 0}
+code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:12px;font-family:monospace;color:#be185d}
+p{margin:6px 0;font-size:13px;color:#334155}
+ul{margin:6px 0 6px 20px}
+li{margin:3px 0;font-size:13px}
+hr{border:none;border-top:1px solid #e2e8f0;margin:16px 0}
+
+/* Log */
+.log-pre{background:#0f172a;color:#94a3b8;padding:20px;border-radius:10px;font-size:11px;line-height:1.7;overflow-x:auto;white-space:pre-wrap;word-break:break-all;min-height:200px;font-family:monospace}
+.btn-sm{padding:5px 12px;border-radius:6px;border:1px solid #e2e8f0;background:#fff;cursor:pointer;font-size:12px;color:#475569;font-weight:500}
+.btn-sm:hover{background:#f1f5f9}
+.refresh-info{font-size:11px;color:#94a3b8;margin-left:auto}
+.empty-state{padding:40px;text-align:center;color:#94a3b8;font-size:13px}
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="app-header">
+    <h1>&#x1F4E1; epik-watcher</h1>
+    <span class="header-meta" id="run-meta"></span>
+    <nav class="tab-nav">
+      <button class="tab-btn active" onclick="switchTab('dashboard')">Dashboard</button>
+      <button class="tab-btn" onclick="switchTab('history')">History</button>
+      <button class="tab-btn" onclick="switchTab('reports')">Reports</button>
+      <button class="tab-btn" onclick="switchTab('log')">Run Log</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- DASHBOARD -->
+    <div id="tab-dashboard" class="tab active">
+      <div id="status-view">
+        <div class="section-header">
+          <h2>Domain Status</h2>
+          <span class="refresh-info muted" id="refresh-countdown"></span>
+        </div>
+        <div class="card">
+          <div id="domain-table-wrap"><div class="empty-state">Loading&hellip;</div></div>
+        </div>
+      </div>
+
+      <div id="detail-view" style="display:none">
+        <div class="section-header">
+          <button class="back-btn" onclick="closeDetail()">&#8592; All Domains</button>
+          <h2 id="detail-title"></h2>
+          <span class="muted" id="detail-date"></span>
+        </div>
+        <div class="detail-split">
+          <div>
+            <div class="card-header">Current Record</div>
+            <div class="card" style="border-top:none;border-radius:0 0 10px 10px" id="record-panel"><div class="empty-state">Loading&hellip;</div></div>
+          </div>
+          <div>
+            <div class="card-header">Changes from Previous Snapshot</div>
+            <div class="card" style="border-top:none;border-radius:0 0 10px 10px" id="diff-panel"><div class="empty-state">Loading&hellip;</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORY -->
+    <div id="tab-history" class="tab">
+      <div class="section-header"><h2>Change History</h2></div>
+      <div class="domain-pills" id="history-pills"></div>
+      <div id="history-timeline"><div class="empty-state">Select a domain above.</div></div>
+    </div>
+
+    <!-- REPORTS -->
+    <div id="tab-reports" class="tab">
+      <div class="section-header"><h2>Reports</h2></div>
+      <div class="reports-layout">
+        <div class="reports-sidebar" id="reports-list"><div class="muted">Loading&hellip;</div></div>
+        <div class="card" id="reports-content"><div class="empty-state">Select a report to view it.</div></div>
+      </div>
+    </div>
+
+    <!-- LOG -->
+    <div id="tab-log" class="tab">
+      <div class="section-header">
+        <h2>Run Log</h2>
+        <button class="btn-sm" onclick="loadLog()">&#x21BA; Refresh</button>
+      </div>
+      <pre class="log-pre" id="log-content">Loading&hellip;</pre>
+    </div>
+  </main>
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+var currentTab = 'dashboard';
+var refreshTimer = null;
+var countdown = 60;
+var currentDomain = null;
+var historyDomain = null;
+var ledger = {};
+var config = { snapshots_dir: 'snapshots', reports_dir: 'reports' };
+
+// ── Tab switching ─────────────────────────────────────────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.tab').forEach(function(el) { el.classList.remove('active'); });
+  document.querySelectorAll('.tab-btn').forEach(function(el) { el.classList.remove('active'); });
+  var panel = document.getElementById('tab-' + name);
+  if (panel) panel.classList.add('active');
+  var btns = document.querySelectorAll('.tab-btn');
+  btns.forEach(function(b) { if (b.textContent.toLowerCase().trim().startsWith(name.slice(0,4))) b.classList.add('active'); });
+  currentTab = name;
+  if (name === 'history')  initHistory();
+  if (name === 'reports')  loadReports();
+  if (name === 'log')      loadLog();
+}
+
+// ── Utilities ─────────────────────────────────────────────────────────────────
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function fmtVal(v) {
+  if (v === null || v === undefined) return '<em class="redacted">—</em>';
+  if (Array.isArray(v)) return v.length ? v.map(esc).join(', ') : '<em class="redacted">—</em>';
+  return esc(String(v));
+}
+function fmtDiff(v) {
+  if (v === null || v === undefined) return '<span class="redacted">(null)</span>';
+  if (Array.isArray(v)) return v.length ? esc(v.join(', ')) : '<span class="redacted">(empty)</span>';
+  return esc(String(v));
+}
+
+function approxEqualDate(e, r) {
+  if (e === r) return true;
+  if (typeof e === 'string' && typeof r === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(e) && /^\d{4}-\d{2}-\d{2}T/.test(r)) {
+      var t1 = new Date(e).getTime();
+      var t2 = new Date(r).getTime();
+      if (!isNaN(t1) && !isNaN(t2) && Math.abs(t1 - t2) <= 1000) return true;
+  }
+  return false;
+}
+
+function fieldDiff(before, after) {
+  const diff = {};
+  const changed = [];
+  const keys = new Set([...Object.keys(before || {}), ...Object.keys(after || {})]);
+  for (const k of keys) {
+    if (['domain', 'anomalies', 'epik_data', 'registry_data'].includes(k)) continue;
+    const b = (before || {})[k] ?? null;
+    const a = (after || {})[k] ?? null;
+    if (JSON.stringify(b) !== JSON.stringify(a)) {
+      changed.push(k);
+      diff[k] = { before: b, after: a };
+    }
+  }
+  return { fields_changed: changed.sort(), diff };
+}
+
+// ── Data Loading (Static) ─────────────────────────────────────────────────────
+
+async function loadData() {
+    try {
+        const [lRes, cRes] = await Promise.all([
+            fetch('ledger.json').then(r => r.json()),
+            fetch('config.json').then(r => r.json()).catch(() => ({ snapshots_dir: 'snapshots', reports_dir: 'reports' }))
+        ]);
+        ledger = lRes;
+        config = cRes;
+        loadStatus();
+    } catch (e) {
+        document.getElementById('domain-table-wrap').innerHTML = '<div class="empty-state">Failed to load data files (ledger.json/config.json). Make sure they are pushed to the repo.</div>';
+    }
+}
+
+async function loadStatus() {
+  const today = new Date().toISOString().slice(0, 10);
+  const domains = Object.keys(ledger);
+  
+  const statuses = await Promise.all(domains.map(async domain => {
+    const entries = (ledger[domain] || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+    if (!entries.length) return { domain, status: 'never', last_checked: null };
+
+    const latest = entries[entries.length - 1];
+    const prev   = entries.length > 1 ? entries[entries.length - 2] : null;
+
+    let status;
+    if (latest.date !== today) {
+      status = 'stale';
+    } else if (!prev) {
+      status = 'new';
+    } else {
+      status = latest.hash !== prev.hash ? 'changed' : 'unchanged';
+    }
+
+    let fields_changed = null;
+    if (status === 'changed' && prev) {
+      try {
+        const [sToday, sPrev] = await Promise.all([
+            fetch(`${config.snapshots_dir}/${latest.date}/${domain}.json`).then(r => r.json()),
+            fetch(`${config.snapshots_dir}/${prev.date}/${domain}.json`).then(r => r.json())
+        ]);
+        const d = fieldDiff(sPrev.parsed, sToday.parsed);
+        fields_changed = d.fields_changed;
+      } catch (e) {
+        console.warn(`Could not fetch snapshots for diffing ${domain}`);
+      }
+    }
+
+    return { domain, status, last_checked: latest.date, fields_hash: latest.hash, fields_changed };
+  }));
+
+  renderDomainTable({ date: today, domains: statuses });
+  var meta = document.getElementById('run-meta');
+  if (meta) meta.textContent = 'Last Run Date: ' + today;
+  startRefreshTimer();
+}
+
+function badgeHtml(status) {
+  var labels = { changed:'Changed', unchanged:'Unchanged', new:'First Seen', never:'Never Run', stale:'Stale', error:'Error' };
+  var label = labels[status] || status;
+  return '<span class="badge badge-' + status + '">' + label + '</span>';
+}
+
+function renderDomainTable(data) {
+  if (!data.domains || !data.domains.length) {
+    document.getElementById('domain-table-wrap').innerHTML = '<div class="empty-state">No domain history in ledger.json.</div>';
+    return;
+  }
+  var rows = data.domains.map(function(d) {
+    return '<tr>' +
+      '<td><a class="domain-link" data-domain="' + esc(d.domain) + '" onclick="openDomain(this.dataset.domain)">' + esc(d.domain) + '</a></td>' +
+      '<td>' + badgeHtml(d.status) + '</td>' +
+      '<td>' + esc(d.last_checked || '—') + '</td>' +
+      '<td class="hash-cell" title="' + esc(d.fields_hash || '') + '">' + esc(d.fields_hash ? d.fields_hash.slice(0,16) + '…' : '—') + '</td>' +
+      '<td>' + (d.fields_changed ? esc(d.fields_changed.join(', ')) : '—') + '</td>' +
+    '</tr>';
+  }).join('');
+
+  document.getElementById('domain-table-wrap').innerHTML =
+    '<table class="domain-table">' +
+    '<thead><tr><th>Domain</th><th>Status</th><th>Last Checked</th><th>Fields Hash</th><th>Changed Fields</th></tr></thead>' +
+    '<tbody>' + rows + '</tbody></table>';
+}
+
+async function openDomain(domain) {
+  currentDomain = domain;
+  document.getElementById('status-view').style.display = 'none';
+  document.getElementById('detail-view').style.display = 'block';
+  document.getElementById('detail-title').textContent = domain;
+  document.getElementById('detail-date').textContent = '';
+  document.getElementById('record-panel').innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+  document.getElementById('diff-panel').innerHTML   = '<div class="empty-state">Loading&hellip;</div>';
+
+  const entries = (ledger[domain] || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+  if (!entries.length) return;
+
+  const latest = entries[0];
+  const prev = entries.length > 1 ? entries[1] : null;
+
+  try {
+      const snap = await fetch(`${config.snapshots_dir}/${latest.date}/${domain}.json`).then(r => r.json());
+      let diffData = null;
+      if (prev) {
+          const prevSnap = await fetch(`${config.snapshots_dir}/${prev.date}/${domain}.json`).then(r => r.json());
+          diffData = fieldDiff(prevSnap.parsed, snap.parsed);
+          diffData.from_date = prev.date;
+      }
+
+      document.getElementById('detail-date').textContent = 'Snapshot: ' + latest.date;
+      document.getElementById('record-panel').innerHTML = renderIcannRecord(snap);
+      document.getElementById('diff-panel').innerHTML   = renderDiffPanel(diffData, latest.date);
+  } catch (e) {
+      document.getElementById('record-panel').innerHTML = '<div class="empty-state">Error loading snapshot: ' + esc(e.message) + '</div>';
+  }
+}
+
+function closeDetail() {
+  currentDomain = null;
+  document.getElementById('detail-view').style.display = 'none';
+  document.getElementById('status-view').style.display = 'block';
+}
+
+function renderStatusPills(statusArr) {
+  if (!statusArr || !statusArr.length) return '<em class="redacted">—</em>';
+  return statusArr.map(function(s) { return '<span class="status-pill">' + esc(s) + '</span>'; }).join(' ');
+}
+
+function icannRow(label, epikVal, regVal, anomVal) {
+  var e = epikVal; var r = regVal;
+  if (epikVal && regVal && !approxEqualDate(epikVal, regVal) && (label !== 'Domain Name') && (label !== 'RDAP Server') && (label !== 'RDAP Build')) {
+     e = '<span style="color: #ef4444; font-weight: bold;">' + epikVal + '</span>';
+  }
+  var evHtml = e + (anomVal ? ' <span style="color:#ef4444;font-size:11px" title="' + esc(anomVal) + '">(⚠ Anomaly)</span>' : '');
+  return '<tr><th>' + esc(label) + '</th><td>' + evHtml + '</td><td>' + r + '</td></tr>';
+}
+
+function renderIcannRecord(snapshot) {
+  if (!snapshot || !snapshot.parsed) return '<div class="empty-state">No snapshot data.</div>';
+  var p   = snapshot.parsed;
+  var anom = p.anomalies || {};
+  var epik = p.epik_data || p;
+  var reg  = p.registry_data || p;
+  var domainUp = (p.domain || '').toUpperCase();
+
+  var html = '<div style="padding:16px">';
+  html += '<div class="icann-section"><span class="icann-section-title">Domain Information</span><table class="icann-table"><thead><tr><th>Field</th><th>EPIK Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += icannRow('Domain Name', '<strong>' + esc(domainUp) + '</strong>', '<strong>' + esc(domainUp) + '</strong>');
+  if (p.roid) html += icannRow('Registry Domain ID', esc(epik.roid), esc(reg.roid), anom.roid);
+  html += icannRow('Domain Status', renderStatusPills(epik.status), renderStatusPills(reg.status), anom.status);
+  html += icannRow('Creation Date',  fmtVal(epik.created), fmtVal(reg.created), anom.created);
+  html += icannRow('Updated Date',   fmtVal(epik.updated), fmtVal(reg.updated), anom.updated);
+  html += icannRow('Expiration Date',fmtVal(epik.expires), fmtVal(reg.expires), anom.expires);
+  html += icannRow('DNSSEC',         fmtVal(epik.dnssec), fmtVal(reg.dnssec), anom.dnssec);
+  html += '</tbody></table></div>';
+
+  html += '<div class="icann-section"><span class="icann-section-title">Registrar Information</span><table class="icann-table"><thead><tr><th>Field</th><th>EPIK Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += icannRow('Registrar',     fmtVal(epik.registrar), fmtVal(reg.registrar), anom.registrar);
+  html += icannRow('IANA ID',       fmtVal(epik.registrar_iana_id), fmtVal(reg.registrar_iana_id), anom.registrar_iana_id);
+  html += icannRow('RDAP Server',   fmtVal(epik.rdap_server), fmtVal(reg.rdap_server), anom.rdap_server);
+  html += icannRow('RDAP Build',    fmtVal(epik.rdap_build), fmtVal(reg.rdap_build), anom.rdap_build);
+  html += '</tbody></table></div>';
+
+  html += '<div class="icann-section"><span class="icann-section-title">Name Servers</span><ul class="ns-list">';
+  if (p.nameservers && p.nameservers.length) {
+    p.nameservers.forEach(function(ns) { html += '<li>' + esc(ns) + '</li>'; });
+  } else { html += '<li><em class="redacted">—</em></li>'; }
+  html += '</ul></div>';
+
+  html += '</div>';
+  return html;
+}
+
+function renderDiffPanel(diff, date) {
+  if (!diff) return '<div class="empty-state" style="padding:24px">No previous snapshot to compare against.</div>';
+  if (!diff.fields_changed || !diff.fields_changed.length) return '<div class="no-change">&#10003; No changes detected since ' + esc(diff.from_date || 'last snapshot') + '.</div>';
+  var html = '<div style="padding:0"><div style="padding:10px 16px;font-size:11px;color:#64748b;border-bottom:1px solid #f1f5f9">' + esc(diff.from_date || '?') + ' &rarr; ' + esc(date) + ' &nbsp;&bull;&nbsp; ' + diff.fields_changed.length + ' field(s) changed</div>';
+  html += '<table class="diff-table"><thead><tr><th>Field</th><th>Before</th><th>After</th></tr></thead><tbody>';
+  diff.fields_changed.forEach(function(field) {
+    var d = diff.diff[field];
+    html += '<tr><td class="diff-field">' + esc(field) + '</td><td><span class="diff-before">' + fmtDiff(d.before) + '</span></td><td><span class="diff-after">'  + fmtDiff(d.after)  + '</span></td></tr>';
+  });
+  html += '</tbody></table></div>';
+  return html;
+}
+
+function initHistory() {
+  var pills = document.getElementById('history-pills');
+  pills.innerHTML = Object.keys(ledger).sort().map(function(d) {
+    return '<button class="domain-pill" data-domain="' + esc(d) + '" onclick="loadHistory(this.dataset.domain)">' + esc(d) + '</button>';
+  }).join('');
+}
+
+function loadHistory(domain) {
+  historyDomain = domain;
+  document.querySelectorAll('.domain-pill').forEach(function(p) { p.classList.toggle('active', p.textContent === domain); });
+  renderTimeline({ entries: ledger[domain] || [] });
+}
+
+function renderTimeline(data) {
+  var el = document.getElementById('history-timeline');
+  if (!data.entries || !data.entries.length) { el.innerHTML = '<div class="empty-state">No history recorded.</div>'; return; }
+  var html = '<div class="timeline">';
+  var entries = data.entries.slice().sort((a,b) => b.date.localeCompare(a.date));
+  entries.forEach(function(entry, i) {
+    var bodyId = 'tl-body-' + i;
+    html += '<div class="tl-entry"><div class="tl-header" data-target="' + bodyId + '" onclick="toggleTlEntry(this.dataset.target)"><span class="tl-date">' + esc(entry.date) + '</span>' + esc(entry.hash.slice(0,8)) + '…</div><div class="tl-body" id="' + bodyId + '">Static history view limited. Click domain link in Dashboard for full diff.</div></div>';
+  });
+  el.innerHTML = html + '</div>';
+}
+
+function toggleTlEntry(id) { var el = document.getElementById(id); if (el) el.classList.toggle('open'); }
+
+function loadReports() {
+  fetch(`${config.reports_dir}/index.json`).then(r => r.json()).then(data => {
+    document.getElementById('reports-list').innerHTML = data.files.map(f => `<button class="report-file-btn" data-file="${esc(f)}" onclick="loadReport(this.dataset.file)">${esc(f)}</button>`).join('');
+  }).catch(() => { document.getElementById('reports-list').innerHTML = '<div class="muted">index.json missing in reports/. Run the script once more.</div>'; });
+}
+
+function loadReport(file) {
+  fetch(`${config.reports_dir}/${file}`).then(r => r.text()).then(md => {
+    document.getElementById('reports-content').innerHTML = '<div style="padding:20px">' + mdToHtml(md) + '</div>';
+  });
+}
+
+function loadLog() {
+  fetch('logs/latest.log').then(r => r.text()).then(txt => { document.getElementById('log-content').textContent = txt; }).catch(() => { document.getElementById('log-content').textContent = 'logs/latest.log not found.'; });
+}
+
+function mdToHtml(md) {
+  // Simple MD to HTML port from ui.js
+  const lines = md.split('\n');
+  let out = [];
+  let inCode = false;
+  const inline = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/`(.+?)`/g, '<code>$1</code>');
+  for (let line of lines) {
+    let t = line.trim();
+    if (t.startsWith('```')) { inCode = !inCode; out.push(inCode ? '<pre class="raw-block">' : '</pre>'); continue; }
+    if (inCode) { out.push(inline(line)); continue; }
+    if (t.startsWith('#')) { let lvl = t.match(/^#+/)[0].length; out.push(`<h${lvl}>${inline(t.replace(/^#+\s+/,''))}</h${lvl}>`); continue; }
+    if (t.startsWith('|')) { out.push(inline(line)); continue; } // simple table bypass
+    out.push(`<p>${inline(line)}</p>`);
+  }
+  return out.join('\n');
+}
+
+function startRefreshTimer() { clearInterval(refreshTimer); countdown = 60; refreshTimer = setInterval(() => { countdown--; if (document.getElementById('refresh-countdown')) document.getElementById('refresh-countdown').textContent = 'Auto-refresh in ' + countdown + 's'; if (countdown <= 0) { loadStatus(); countdown = 60; } }, 1000); }
+
+loadData();
+</script>
+</body>
+</html>

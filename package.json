@@ -5,7 +5,7 @@
   "main": "src/run.js",
   "scripts": {
     "start": "node src/run.js",
-    "ui": "node src/ui.js",
+    "ui": "npx -y serve .",
     "test": "echo \"No tests configured\" && exit 0"
   },
   "dependencies": {
