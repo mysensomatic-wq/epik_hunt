@@ -1,0 +1,18 @@
+{
+  "domains_file": "domains.txt",
+  "whois_rate_limit_ms": 1200,
+  "snapshots_dir": "snapshots",
+  "archives_dir": "archives",
+  "reports_dir": "reports",
+  "ledger_file": "ledger.json",
+  "archive_threshold_mb": 50,
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "you@gmail.com",
+    "smtp_pass": "YOUR_APP_PASSWORD",
+    "from": "epik-watcher <you@gmail.com>",
+    "to": "you@gmail.com"
+  }
+}

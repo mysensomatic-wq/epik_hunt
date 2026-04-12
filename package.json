@@ -1,0 +1,23 @@
+{
+  "name": "epik-watcher",
+  "version": "1.0.0",
+  "description": "WHOIS change monitor for Epik-held domains",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js",
+    "ui": "node src/ui.js",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "chalk": "^4.1.2",
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.13",
+    "node-fetch": "^2.7.0",
+    "whois": "^2.13.6"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

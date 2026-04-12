@@ -1,0 +1,80 @@
+name: Daily WHOIS Watcher
+
+on:
+  schedule:
+    # Run once every 4 hours
+    - cron: '0 */4 * * *'
+  # Allow manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Override date (YYYY-MM-DD), leave empty for today'
+        required: false
+        default: ''
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Inject SMTP credentials into config.json
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: |
+          jq \
+            --arg user "$SMTP_USER" \
+            --arg pass "$SMTP_PASS" \
+            '.email.smtp_user = $user | .email.smtp_pass = $pass' \
+            config.json > config.tmp.json
+          mv config.tmp.json config.json
+
+      - name: Run WHOIS watcher
+        id: watcher
+        run: |
+          DATE_ARG=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE_ARG="--date ${{ github.event.inputs.date }}"
+          fi
+          node src/run.js $DATE_ARG
+
+      - name: Commit updated artifacts
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage all watcher outputs (ledger, reports, snapshots, archives)
+          git add ledger.json reports/ snapshots/ archives/ || true
+
+          # Determine the run date for the commit message
+          RUN_DATE=$(node -e "
+            const idx = process.argv.indexOf('--date');
+            const d = (idx !== -1 && process.argv[idx+1])
+              ? process.argv[idx+1]
+              : new Date().toISOString().slice(0,10);
+            process.stdout.write(d);
+          " -- $DATE_ARG 2>/dev/null || date -u +%Y-%m-%d)
+
+          git commit --allow-empty -m "[watcher] daily run ${RUN_DATE}"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

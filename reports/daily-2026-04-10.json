@@ -1,0 +1,389 @@
+{
+  "run_meta": {
+    "date": "2026-04-10",
+    "started_at": "2026-04-10T18:39:42.596Z",
+    "rotation": {
+      "rotated": false,
+      "size_mb": 0.019,
+      "archive_path": null
+    },
+    "domains_queried": 4,
+    "changed_count": 4,
+    "unchanged_count": 0,
+    "error_count": 0
+  },
+  "results": [
+    {
+      "domain": "cryptoweed.com",
+      "date": "2026-04-10",
+      "changed": true,
+      "first_seen": true,
+      "fields_changed": [
+        "abuse_email",
+        "abuse_phone",
+        "created",
+        "dnssec",
+        "expires",
+        "nameservers",
+        "registrant_country",
+        "registrant_org",
+        "registrar",
+        "registrar_iana_id",
+        "roid",
+        "status",
+        "updated",
+        "whois_server"
+      ],
+      "diff": {
+        "registrar": {
+          "before": null,
+          "after": "epik llc"
+        },
+        "registrar_iana_id": {
+          "before": null,
+          "after": "617"
+        },
+        "whois_server": {
+          "before": null,
+          "after": "whois.epik.com"
+        },
+        "status": {
+          "before": null,
+          "after": [
+            "clienttransferprohibited"
+          ]
+        },
+        "nameservers": {
+          "before": null,
+          "after": [
+            "ns3.epik.com",
+            "ns4.epik.com"
+          ]
+        },
+        "created": {
+          "before": null,
+          "after": "2016-03-18t21:40:46z"
+        },
+        "updated": {
+          "before": null,
+          "after": "2026-04-08t04:26:33z"
+        },
+        "expires": {
+          "before": null,
+          "after": "2026-03-18t21:40:46z"
+        },
+        "registrant_org": {
+          "before": null,
+          "after": "anonymize llc"
+        },
+        "registrant_country": {
+          "before": null,
+          "after": "us"
+        },
+        "dnssec": {
+          "before": null,
+          "after": "unsigned"
+        },
+        "roid": {
+          "before": null,
+          "after": "2013616432_domain_com-vrsn"
+        },
+        "abuse_email": {
+          "before": null,
+          "after": "abuse@epik.com"
+        },
+        "abuse_phone": {
+          "before": null,
+          "after": "+1.7373015923"
+        }
+      }
+    },
+    {
+      "domain": "epikroidsarefake.org",
+      "date": "2026-04-10",
+      "changed": true,
+      "first_seen": true,
+      "fields_changed": [
+        "nameservers",
+        "status"
+      ],
+      "diff": {
+        "status": {
+          "before": null,
+          "after": []
+        },
+        "nameservers": {
+          "before": null,
+          "after": []
+        }
+      }
+    },
+    {
+      "domain": "epikraaviolations.com",
+      "date": "2026-04-10",
+      "changed": true,
+      "first_seen": true,
+      "fields_changed": [
+        "abuse_email",
+        "abuse_phone",
+        "created",
+        "dnssec",
+        "expires",
+        "nameservers",
+        "registrant_country",
+        "registrant_org",
+        "registrar",
+        "registrar_iana_id",
+        "roid",
+        "status",
+        "updated",
+        "whois_server"
+      ],
+      "diff": {
+        "registrar": {
+          "before": null,
+          "after": "epik llc"
+        },
+        "registrar_iana_id": {
+          "before": null,
+          "after": "617"
+        },
+        "whois_server": {
+          "before": null,
+          "after": "whois.epik.com"
+        },
+        "status": {
+          "before": null,
+          "after": [
+            "clienttransferprohibited"
+          ]
+        },
+        "nameservers": {
+          "before": null,
+          "after": [
+            "ns3.epik.com",
+            "ns4.epik.com"
+          ]
+        },
+        "created": {
+          "before": null,
+          "after": "2026-03-16t13:38:10z"
+        },
+        "updated": {
+          "before": null,
+          "after": "2026-03-16t13:38:11z"
+        },
+        "expires": {
+          "before": null,
+          "after": "2027-03-16t13:38:10z"
+        },
+        "registrant_org": {
+          "before": null,
+          "after": "anonymize llc"
+        },
+        "registrant_country": {
+          "before": null,
+          "after": "us"
+        },
+        "dnssec": {
+          "before": null,
+          "after": "signeddelegation"
+        },
+        "roid": {
+          "before": null,
+          "after": "3077512874_domain_com-vrsn"
+        },
+        "abuse_email": {
+          "before": null,
+          "after": "abuse@epik.com"
+        },
+        "abuse_phone": {
+          "before": null,
+          "after": "+1.7373015923"
+        }
+      }
+    },
+    {
+      "domain": "masterbucks.com",
+      "date": "2026-04-10",
+      "changed": true,
+      "first_seen": true,
+      "fields_changed": [
+        "abuse_email",
+        "abuse_phone",
+        "created",
+        "dnssec",
+        "expires",
+        "nameservers",
+        "registrant_country",
+        "registrant_org",
+        "registrar",
+        "registrar_iana_id",
+        "roid",
+        "status",
+        "updated",
+        "whois_server"
+      ],
+      "diff": {
+        "registrar": {
+          "before": null,
+          "after": "epik llc"
+        },
+        "registrar_iana_id": {
+          "before": null,
+          "after": "617"
+        },
+        "whois_server": {
+          "before": null,
+          "after": "whois.epik.com"
+        },
+        "status": {
+          "before": null,
+          "after": [
+            "clienttransferprohibited"
+          ]
+        },
+        "nameservers": {
+          "before": null,
+          "after": [
+            "amy.ns.cloudflare.com",
+            "christian.ns.cloudflare.com"
+          ]
+        },
+        "created": {
+          "before": null,
+          "after": "2010-10-21t18:53:43z"
+        },
+        "updated": {
+          "before": null,
+          "after": "2025-10-08t01:17:59z"
+        },
+        "expires": {
+          "before": null,
+          "after": "2026-10-21t18:53:43z"
+        },
+        "registrant_org": {
+          "before": null,
+          "after": "anonymize llc"
+        },
+        "registrant_country": {
+          "before": null,
+          "after": "us"
+        },
+        "dnssec": {
+          "before": null,
+          "after": "unsigned"
+        },
+        "roid": {
+          "before": null,
+          "after": "1621551184_domain_com-vrsn"
+        },
+        "abuse_email": {
+          "before": null,
+          "after": "abuse@epik.com"
+        },
+        "abuse_phone": {
+          "before": null,
+          "after": "+1.7373015923"
+        }
+      }
+    }
+  ],
+  "snapshots": {
+    "cryptoweed.com": {
+      "parsed": {
+        "domain": "cryptoweed.com",
+        "registrar": "epik llc",
+        "registrar_iana_id": "617",
+        "whois_server": "whois.epik.com",
+        "status": [
+          "clienttransferprohibited"
+        ],
+        "nameservers": [
+          "ns3.epik.com",
+          "ns4.epik.com"
+        ],
+        "created": "2016-03-18t21:40:46z",
+        "updated": "2026-04-08t04:26:33z",
+        "expires": "2026-03-18t21:40:46z",
+        "registrant_org": "anonymize llc",
+        "registrant_country": "us",
+        "dnssec": "unsigned",
+        "roid": "2013616432_domain_com-vrsn",
+        "abuse_email": "abuse@epik.com",
+        "abuse_phone": "+1.7373015923"
+      },
+      "queried_at": "2026-04-10T18:39:42.603Z"
+    },
+    "epikroidsarefake.org": {
+      "parsed": {
+        "domain": "epikroidsarefake.org",
+        "registrar": null,
+        "registrar_iana_id": null,
+        "whois_server": null,
+        "status": [],
+        "nameservers": [],
+        "created": null,
+        "updated": null,
+        "expires": null,
+        "registrant_org": null,
+        "registrant_country": null,
+        "dnssec": null,
+        "roid": null,
+        "abuse_email": null,
+        "abuse_phone": null
+      },
+      "queried_at": "2026-04-10T18:39:51.086Z"
+    },
+    "epikraaviolations.com": {
+      "parsed": {
+        "domain": "epikraaviolations.com",
+        "registrar": "epik llc",
+        "registrar_iana_id": "617",
+        "whois_server": "whois.epik.com",
+        "status": [
+          "clienttransferprohibited"
+        ],
+        "nameservers": [
+          "ns3.epik.com",
+          "ns4.epik.com"
+        ],
+        "created": "2026-03-16t13:38:10z",
+        "updated": "2026-03-16t13:38:11z",
+        "expires": "2027-03-16t13:38:10z",
+        "registrant_org": "anonymize llc",
+        "registrant_country": "us",
+        "dnssec": "signeddelegation",
+        "roid": "3077512874_domain_com-vrsn",
+        "abuse_email": "abuse@epik.com",
+        "abuse_phone": "+1.7373015923"
+      },
+      "queried_at": "2026-04-10T18:40:04.616Z"
+    },
+    "masterbucks.com": {
+      "parsed": {
+        "domain": "masterbucks.com",
+        "registrar": "epik llc",
+        "registrar_iana_id": "617",
+        "whois_server": "whois.epik.com",
+        "status": [
+          "clienttransferprohibited"
+        ],
+        "nameservers": [
+          "amy.ns.cloudflare.com",
+          "christian.ns.cloudflare.com"
+        ],
+        "created": "2010-10-21t18:53:43z",
+        "updated": "2025-10-08t01:17:59z",
+        "expires": "2026-10-21t18:53:43z",
+        "registrant_org": "anonymize llc",
+        "registrant_country": "us",
+        "dnssec": "unsigned",
+        "roid": "1621551184_domain_com-vrsn",
+        "abuse_email": "abuse@epik.com",
+        "abuse_phone": "+1.7373015923"
+      },
+      "queried_at": "2026-04-10T18:40:08.123Z"
+    }
+  }
+}
