@@ -54,27 +54,24 @@ jobs:
           fi
           node src/run.js $DATE_ARG
 
-      - name: Commit updated artifacts
+      - name: Commit and Push changes
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
+          
           # Stage all watcher outputs (ledger, reports, snapshots, archives, logs)
           git add ledger.json reports/ snapshots/ archives/ logs/latest.log || true
-
+          
           # Determine the run date for the commit message
-          RUN_DATE=$(node -e "
-            const idx = process.argv.indexOf('--date');
-            const d = (idx !== -1 && process.argv[idx+1])
-              ? process.argv[idx+1]
-              : new Date().toISOString().slice(0,10);
-            process.stdout.write(d);
-          " -- $DATE_ARG 2>/dev/null || date -u +%Y-%m-%d)
-
-          git commit --allow-empty -m "[watcher] daily run ${RUN_DATE}"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          RUN_DATE=$(date -u +%Y-%m-%d)
+          
+          # Only commit/push if there are changes to the tracked data
+          if ! git diff --cached --quiet; then
+            git commit -m "[watcher] daily run ${RUN_DATE}"
+            
+            # Sync with remote in case of parallel commits (like from the user)
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes detected in monitored domains. Skipping push."
+          fi
