@@ -260,7 +260,19 @@ async function main() {
   // 7. Summary table
   printSummary(results, notify, date);
 
-  // 8. Exit code
+  // 8. Save last_run.json (metadata for dashboard)
+  const lastRunData = {
+    date,
+    started_at,
+    finished_at: new Date().toISOString(),
+    success: !anyFatalError,
+    domains_checked: domains.length,
+    changed_count: results.filter(r => r.changed).length,
+    error_count: results.filter(r => r.error).length
+  };
+  fs.writeFileSync(path.join(path.resolve(__dirname, '..'), 'last_run.json'), JSON.stringify(lastRunData, null, 2), 'utf8');
+
+  // 9. Exit code
   if (anyFatalError) {
     console.error(chalk.red('One or more domains failed to query. Exiting with code 1.'));
     process.exit(1);

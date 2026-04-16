@@ -265,12 +265,20 @@ function fieldDiff(before, after) {
 
 async function loadData() {
     try {
-        const [lRes, cRes] = await Promise.all([
+        const [lRes, cRes, lrRes] = await Promise.all([
             fetch('ledger.json').then(r => r.json()),
-            fetch('config.json').then(r => r.json()).catch(() => ({ snapshots_dir: 'snapshots', reports_dir: 'reports' }))
+            fetch('config.json').then(r => r.json()).catch(() => ({ snapshots_dir: 'snapshots', reports_dir: 'reports' })),
+            fetch('last_run.json').then(r => r.json()).catch(() => null)
         ]);
         ledger = lRes;
         config = cRes;
+        
+        if (lrRes) {
+            const meta = document.getElementById('run-meta');
+            const statusIcon = lrRes.success ? '🟢' : '🔴';
+            meta.innerHTML = `${statusIcon} Last Sync: ${lrRes.finished_at.slice(0, 16).replace('T', ' ')} &nbsp; | &nbsp; ${lrRes.domains_checked} domains checked`;
+        }
+        
         loadStatus();
     } catch (e) {
         document.getElementById('domain-table-wrap').innerHTML = '<div class="empty-state">Failed to load data files (ledger.json/config.json). Make sure they are pushed to the repo.</div>';

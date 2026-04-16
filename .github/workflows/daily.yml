@@ -59,19 +59,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Stage all watcher outputs (ledger, reports, snapshots, archives, logs)
-          git add ledger.json reports/ snapshots/ archives/ logs/latest.log || true
+          # Always stage metadata and logs
+          git add last_run.json logs/latest.log || true
+          # Stage data outputs if they changed
+          git add ledger.json reports/ snapshots/ archives/ || true
           
           # Determine the run date for the commit message
           RUN_DATE=$(date -u +%Y-%m-%d)
           
-          # Only commit/push if there are changes to the tracked data
+          # Always commit and push if last_run.json or other files changed
           if ! git diff --cached --quiet; then
-            git commit -m "[watcher] daily run ${RUN_DATE}"
+            git commit -m "[watcher] run update ${RUN_DATE}"
             
-            # Sync with remote in case of parallel commits (like from the user)
+            # Sync with remote
             git pull --rebase origin main
             git push origin main
           else
-            echo "No changes detected in monitored domains. Skipping push."
+            echo "Absolutely no changes detected (unlikely). Skipping push."
           fi
