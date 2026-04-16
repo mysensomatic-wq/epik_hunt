@@ -8,15 +8,22 @@ const path = require('path');
   const logsDir = path.resolve(__dirname, '..', 'logs');
   if (!fs.existsSync(logsDir)) fs.mkdirSync(logsDir, { recursive: true });
   const logStream = fs.createWriteStream(path.join(logsDir, 'latest.log'), { flags: 'w' });
+  
+  const isCI = process.env.GITHUB_ACTIONS === 'true';
   const stripAnsi = s => s.replace(/\x1B\[[0-9;]*[mGKHF]/g, '');
+  
   const origOut = process.stdout.write.bind(process.stdout);
   const origErr = process.stderr.write.bind(process.stderr);
+  
   const tee = (orig, chunk, enc, cb) => {
     const str = Buffer.isBuffer(chunk) ? chunk.toString('utf8') : String(chunk);
     logStream.write(stripAnsi(str));
+    
+    // Always call original so it shows up in console/Action logs
     if (typeof enc === 'function') return orig(chunk, enc);
     return orig(chunk, enc, cb);
   };
+  
   process.stdout.write = (c, e, cb) => tee(origOut, c, e, cb);
   process.stderr.write = (c, e, cb) => tee(origErr, c, e, cb);
 }
