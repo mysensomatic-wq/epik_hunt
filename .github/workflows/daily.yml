@@ -45,6 +45,9 @@ jobs:
             config.json > config.tmp.json
           mv config.tmp.json config.json
 
+      - name: Create output directories
+        run: mkdir -p snapshots archives reports logs
+
       - name: Run WHOIS watcher
         id: watcher
         run: |
@@ -59,10 +62,13 @@ jobs:
         if: always()
         with:
           commit_message: "[watcher] sync data ${{ github.run_id }}"
-          file_pattern: 'ledger.json last_run.json reports/* snapshots/* archives/* logs/latest.log'
+          file_pattern: 'ledger.json last_run.json reports snapshots snapshots/* archives archives/* logs/latest.log'
           # Force add if hidden by .gitignore
           add_options: '--force'
           push_options: '--force'
           skip_dirty_check: false
-          # Ensure it pulls latest changes before pushing
+          # Explicitly provide the token for push permissions
+          repository: .
           branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
