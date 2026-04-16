@@ -55,26 +55,14 @@ jobs:
           node src/run.js $DATE_ARG
 
       - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Always stage metadata and logs
-          git add last_run.json logs/latest.log || true
-          # Stage data outputs if they changed
-          git add ledger.json reports/ snapshots/ archives/ || true
-          
-          # Determine the run date for the commit message
-          RUN_DATE=$(date -u +%Y-%m-%d)
-          
-          # Always commit and push if last_run.json or other files changed
-          if ! git diff --cached --quiet; then
-            git commit -m "[watcher] run update ${RUN_DATE}"
-            
-            # Sync with remote
-            git pull --rebase origin main
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
-          else
-            echo "Absolutely no changes detected (unlikely). Skipping push."
-          fi
+        with:
+          commit_message: "[watcher] sync data ${{ github.run_id }}"
+          file_pattern: 'ledger.json last_run.json reports/* snapshots/* archives/* logs/latest.log'
+          # Force add if hidden by .gitignore
+          add_options: '--force'
+          push_options: '--force'
+          skip_dirty_check: false
+          # Ensure it pulls latest changes before pushing
+          branch: main
