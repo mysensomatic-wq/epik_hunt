@@ -323,8 +323,6 @@ async function loadStatus() {
   }));
 
   renderDomainTable({ date: today, domains: statuses });
-  var meta = document.getElementById('run-meta');
-  if (meta) meta.textContent = 'Last Run Date: ' + today;
   startRefreshTimer();
 }
 

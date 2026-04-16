@@ -74,7 +74,7 @@ jobs:
             
             # Sync with remote
             git pull --rebase origin main
-            git push origin main
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
           else
             echo "Absolutely no changes detected (unlikely). Skipping push."
           fi
