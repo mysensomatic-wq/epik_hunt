@@ -1,0 +1,27 @@
+
+[epik-watcher] Starting run for 2026-04-16
+Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbucks.com
+
+  Querying cryptoweed.com … CHANGED (2 field(s))
+  Querying epikroidsarefake.org … CHANGED (2 field(s))
+  Querying epikraaviolations.com … CHANGED (2 field(s))
+  Querying masterbucks.com … CHANGED (2 field(s))
+
+  Generating reports…
+  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-04-16.md
+  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-04-16.json
+  Sending notifications…
+  No changes — email suppressed.
+
+────────────────────────────────────────────────────────────
+  Epik Watcher — Daily Run Summary  (2026-04-16)
+────────────────────────────────────────────────────────────
+Domain                          Status      Fields Δ  
+────────────────────────────────────────────────────────────
+cryptoweed.com                  CHANGED               2         
+epikroidsarefake.org            CHANGED               2         
+epikraaviolations.com           CHANGED               2         
+masterbucks.com                 CHANGED               2         
+────────────────────────────────────────────────────────────
+
+  Saved last_run.json (Success: true)
