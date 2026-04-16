@@ -273,7 +273,7 @@ async function loadData() {
         ledger = lRes;
         config = cRes;
         
-        if (lrRes) {
+        if (lrRes && lrRes.finished_at) {
             const meta = document.getElementById('run-meta');
             const statusIcon = lrRes.success ? '🟢' : '🔴';
             meta.innerHTML = `${statusIcon} Last Sync: ${lrRes.finished_at.slice(0, 16).replace('T', ' ')} &nbsp; | &nbsp; ${lrRes.domains_checked} domains checked`;
