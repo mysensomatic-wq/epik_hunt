@@ -270,7 +270,9 @@ async function main() {
     changed_count: results.filter(r => r.changed).length,
     error_count: results.filter(r => r.error).length
   };
-  fs.writeFileSync(path.join(path.resolve(__dirname, '..'), 'last_run.json'), JSON.stringify(lastRunData, null, 2), 'utf8');
+  const rootPath = path.resolve(__dirname, '..');
+  fs.writeFileSync(path.join(rootPath, 'last_run.json'), JSON.stringify(lastRunData, null, 2), 'utf8');
+  console.log(`  Saved last_run.json (Success: ${lastRunData.success})`);
 
   // 9. Exit code
   if (anyFatalError) {
