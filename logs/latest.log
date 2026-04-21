@@ -4,7 +4,7 @@ Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbuck
 
   Querying cryptoweed.com … CHANGED (1 field(s))
   Querying epikroidsarefake.org … CHANGED (15 field(s))
-  Querying epikraaviolations.com … CHANGED (1 field(s))
+  Querying epikraaviolations.com … CHANGED (6 field(s))
   Querying masterbucks.com … CHANGED (6 field(s))
 
   Generating reports…
@@ -20,7 +20,7 @@ Domain                          Status      Fields Δ
 ────────────────────────────────────────────────────────────
 cryptoweed.com                  CHANGED               1         
 epikroidsarefake.org            CHANGED               15        
-epikraaviolations.com           CHANGED               1         
+epikraaviolations.com           CHANGED               6         
 masterbucks.com                 CHANGED               6         
 ────────────────────────────────────────────────────────────
 
