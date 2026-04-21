@@ -1,26 +1,26 @@
 
-[epik-watcher] Starting run for 2026-04-20
+[epik-watcher] Starting run for 2026-04-21
 Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbucks.com
 
-  Querying cryptoweed.com … CHANGED (2 field(s))
+  Querying cryptoweed.com … CHANGED (1 field(s))
   Querying epikroidsarefake.org … CHANGED (15 field(s))
-  Querying epikraaviolations.com … CHANGED (2 field(s))
+  Querying epikraaviolations.com … CHANGED (1 field(s))
   Querying masterbucks.com … CHANGED (6 field(s))
 
   Generating reports…
-  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-04-20.md
-  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-04-20.json
+  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-04-21.md
+  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-04-21.json
   Sending notifications…
   No changes — email suppressed.
 
 ────────────────────────────────────────────────────────────
-  Epik Watcher — Daily Run Summary  (2026-04-20)
+  Epik Watcher — Daily Run Summary  (2026-04-21)
 ────────────────────────────────────────────────────────────
 Domain                          Status      Fields Δ  
 ────────────────────────────────────────────────────────────
-cryptoweed.com                  CHANGED               2         
+cryptoweed.com                  CHANGED               1         
 epikroidsarefake.org            CHANGED               15        
-epikraaviolations.com           CHANGED               2         
+epikraaviolations.com           CHANGED               1         
 masterbucks.com                 CHANGED               6         
 ────────────────────────────────────────────────────────────
 
