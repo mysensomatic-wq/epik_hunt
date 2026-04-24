@@ -1,0 +1,800 @@
+{
+  "domain": "epikroidsarefake.org",
+  "date": "2026-04-24",
+  "queried_at": "2026-04-24T01:21:29.353Z",
+  "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
+  "fields_hash": "5b8980e4851d8cd0d60e0f00650a53b496936b83bec94d04d4840553ed27425f",
+  "parsed": {
+    "domain": "epikroidsarefake.org",
+    "registrar": "Epik LLC",
+    "registrar_iana_id": "617",
+    "rdap_server": "https://rdap.publicinterestregistry.org",
+    "rdap_build": "d2656a4d10e6125d804253ddd8267081b59bce1e (2026-04-20T17:17:31Z)",
+    "status": [
+      "clientTransferProhibited"
+    ],
+    "nameservers": [
+      "ns3.epik.com",
+      "ns4.epik.com"
+    ],
+    "created": "2026-03-05T18:56:05.831Z",
+    "updated": "2026-04-24T01:21:32.463Z",
+    "expires": "2027-03-06T01:56:06Z",
+    "registrant_org": "Anonymize LLC",
+    "registrant_country": "US",
+    "dnssec": "signedDelegation",
+    "roid": "23540535-VRSN",
+    "abuse_email": "abuse@epik.com",
+    "abuse_phone": "+17373015923",
+    "epik_data": {
+      "registrar": "Epik LLC",
+      "registrar_iana_id": "617",
+      "rdap_server": "https://rdap.epik.com",
+      "rdap_build": "d2656a4d10e6125d804253ddd8267081b59bce1e (2026-04-20T17:17:31Z)",
+      "status": [
+        "clientTransferProhibited"
+      ],
+      "nameservers": [
+        "ns3.epik.com",
+        "ns4.epik.com"
+      ],
+      "created": "2026-03-06T01:56:06Z",
+      "updated": "2026-04-24T01:21:00Z",
+      "expires": "2027-03-06T01:56:06Z",
+      "registrant_org": "Anonymize LLC",
+      "registrant_country": "US",
+      "dnssec": "unsigned",
+      "roid": "23540535-VRSN",
+      "abuse_email": "abuse@epik.com",
+      "abuse_phone": "+17373015923"
+    },
+    "registry_data": {
+      "registrar": "Epik LLC",
+      "registrar_iana_id": "617",
+      "rdap_server": "https://rdap.publicinterestregistry.org",
+      "rdap_build": null,
+      "status": [
+        "clientTransferProhibited"
+      ],
+      "nameservers": [
+        "ns3.epik.com",
+        "ns4.epik.com"
+      ],
+      "created": "2026-03-05T18:56:05.831Z",
+      "updated": "2026-04-24T01:21:32.463Z",
+      "expires": "2027-03-05T18:56:05.831Z",
+      "registrant_org": null,
+      "registrant_country": null,
+      "dnssec": "signedDelegation",
+      "roid": null,
+      "abuse_email": "abuse@epik.com",
+      "abuse_phone": "+1.7373015923"
+    },
+    "anomalies": {}
+  },
+  "raw": {
+    "registrar": "NOT FOUND\n",
+    "tld": "NOT FOUND\n",
+    "tld_rdap": {
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_response_profile_1",
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "notices": [
+        {
+          "title": "Terms of Service",
+          "description": [
+            "Public Interest Registry provides this RDAP service for informational purposes only, and to assist persons in obtaining information about or related to a domain name registration record. Public Interest Registry does not guarantee its accuracy. Users accessing the Public Interest Registry RDAP service agree to use the data only for lawful purposes, and under no circumstances may this data be used to: a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the registrar's own existing customers and b) enable high volume, automated, electronic processes that send queries or data to the systems of Public Interest Registry or any ICANN-accredited registrar, except as reasonably necessary to register domain names or modify existing registrations. When using the Public Interest Registry RDAP service, please consider the following: the RDAP service is not a replacement for standard EPP commands to the SRS service. RDAP is not considered authoritative for registered domain objects. The RDAP service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the RDAP services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of RDAP service access. Abuse of the RDAP system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the RDAP records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to this data can be requested by submitting a request to WHOISrequest@pir.org. Public Interest Registry Inc. reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy."
+          ],
+          "links": [
+            {
+              "value": "https://rdap.publicinterestregistry.org/rdap/domain/epikroidsarefake.org",
+              "rel": "terms-of-service",
+              "href": "https://thenew.org/org-people/about-pir/policies/",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "value": "https://rdap.publicinterestregistry.org/rdap/domain/epikroidsarefake.org",
+              "rel": "glossary",
+              "href": "https://icann.org/epp",
+              "type": "application/rdap+json"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "value": "https://rdap.publicinterestregistry.org/rdap/domain/epikroidsarefake.org",
+              "rel": "help",
+              "href": "https://icann.org/wicf",
+              "type": "application/rdap+json"
+            }
+          ]
+        }
+      ],
+      "ldhName": "epikroidsarefake.org",
+      "unicodeName": "epikroidsarefake.org",
+      "nameservers": [
+        {
+          "ldhName": "ns3.epik.com",
+          "unicodeName": "ns3.epik.com",
+          "objectClassName": "nameserver",
+          "handle": "2108fbbe63c24c5d84b2f10315fada28-LROR",
+          "status": [
+            "associated"
+          ]
+        },
+        {
+          "ldhName": "ns4.epik.com",
+          "unicodeName": "ns4.epik.com",
+          "objectClassName": "nameserver",
+          "handle": "a4cde0578855435c969e31cb30c85eed-LROR",
+          "status": [
+            "associated"
+          ]
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": true,
+        "maxSigLife": 1,
+        "dsData": [
+          {
+            "keyTag": 43258,
+            "algorithm": 13,
+            "digest": "508a978248333dc1dff3cd15f51e001d6f7b25a48b9b790adea0a3e9dc2d592a",
+            "digestType": 2
+          }
+        ]
+      },
+      "redacted": [
+        {
+          "name": {
+            "type": "Registry Domain ID"
+          },
+          "prePath": "$.handle",
+          "pathLang": "jsonpath",
+          "method": "removal"
+        }
+      ],
+      "objectClassName": "domain",
+      "status": [
+        "client transfer prohibited"
+      ],
+      "events": [
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-03-05T18:56:05.831Z"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2026-03-05T18:56:05.831Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-03-10T18:56:46.738Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-04-24T01:21:32.463Z"
+        }
+      ],
+      "entities": [
+        {
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Epik LLC"
+              ]
+            ]
+          ],
+          "roles": [
+            "registrar"
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "617"
+            }
+          ],
+          "objectClassName": "entity",
+          "handle": "617",
+          "entities": [
+            {
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    ""
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "email",
+                    {},
+                    "text",
+                    "abuse@epik.com"
+                  ]
+                ]
+              ],
+              "roles": [
+                "abuse"
+              ],
+              "objectClassName": "entity"
+            }
+          ],
+          "links": [
+            {
+              "value": "https://rdap.publicinterestregistry.org/rdap/entity/617",
+              "rel": "self",
+              "href": "https://rdap.publicinterestregistry.org/rdap/entity/617",
+              "type": "application/rdap+json"
+            },
+            {
+              "value": "https://rdap-whois.epik.com/",
+              "rel": "about",
+              "href": "https://rdap-whois.epik.com/",
+              "type": "application/rdap+json"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "value": "https://rdap.publicinterestregistry.org/rdap/domain/epikroidsarefake.org",
+          "rel": "related",
+          "href": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.publicinterestregistry.org/rdap/domain/epikroidsarefake.org",
+          "rel": "self",
+          "href": "https://rdap.publicinterestregistry.org/rdap/domain/epikroidsarefake.org",
+          "type": "application/rdap+json"
+        }
+      ]
+    },
+    "registrar_rdap": {
+      "objectClassName": "domain",
+      "handle": "23540535-VRSN",
+      "ldhName": "epikroidsarefake.org",
+      "lang": "en",
+      "nameservers": [
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns3.epik.com",
+          "ipAddresses": {
+            "v4": [
+              "209.196.146.53",
+              "209.196.146.153"
+            ]
+          },
+          "status": [
+            "active"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-03-06T01:56:06Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns4.epik.com",
+          "ipAddresses": {
+            "v4": [
+              "209.196.147.53",
+              "209.196.147.153"
+            ]
+          },
+          "status": [
+            "active"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-03-06T01:56:06Z"
+            }
+          ]
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": false
+      },
+      "links": [
+        {
+          "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+          "rel": "self",
+          "href": "https://rdap.epik.com/domain/epikroidsarefake.org",
+          "type": "application/rdap+json"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "REG_2DBF433F3EF0C827-VRSN",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Privacy Administrator"
+              ],
+              [
+                "org",
+                {
+                  "type": "work"
+                },
+                "text",
+                "Anonymize LLC"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "privacy@anonymize.com"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "30 N Gould St STE E",
+                  "Sheridan",
+                  "WY",
+                  "82801",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.7373015923"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact"
+              ]
+            ]
+          ],
+          "roles": [
+            "registrant"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-03-05T18:56:06Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "ADM_CADAAA434AA394B6-VRSN",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Privacy Administrator"
+              ],
+              [
+                "org",
+                {
+                  "type": "work"
+                },
+                "text",
+                "Anonymize LLC"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "privacy@anonymize.com"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "30 N Gould St STE E",
+                  "Sheridan",
+                  "WY",
+                  "82801",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.7373015923"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact"
+              ]
+            ]
+          ],
+          "roles": [
+            "administrative"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-03-05T18:56:06Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "TEC_AACD3A10682F02CB-VRSN",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Privacy Administrator"
+              ],
+              [
+                "org",
+                {
+                  "type": "work"
+                },
+                "text",
+                "Anonymize LLC"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "privacy@anonymize.com"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "30 N Gould St STE E",
+                  "Sheridan",
+                  "WY",
+                  "82801",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.7373015923"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact"
+              ]
+            ]
+          ],
+          "roles": [
+            "technical"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-03-05T18:56:06Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "617",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Epik LLC"
+              ],
+              [
+                "org",
+                {},
+                "text",
+                "Epik LLC"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact"
+              ]
+            ]
+          ],
+          "roles": [
+            "registrar"
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "617"
+            }
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Epik LLC"
+                  ],
+                  [
+                    "email",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "abuse@epik.com"
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+17373015923"
+                  ]
+                ]
+              ],
+              "roles": [
+                "abuse"
+              ]
+            }
+          ],
+          "links": [
+            {
+              "value": "https://rdap-whois.epik.com/",
+              "rel": "about",
+              "href": "https://www.epik.com",
+              "type": "text/html"
+            },
+            {
+              "value": "https://rdap.epik.com/help/terms",
+              "rel": "terms-of-service",
+              "href": "https://rdap.epik.com/help/terms",
+              "type": "text/html"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2026-03-06T01:56:06Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-03-05T18:56:06Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-03-06T01:56:06Z"
+        },
+        {
+          "eventAction": "registrar expiration",
+          "eventDate": "2027-03-06T01:56:06Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-04-24T01:21:00Z"
+        }
+      ],
+      "status": [
+        "client transfer prohibited"
+      ],
+      "notices": [
+        {
+          "title": "Server Information",
+          "description": [
+            "RDAP Server Version: 1.3.1-d2656a4d10e6",
+            "Build: d2656a4d10e6125d804253ddd8267081b59bce1e (2026-04-20T17:17:31Z)",
+            "Environment: production"
+          ]
+        },
+        {
+          "title": "Terms of Service",
+          "description": [
+            "Service subject to Terms of Service."
+          ],
+          "links": [
+            {
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "rel": "terms-of-service",
+              "href": "https://www.epik.com/tos",
+              "type": "text/html"
+            },
+            {
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "rel": "terms-of-service",
+              "href": "https://rdap.epik.com/help/terms",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "rel": "glossary",
+              "href": "https://icann.org/epp",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "rel": "help",
+              "href": "https://icann.org/wicf",
+              "type": "text/html"
+            }
+          ]
+        }
+      ],
+      "remarks": [
+        {
+          "title": "Registrar Information",
+          "description": [
+            "Sponsoring Registrar: Epik"
+          ]
+        }
+      ],
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_response_profile_1",
+        "icann_rdap_technical_implementation_guide_1"
+      ]
+    }
+  }
+}
