@@ -1,9 +1,9 @@
 {
   "domain": "cryptoweed.com",
   "date": "2026-04-29",
-  "queried_at": "2026-04-29T06:15:18.216Z",
-  "raw_hash": "215894b10a855f0851b59a680b18e064cf02e58c60e395b334d788da658b6335",
-  "fields_hash": "a1ef22ef3b6314b2e6735bb14d7f300799ae5d79c72cfa0a5c513d450b8bb111",
+  "queried_at": "2026-04-29T09:55:30.751Z",
+  "raw_hash": "4beea4958d3a10192503c4eb64a5ed4381c7565fad59a96288c54e01f354312b",
+  "fields_hash": "0f66c7f688f29f6bd5f3b08dd335eddc5dbea12d7494791286a2feedbd09cb12",
   "parsed": {
     "domain": "cryptoweed.com",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2016-03-18T21:40:46Z",
-    "updated": "2026-04-29T06:15:15Z",
+    "updated": "2026-04-29T09:55:39Z",
     "expires": "2027-03-18T21:40:46Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2016-03-19T03:40:46Z",
-      "updated": "2026-04-29T06:15:00Z",
+      "updated": "2026-04-29T09:55:00Z",
       "expires": "2026-03-19T03:40:46Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2016-03-18T21:40:46Z",
-      "updated": "2026-04-29T06:15:15Z",
+      "updated": "2026-04-29T09:55:39Z",
       "expires": "2027-03-18T21:40:46Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -73,8 +73,8 @@
     "anomalies": {}
   },
   "raw": {
-    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-04-08T04:26:33Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2026-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1iusnvuz60svp@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1iusnvuz60svp@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1iusnvuz60svp@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
-    "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-04-08T04:26:33Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2026-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1iusnvuz60svp@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1iusnvuz60svp@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1iusnvuz60svp@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-04-08T04:26:33Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2026-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1hrj7ytnhrbjl@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1hrj7ytnhrbjl@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1hrj7ytnhrbjl@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-04-08T04:26:33Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2026-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1hrj7ytnhrbjl@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1hrj7ytnhrbjl@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1hrj7ytnhrbjl@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
     "tld_rdap": {
       "objectClassName": "domain",
       "handle": "2013616432_DOMAIN_COM-VRSN",
@@ -190,7 +190,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-04-29T06:15:15Z"
+          "eventDate": "2026-04-29T09:55:39Z"
         }
       ],
       "secureDNS": {
@@ -680,7 +680,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-04-29T06:15:00Z"
+          "eventDate": "2026-04-29T09:55:00Z"
         }
       ],
       "status": [
