@@ -67,6 +67,10 @@
     {
       "date": "2026-04-29",
       "hash": "7969b9bf76a6823b672b57429608c4c03cc49ede944c4e584075973e36fb9ef3"
+    },
+    {
+      "date": "2026-04-30",
+      "hash": "9183b7bb397de266a365c57b4e0eaca767f3b92222c985b3eb34e6e7b6615a73"
     }
   ],
   "epikroidsarefake.com": [
@@ -143,6 +147,10 @@
     {
       "date": "2026-04-29",
       "hash": "859a9d0688906512c9472ba5c8308610502cb1d508fc135ad4866d1e46e400cf"
+    },
+    {
+      "date": "2026-04-30",
+      "hash": "e3c4d7af85564508db33377ee8e5546ac061d2eab4090b23a4554974c86dce50"
     }
   ],
   "masterbucks.com": [
@@ -213,6 +221,10 @@
     {
       "date": "2026-04-29",
       "hash": "216bf3e39f5e7ad4a9223f5587e7e7b741eebb2a262391dab9f23523a166e477"
+    },
+    {
+      "date": "2026-04-30",
+      "hash": "48bef7d06fa480021ce9ce43c62afeac27f703907e00fb74d9a2ca5ccfe4c151"
     }
   ],
   "epikroidsarefake.org": [
@@ -283,6 +295,10 @@
     {
       "date": "2026-04-29",
       "hash": "5010643c2a1b80b11f697f40548d6ea78af234e8cc4878c8f3c8dd7769f6b7a5"
+    },
+    {
+      "date": "2026-04-30",
+      "hash": "ca3a1ad7260616d368a7710945802730f38279e853fa704ed6c054438848e08c"
     }
   ]
 }
