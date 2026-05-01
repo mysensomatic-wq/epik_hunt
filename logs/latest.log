@@ -5,7 +5,7 @@ Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbuck
   Querying cryptoweed.com … CHANGED (1 field(s))
   Querying epikroidsarefake.org … CHANGED (1 field(s))
   Querying epikraaviolations.com … CHANGED (1 field(s))
-  Querying masterbucks.com … CHANGED (6 field(s))
+  Querying masterbucks.com … CHANGED (1 field(s))
 
   Generating reports…
   Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-05-01.md
@@ -19,9 +19,9 @@ Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbuck
 Domain                          Status      Fields Δ  
 ────────────────────────────────────────────────────────────
 cryptoweed.com                  CHANGED               1         
-epikroidsarefake.org            CHANGED               1         
+epikroidsarefake.org            ERROR                 1         
 epikraaviolations.com           CHANGED               1         
-masterbucks.com                 CHANGED               6         
+masterbucks.com                 CHANGED               1         
 ────────────────────────────────────────────────────────────
 
   Saved last_run.json (Success: true)
