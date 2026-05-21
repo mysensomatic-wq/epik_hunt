@@ -1,27 +1,27 @@
 
-[epik-watcher] Starting run for 2026-05-20
+[epik-watcher] Starting run for 2026-05-21
 Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbucks.com
 
-  Querying cryptoweed.com … CHANGED (3 field(s))
-  Querying epikroidsarefake.org … CHANGED (3 field(s))
-  Querying epikraaviolations.com … CHANGED (3 field(s))
-  Querying masterbucks.com … CHANGED (3 field(s))
+  Querying cryptoweed.com … CHANGED (1 field(s))
+  Querying epikroidsarefake.org … CHANGED (15 field(s))
+  Querying epikraaviolations.com … CHANGED (1 field(s))
+  Querying masterbucks.com … CHANGED (1 field(s))
 
   Generating reports…
-  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-05-20.md
-  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-05-20.json
+  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-05-21.md
+  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-05-21.json
   Sending notifications…
   No changes — email suppressed.
 
 ────────────────────────────────────────────────────────────
-  Epik Watcher — Daily Run Summary  (2026-05-20)
+  Epik Watcher — Daily Run Summary  (2026-05-21)
 ────────────────────────────────────────────────────────────
 Domain                          Status      Fields Δ  
 ────────────────────────────────────────────────────────────
-cryptoweed.com                  CHANGED               3         
-epikroidsarefake.org            CHANGED               3         
-epikraaviolations.com           CHANGED               3         
-masterbucks.com                 CHANGED               3         
+cryptoweed.com                  CHANGED               1         
+epikroidsarefake.org            ERROR                 15        
+epikraaviolations.com           CHANGED               1         
+masterbucks.com                 CHANGED               1         
 ────────────────────────────────────────────────────────────
 
   Saved last_run.json (Success: true)
