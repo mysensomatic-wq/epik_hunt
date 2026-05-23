@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-05-23",
-  "queried_at": "2026-05-23T09:30:34.755Z",
+  "queried_at": "2026-05-23T12:54:24.559Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "ffb82b3955928e1d51251bba44a8aab11fb3de7a80e8625cca6cbadad9872fcb",
+  "fields_hash": "1544e519a0543aff092a8c61587f18ef34aba86a57ae66207f29b9566c5f25ea",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-05-23T09:30:45.825Z",
+    "updated": "2026-05-23T12:54:29.907Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-05-23T09:30:00Z",
+      "updated": "2026-05-23T12:54:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-05-23T09:30:45.825Z",
+      "updated": "2026-05-23T12:54:29.907Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -74,7 +74,7 @@
   },
   "raw": {
     "registrar": "NOT FOUND\n",
-    "tld": null,
+    "tld": "NOT FOUND\n",
     "tld_rdap": {
       "rdapConformance": [
         "rdap_level_0",
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-05-23T09:30:45.825Z"
+          "eventDate": "2026-05-23T12:54:29.907Z"
         }
       ],
       "entities": [
@@ -718,7 +718,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-05-23T09:30:00Z"
+          "eventDate": "2026-05-23T12:54:00Z"
         }
       ],
       "status": [
