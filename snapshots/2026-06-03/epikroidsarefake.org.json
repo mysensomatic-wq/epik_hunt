@@ -1,15 +1,15 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-06-03",
-  "queried_at": "2026-06-03T16:10:36.888Z",
+  "queried_at": "2026-06-03T22:21:53.300Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "8e3d33935cb2b128fa9233def9d37474ae7f8b50751f59c0cf804185a9899dea",
+  "fields_hash": "98fbdd850689d1d63d39705ba65a9732a320106e4d9730990435f32701916272",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
     "rdap_server": "https://rdap.publicinterestregistry.org",
-    "rdap_build": "9d7422a0fca7c626f41b708140fafdfda7f1d10a (2026-06-02T23:59:47Z)",
+    "rdap_build": "41ae4fc624db122b3c18ba9883fcf90396cbfdd4 (2026-06-03T22:11:33Z)",
     "status": [
       "clientTransferProhibited"
     ],
@@ -18,19 +18,19 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-06-03T16:10:40.609Z",
+    "updated": "2026-06-03T22:21:57.164Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
     "dnssec": "signedDelegation",
-    "roid": "23540535-VRSN",
+    "roid": null,
     "abuse_email": "abuse@epik.com",
     "abuse_phone": "+17373015923",
     "epik_data": {
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
-      "rdap_server": "https://rdap.epik.com",
-      "rdap_build": "9d7422a0fca7c626f41b708140fafdfda7f1d10a (2026-06-02T23:59:47Z)",
+      "rdap_server": "https://rdap-whois.epik.com",
+      "rdap_build": "41ae4fc624db122b3c18ba9883fcf90396cbfdd4 (2026-06-03T22:11:33Z)",
       "status": [
         "clientTransferProhibited"
       ],
@@ -39,12 +39,12 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-06-03T16:10:00Z",
+      "updated": "2026-06-03T22:21:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
       "dnssec": "unsigned",
-      "roid": "23540535-VRSN",
+      "roid": null,
       "abuse_email": "abuse@epik.com",
       "abuse_phone": "+17373015923"
     },
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-06-03T16:10:40.609Z",
+      "updated": "2026-06-03T22:21:57.164Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-06-03T16:10:40.609Z"
+          "eventDate": "2026-06-03T22:21:57.164Z"
         }
       ],
       "entities": [
@@ -294,7 +294,6 @@
     },
     "registrar_rdap": {
       "objectClassName": "domain",
-      "handle": "23540535-VRSN",
       "ldhName": "epikroidsarefake.org",
       "lang": "en",
       "nameservers": [
@@ -303,8 +302,8 @@
           "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.146.53",
-              "209.196.146.153"
+              "209.196.146.153",
+              "209.196.146.53"
             ]
           },
           "status": [
@@ -322,8 +321,8 @@
           "ldhName": "ns4.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.147.153",
-              "209.196.147.53"
+              "209.196.147.53",
+              "209.196.147.153"
             ]
           },
           "status": [
@@ -342,16 +341,16 @@
       },
       "links": [
         {
-          "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+          "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
           "rel": "self",
-          "href": "https://rdap.epik.com/domain/epikroidsarefake.org",
+          "href": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
           "type": "application/rdap+json"
         }
       ],
       "entities": [
         {
           "objectClassName": "entity",
-          "handle": "REG_2DBF433F3EF0C827-VRSN",
+          "handle": "REG_9676A33DA0F0514F-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -431,7 +430,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "ADM_CADAAA434AA394B6-VRSN",
+          "handle": "ADM_4F2B3A51988CF1A4-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -511,7 +510,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "TEC_AACD3A10682F02CB-VRSN",
+          "handle": "TEC_014612818BA985C3-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -718,7 +717,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-06-03T16:10:00Z"
+          "eventDate": "2026-06-03T22:21:00Z"
         }
       ],
       "status": [
@@ -728,8 +727,8 @@
         {
           "title": "Server Information",
           "description": [
-            "RDAP Server Version: 1.3.1-9d7422a0fca7",
-            "Build: 9d7422a0fca7c626f41b708140fafdfda7f1d10a (2026-06-02T23:59:47Z)",
+            "RDAP Server Version: 1.3.1-41ae4fc624db",
+            "Build: 41ae4fc624db122b3c18ba9883fcf90396cbfdd4 (2026-06-03T22:11:33Z)",
             "Environment: production"
           ]
         },
@@ -740,15 +739,15 @@
           ],
           "links": [
             {
-              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
               "rel": "terms-of-service",
               "href": "https://www.epik.com/tos",
               "type": "text/html"
             },
             {
-              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
               "rel": "terms-of-service",
-              "href": "https://rdap.epik.com/help/terms",
+              "href": "https://rdap-whois.epik.com/help/terms",
               "type": "text/html"
             }
           ]
@@ -760,7 +759,7 @@
           ],
           "links": [
             {
-              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
               "rel": "glossary",
               "href": "https://icann.org/epp",
               "type": "text/html"
@@ -774,7 +773,7 @@
           ],
           "links": [
             {
-              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
               "rel": "help",
               "href": "https://icann.org/wicf",
               "type": "text/html"
@@ -793,7 +792,21 @@
       "rdapConformance": [
         "rdap_level_0",
         "icann_rdap_response_profile_1",
-        "icann_rdap_technical_implementation_guide_1"
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "redacted": [
+        {
+          "name": {
+            "type": "Registry Domain ID"
+          },
+          "prePath": "$.handle",
+          "pathLang": "jsonpath",
+          "method": "removal",
+          "reason": {
+            "description": "Server policy"
+          }
+        }
       ]
     }
   }
