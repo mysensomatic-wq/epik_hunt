@@ -1,29 +1,29 @@
 {
-  "domain": "masterbucks.com",
+  "domain": "forensicexam.info",
   "date": "2026-06-12",
-  "queried_at": "2026-06-12T18:56:12.787Z",
-  "raw_hash": "7263a9e3133c21510a7ce43b44d2f916db7c5c36ff6deb82e1ef0e30ec0d181d",
-  "fields_hash": "73a6114a872e4c9a009263d4b669535b601e6fbff65b2d180473666f480424f9",
+  "queried_at": "2026-06-12T18:56:17.298Z",
+  "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
+  "fields_hash": "2797150b4a9b7e5bcc9062785f3584b96b4125e0851b40f1581905473e7f548d",
   "parsed": {
-    "domain": "masterbucks.com",
+    "domain": "forensicexam.info",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
-    "rdap_server": "https://rdap.verisign.com",
+    "rdap_server": "https://rdap.identitydigital.services",
     "rdap_build": "39c756f68fdc868239761198e785809f983b8fc6 (2026-06-04T21:57:39Z)",
     "status": [
       "clientTransferProhibited"
     ],
     "nameservers": [
-      "amy.ns.cloudflare.com",
-      "christian.ns.cloudflare.com"
+      "ns3.epik.com",
+      "ns4.epik.com"
     ],
-    "created": "2010-10-21T18:53:43Z",
-    "updated": "2026-06-12T18:56:09Z",
-    "expires": "2026-10-21T18:53:43Z",
+    "created": "2025-06-20T17:13:35.808Z",
+    "updated": "2026-06-12T18:56:20.4Z",
+    "expires": "2026-06-20T17:13:35.808Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
-    "dnssec": "unsigned",
-    "roid": "1621551184_DOMAIN_COM-VRSN",
+    "dnssec": "signedDelegation",
+    "roid": null,
     "abuse_email": "abuse@epik.com",
     "abuse_phone": "+17373015923",
     "epik_data": {
@@ -35,88 +35,165 @@
         "clientTransferProhibited"
       ],
       "nameservers": [
-        "amy.ns.cloudflare.com",
-        "christian.ns.cloudflare.com"
+        "ns3.epik.com",
+        "ns4.epik.com"
       ],
-      "created": "2010-10-21T18:53:43Z",
+      "created": "2025-06-20T17:13:35Z",
       "updated": "2026-06-12T18:56:00Z",
-      "expires": "2026-10-21T18:53:43Z",
+      "expires": "2026-06-20T17:13:35Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
       "dnssec": "unsigned",
-      "roid": "1621551184_DOMAIN_COM-VRSN",
+      "roid": null,
       "abuse_email": "abuse@epik.com",
       "abuse_phone": "+17373015923"
     },
     "registry_data": {
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
-      "rdap_server": "https://rdap.verisign.com",
+      "rdap_server": "https://rdap.identitydigital.services",
       "rdap_build": null,
       "status": [
         "clientTransferProhibited"
       ],
       "nameservers": [
-        "amy.ns.cloudflare.com",
-        "christian.ns.cloudflare.com"
+        "ns3.epik.com",
+        "ns4.epik.com"
       ],
-      "created": "2010-10-21T18:53:43Z",
-      "updated": "2026-06-12T18:56:09Z",
-      "expires": "2026-10-21T18:53:43Z",
+      "created": "2025-06-20T17:13:35.808Z",
+      "updated": "2026-06-12T18:56:20.4Z",
+      "expires": "2026-06-20T17:13:35.808Z",
       "registrant_org": null,
       "registrant_country": null,
-      "dnssec": "unsigned",
-      "roid": "1621551184_DOMAIN_COM-VRSN",
+      "dnssec": "signedDelegation",
+      "roid": null,
       "abuse_email": "abuse@epik.com",
-      "abuse_phone": "+1.7373015923"
+      "abuse_phone": "+1.2087737717"
     },
     "anomalies": {}
   },
   "raw": {
-    "registrar": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-vbhdy5itncyr@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-vbhdy5itncyr@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-vbhdy5itncyr@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
-    "tld": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-vbhdy5itncyr@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-vbhdy5itncyr@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-vbhdy5itncyr@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar": "NOT FOUND\n",
+    "tld": "TLD is not supported.\r\n>>> Last update of WHOIS database: 2026-06-12T18:56:18Z <<<\r\n\r\nTerms of Use: Access to WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital or the Registry Operator for informational purposes only, and accuracy is not guaranteed. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Identity Digital except as reasonably necessary to register domain names or modify existing registrations. When using the Whois service, please consider the following: The Whois service is not a replacement for standard EPP commands to the SRS service. Whois is not considered authoritative for registered domain objects. The Whois service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the Whois services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of Whois service access. Abuse of the Whois system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the Whois records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to this data provided by Identity Digital can be requested by submitting a request via the form found at https://www.identity.digital/about/policies/whois-layered-access/. The Registrar of Record identified in this output may have an RDDS service that can be queried for additional information on how to contact the Registrant, Admin, or Tech contact of the queried domain name. Identity Digital Inc. and Registry Operator reserve the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.\r\n",
     "tld_rdap": {
-      "objectClassName": "domain",
-      "handle": "1621551184_DOMAIN_COM-VRSN",
-      "ldhName": "MASTERBUCKS.COM",
-      "links": [
-        {
-          "value": "https://rdap.verisign.com/com/v1/domain/MASTERBUCKS.COM",
-          "rel": "self",
-          "href": "https://rdap.verisign.com/com/v1/domain/MASTERBUCKS.COM",
-          "type": "application/rdap+json"
-        },
-        {
-          "value": "https://rdap-whois.epik.com/domain/MASTERBUCKS.COM",
-          "rel": "related",
-          "href": "https://rdap-whois.epik.com/domain/MASTERBUCKS.COM",
-          "type": "application/rdap+json"
-        }
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_response_profile_1",
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
       ],
-      "status": [
-        "client transfer prohibited"
-      ],
-      "entities": [
+      "notices": [
         {
-          "objectClassName": "entity",
-          "handle": "617",
-          "roles": [
-            "registrar"
+          "title": "Terms of Service",
+          "description": [
+            "Access to RDAP information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital or, if the record pertains to a TLD not operated by Identity Digital, then the corresponding primary Registry Operator for informational purposes only, and neither Identity Digital nor the Registry Operator guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Identity Digital, a Registrar, or Registry Operator except as reasonably necessary to register domain names or modify existing registrations. When using the RDAP service, please consider the following: the RDAP service is not a replacement for standard EPP commands to the SRS service. RDAP is not considered authoritative for registered domain objects. The RDAP service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the RDAP services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of RDAP service access. Abuse of the RDAP system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the RDAP records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to the data provided by Identity Digital can be requested by submitting a request via the form found at https://www.identity.digital/about/policies/whois-layered-access/ Identity Digital Inc. and, if applicable, the primary Registry Operators reserve the right to modify these terms at any time. By submitting this query, you agree to abide by this policy."
           ],
           "links": [
             {
-              "href": "http://www.epik.com",
-              "type": "text/html",
-              "value": "https://rdap-whois.epik.com/",
-              "rel": "about"
+              "value": "https://rdap.identitydigital.services/rdap/domain/forensicexam.info",
+              "rel": "terms-of-service",
+              "href": "https://www.identity.digital/policies/rdds-access-policy",
+              "type": "text/html"
             }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
           ],
-          "publicIds": [
+          "links": [
             {
-              "type": "IANA Registrar ID",
-              "identifier": "617"
+              "value": "https://rdap.identitydigital.services/rdap/domain/forensicexam.info",
+              "rel": "glossary",
+              "href": "https://icann.org/epp",
+              "type": "application/rdap+json"
             }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
           ],
+          "links": [
+            {
+              "value": "https://rdap.identitydigital.services/rdap/domain/forensicexam.info",
+              "rel": "help",
+              "href": "https://icann.org/wicf",
+              "type": "application/rdap+json"
+            }
+          ]
+        }
+      ],
+      "ldhName": "forensicexam.info",
+      "unicodeName": "forensicexam.info",
+      "nameservers": [
+        {
+          "ldhName": "ns3.epik.com",
+          "unicodeName": "ns3.epik.com",
+          "objectClassName": "nameserver",
+          "handle": "37344d824b5149a2abd0049552196e35-DONUTS",
+          "status": [
+            "associated"
+          ]
+        },
+        {
+          "ldhName": "ns4.epik.com",
+          "unicodeName": "ns4.epik.com",
+          "objectClassName": "nameserver",
+          "handle": "dea3825f2f3d417cb2c5c549661d908b-DONUTS",
+          "status": [
+            "associated"
+          ]
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": true,
+        "maxSigLife": 1,
+        "dsData": [
+          {
+            "keyTag": 42221,
+            "algorithm": 13,
+            "digest": "f65107d39a88ba541b78d011fdd7de58bc9e4b0713b7db0a30235226b9c8c6d9",
+            "digestType": 2
+          }
+        ]
+      },
+      "redacted": [
+        {
+          "name": {
+            "type": "Registry Domain ID"
+          },
+          "prePath": "$.handle",
+          "pathLang": "jsonpath",
+          "method": "removal"
+        }
+      ],
+      "objectClassName": "domain",
+      "status": [
+        "client transfer prohibited"
+      ],
+      "events": [
+        {
+          "eventAction": "expiration",
+          "eventDate": "2026-06-20T17:13:35.808Z"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2025-06-20T17:13:35.808Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-06-25T17:14:00.232Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-06-12T18:56:20.4Z"
+        }
+      ],
+      "entities": [
+        {
           "vcardArray": [
             "vcard",
             [
@@ -134,12 +211,19 @@
               ]
             ]
           ],
+          "roles": [
+            "registrar"
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "617"
+            }
+          ],
+          "objectClassName": "entity",
+          "handle": "617",
           "entities": [
             {
-              "objectClassName": "entity",
-              "roles": [
-                "abuse"
-              ],
               "vcardArray": [
                 "vcard",
                 [
@@ -161,7 +245,7 @@
                       "type": "voice"
                     },
                     "uri",
-                    "tel:+1.7373015923"
+                    "tel:+1.2087737717"
                   ],
                   [
                     "email",
@@ -170,109 +254,56 @@
                     "abuse@epik.com"
                   ]
                 ]
-              ]
+              ],
+              "roles": [
+                "abuse"
+              ],
+              "objectClassName": "entity"
+            }
+          ],
+          "links": [
+            {
+              "value": "https://rdap.identitydigital.services/rdap/entity/617",
+              "rel": "self",
+              "href": "https://rdap.identitydigital.services/rdap/entity/617",
+              "type": "application/rdap+json"
+            },
+            {
+              "value": "https://rdap-whois.epik.com/",
+              "rel": "about",
+              "href": "https://rdap-whois.epik.com/",
+              "type": "application/rdap+json"
             }
           ]
         }
       ],
-      "events": [
+      "links": [
         {
-          "eventAction": "registration",
-          "eventDate": "2010-10-21T18:53:43Z"
+          "value": "https://rdap.identitydigital.services/rdap/domain/forensicexam.info",
+          "rel": "related",
+          "href": "https://rdap-whois.epik.com/domain/forensicexam.info",
+          "type": "application/rdap+json"
         },
         {
-          "eventAction": "expiration",
-          "eventDate": "2026-10-21T18:53:43Z"
-        },
-        {
-          "eventAction": "last changed",
-          "eventDate": "2025-10-08T01:17:59Z"
-        },
-        {
-          "eventAction": "last update of RDAP database",
-          "eventDate": "2026-06-12T18:56:09Z"
-        }
-      ],
-      "secureDNS": {
-        "delegationSigned": false
-      },
-      "nameservers": [
-        {
-          "objectClassName": "nameserver",
-          "ldhName": "AMY.NS.CLOUDFLARE.COM"
-        },
-        {
-          "objectClassName": "nameserver",
-          "ldhName": "CHRISTIAN.NS.CLOUDFLARE.COM"
-        }
-      ],
-      "rdapConformance": [
-        "rdap_level_0",
-        "icann_rdap_technical_implementation_guide_1",
-        "icann_rdap_response_profile_1"
-      ],
-      "notices": [
-        {
-          "title": "Terms of Service",
-          "description": [
-            "Service subject to Terms of Use."
-          ],
-          "links": [
-            {
-              "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
-              "type": "text/html",
-              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
-              "rel": "terms-of-service"
-            }
-          ]
-        },
-        {
-          "title": "Status Codes",
-          "description": [
-            "For more information on domain status codes, please visit https://icann.org/epp"
-          ],
-          "links": [
-            {
-              "href": "https://icann.org/epp",
-              "type": "text/html"
-            }
-          ]
-        },
-        {
-          "title": "RDDS Inaccuracy Complaint Form",
-          "description": [
-            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
-          ],
-          "links": [
-            {
-              "href": "https://icann.org/wicf",
-              "type": "text/html",
-              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
-              "rel": "help"
-            }
-          ]
+          "value": "https://rdap.identitydigital.services/rdap/domain/forensicexam.info",
+          "rel": "self",
+          "href": "https://rdap.identitydigital.services/rdap/domain/forensicexam.info",
+          "type": "application/rdap+json"
         }
       ]
     },
     "registrar_rdap": {
       "objectClassName": "domain",
-      "handle": "1621551184_DOMAIN_COM-VRSN",
-      "ldhName": "masterbucks.com",
+      "ldhName": "forensicexam.info",
       "lang": "en",
       "nameservers": [
         {
           "objectClassName": "nameserver",
-          "ldhName": "amy.ns.cloudflare.com",
+          "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "108.162.192.101",
-              "172.64.32.101",
-              "173.245.58.101"
-            ],
-            "v6": [
-              "2606:4700:50::adf5:3a65",
-              "2803:f800:50::6ca2:c065",
-              "2a06:98c1:50::ac40:2065"
+              "209.196.146.53",
+              "209.196.146.153"
             ]
           },
           "status": [
@@ -281,23 +312,17 @@
           "events": [
             {
               "eventAction": "last changed",
-              "eventDate": "2023-07-03T08:20:45Z"
+              "eventDate": "2025-06-20T23:13:36Z"
             }
           ]
         },
         {
           "objectClassName": "nameserver",
-          "ldhName": "christian.ns.cloudflare.com",
+          "ldhName": "ns4.epik.com",
           "ipAddresses": {
             "v4": [
-              "108.162.195.247",
-              "162.159.44.247",
-              "172.64.35.247"
-            ],
-            "v6": [
-              "2606:4700:58::a29f:2cf7",
-              "2803:f800:50::6ca2:c3f7",
-              "2a06:98c1:50::ac40:23f7"
+              "209.196.147.153",
+              "209.196.147.53"
             ]
           },
           "status": [
@@ -306,7 +331,7 @@
           "events": [
             {
               "eventAction": "last changed",
-              "eventDate": "2023-07-03T08:20:45Z"
+              "eventDate": "2025-06-20T23:13:36Z"
             }
           ]
         }
@@ -316,16 +341,16 @@
       },
       "links": [
         {
-          "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+          "value": "https://rdap-whois.epik.com/domain/forensicexam.info",
           "rel": "self",
-          "href": "https://rdap-whois.epik.com/domain/masterbucks.com",
+          "href": "https://rdap-whois.epik.com/domain/forensicexam.info",
           "type": "application/rdap+json"
         }
       ],
       "entities": [
         {
           "objectClassName": "entity",
-          "handle": "REG_144474453FCDD773-VRSN",
+          "handle": "REG_E96D206DB03397C5-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -399,13 +424,13 @@
           "events": [
             {
               "eventAction": "last changed",
-              "eventDate": "2025-10-08T01:17:59Z"
+              "eventDate": "2025-06-25T17:14:00Z"
             }
           ]
         },
         {
           "objectClassName": "entity",
-          "handle": "ADM_83ED02AD8317E714-VRSN",
+          "handle": "ADM_16744DA4A2A21382-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -479,13 +504,13 @@
           "events": [
             {
               "eventAction": "last changed",
-              "eventDate": "2025-10-08T01:17:59Z"
+              "eventDate": "2025-06-25T17:14:00Z"
             }
           ]
         },
         {
           "objectClassName": "entity",
-          "handle": "TEC_C2F86216FB750A3F-VRSN",
+          "handle": "TEC_03D743F7947C7AF1-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -559,7 +584,7 @@
           "events": [
             {
               "eventAction": "last changed",
-              "eventDate": "2025-10-08T01:17:59Z"
+              "eventDate": "2025-06-25T17:14:00Z"
             }
           ]
         },
@@ -676,19 +701,19 @@
       "events": [
         {
           "eventAction": "registration",
-          "eventDate": "2010-10-21T18:53:43Z"
+          "eventDate": "2025-06-20T17:13:35Z"
         },
         {
           "eventAction": "last changed",
-          "eventDate": "2025-10-08T01:17:59Z"
+          "eventDate": "2025-06-25T17:14:00Z"
         },
         {
           "eventAction": "expiration",
-          "eventDate": "2026-10-21T18:53:43Z"
+          "eventDate": "2026-06-20T17:13:35Z"
         },
         {
           "eventAction": "registrar expiration",
-          "eventDate": "2026-10-21T18:53:43Z"
+          "eventDate": "2026-06-20T17:13:35Z"
         },
         {
           "eventAction": "last update of RDAP database",
@@ -714,13 +739,13 @@
           ],
           "links": [
             {
-              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "value": "https://rdap-whois.epik.com/domain/forensicexam.info",
               "rel": "terms-of-service",
               "href": "https://www.epik.com/tos",
               "type": "text/html"
             },
             {
-              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "value": "https://rdap-whois.epik.com/domain/forensicexam.info",
               "rel": "terms-of-service",
               "href": "https://rdap-whois.epik.com/help/terms",
               "type": "text/html"
@@ -734,7 +759,7 @@
           ],
           "links": [
             {
-              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "value": "https://rdap-whois.epik.com/domain/forensicexam.info",
               "rel": "glossary",
               "href": "https://icann.org/epp",
               "type": "text/html"
@@ -748,7 +773,7 @@
           ],
           "links": [
             {
-              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "value": "https://rdap-whois.epik.com/domain/forensicexam.info",
               "rel": "help",
               "href": "https://icann.org/wicf",
               "type": "text/html"
@@ -767,7 +792,21 @@
       "rdapConformance": [
         "rdap_level_0",
         "icann_rdap_response_profile_1",
-        "icann_rdap_technical_implementation_guide_1"
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "redacted": [
+        {
+          "name": {
+            "type": "Registry Domain ID"
+          },
+          "prePath": "$.handle",
+          "pathLang": "jsonpath",
+          "method": "removal",
+          "reason": {
+            "description": "Server policy"
+          }
+        }
       ]
     }
   }
