@@ -1,10 +1,10 @@
 {
   "run_meta": {
     "date": "2026-06-14",
-    "started_at": "2026-06-14T08:05:57.093Z",
+    "started_at": "2026-06-14T13:23:06.294Z",
     "rotation": {
       "rotated": false,
-      "size_mb": 5.637,
+      "size_mb": 5.619,
       "archive_path": null
     },
     "domains_queried": 5,
@@ -44,7 +44,7 @@
         },
         "updated": {
           "before": "2026-05-01t17:04:20z",
-          "after": "2026-06-14T08:06:00Z"
+          "after": "2026-06-14T13:23:00Z"
         },
         "abuse_phone": {
           "before": "+1.7373015923",
@@ -63,7 +63,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-13T21:00:29.702Z",
-          "after": "2026-06-14T08:06:05.534Z"
+          "after": "2026-06-14T13:23:14.426Z"
         }
       }
     },
@@ -78,7 +78,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-13T21:00:26Z",
-          "after": "2026-06-14T08:06:00Z"
+          "after": "2026-06-14T13:23:13Z"
         }
       }
     },
@@ -88,36 +88,12 @@
       "changed": true,
       "first_seen": false,
       "fields_changed": [
-        "abuse_phone",
-        "rdap_build",
-        "rdap_server",
-        "status",
         "updated"
       ],
       "diff": {
-        "rdap_server": {
-          "before": "https://rdap.verisign.com",
-          "after": "whois.epik.com"
-        },
-        "rdap_build": {
-          "before": "39c756f68fdc868239761198e785809f983b8fc6 (2026-06-04T21:57:39Z)",
-          "after": null
-        },
-        "status": {
-          "before": [
-            "clientTransferProhibited"
-          ],
-          "after": [
-            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
-          ]
-        },
         "updated": {
           "before": "2026-06-13T21:00:26Z",
-          "after": "2025-10-08t01:17:59z"
-        },
-        "abuse_phone": {
-          "before": "+17373015923",
-          "after": "+1.7373015923"
+          "after": "2026-06-14T13:23:13Z"
         }
       }
     },
@@ -132,7 +108,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-13T21:00:43.616Z",
-          "after": "2026-06-14T08:06:50.327Z"
+          "after": "2026-06-14T13:23:27.918Z"
         }
       }
     }
@@ -153,7 +129,7 @@
           "ns4.epik.com"
         ],
         "created": "2016-03-18T21:40:46Z",
-        "updated": "2026-06-14T08:06:00Z",
+        "updated": "2026-06-14T13:23:00Z",
         "expires": "2027-03-18T21:40:46Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -174,7 +150,7 @@
             "ns4.epik.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-06-14T08:06:00Z",
+          "updated": "2026-06-14T13:23:00Z",
           "expires": "2027-03-18T21:40:46Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -196,7 +172,7 @@
             "ns4.epik.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-06-14T08:05:43Z",
+          "updated": "2026-06-14T13:22:58Z",
           "expires": "2027-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -207,7 +183,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-14T08:05:57.101Z"
+      "queried_at": "2026-06-14T13:23:06.302Z"
     },
     "epikroidsarefake.org": {
       "parsed": {
@@ -224,7 +200,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-05T18:56:05.831Z",
-        "updated": "2026-06-14T08:06:05.534Z",
+        "updated": "2026-06-14T13:23:14.426Z",
         "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -245,7 +221,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05Z",
-          "updated": "2026-06-14T08:06:00Z",
+          "updated": "2026-06-14T13:23:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -267,7 +243,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05.831Z",
-          "updated": "2026-06-14T08:06:05.534Z",
+          "updated": "2026-06-14T13:23:14.426Z",
           "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -278,7 +254,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-14T08:06:01.846Z"
+      "queried_at": "2026-06-14T13:23:10.871Z"
     },
     "epikraaviolations.com": {
       "parsed": {
@@ -295,7 +271,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-06-14T08:06:00Z",
+        "updated": "2026-06-14T13:23:13Z",
         "expires": "2027-03-16T13:38:10Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -316,7 +292,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-06-14T08:06:00Z",
+          "updated": "2026-06-14T13:23:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -338,7 +314,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-06-14T08:05:58Z",
+          "updated": "2026-06-14T13:23:13Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -349,34 +325,78 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-14T08:06:06.985Z"
+      "queried_at": "2026-06-14T13:23:15.892Z"
     },
     "masterbucks.com": {
       "parsed": {
         "domain": "masterbucks.com",
-        "registrar": "epik llc",
+        "registrar": "Epik LLC",
         "registrar_iana_id": "617",
-        "rdap_server": "whois.epik.com",
-        "rdap_build": null,
+        "rdap_server": "https://rdap.verisign.com",
+        "rdap_build": "39c756f68fdc868239761198e785809f983b8fc6 (2026-06-04T21:57:39Z)",
         "status": [
-          "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+          "clientTransferProhibited"
         ],
         "nameservers": [
-          "AMY.NS.CLOUDFLARE.COM",
-          "CHRISTIAN.NS.CLOUDFLARE.COM"
+          "amy.ns.cloudflare.com",
+          "christian.ns.cloudflare.com"
         ],
-        "created": "2010-10-21t18:53:43z",
-        "updated": "2025-10-08t01:17:59z",
-        "expires": "2026-10-21t18:53:43z",
-        "registrant_org": "anonymize llc",
-        "registrant_country": "us",
+        "created": "2010-10-21T18:53:43Z",
+        "updated": "2026-06-14T13:23:13Z",
+        "expires": "2026-10-21T18:53:43Z",
+        "registrant_org": "Anonymize LLC",
+        "registrant_country": "US",
         "dnssec": "unsigned",
-        "roid": "1621551184_domain_com-vrsn",
+        "roid": "1621551184_DOMAIN_COM-VRSN",
         "abuse_email": "abuse@epik.com",
-        "abuse_phone": "+1.7373015923",
+        "abuse_phone": "+17373015923",
+        "epik_data": {
+          "registrar": "Epik LLC",
+          "registrar_iana_id": "617",
+          "rdap_server": "https://rdap-whois.epik.com",
+          "rdap_build": "39c756f68fdc868239761198e785809f983b8fc6 (2026-06-04T21:57:39Z)",
+          "status": [
+            "clientTransferProhibited"
+          ],
+          "nameservers": [
+            "amy.ns.cloudflare.com",
+            "christian.ns.cloudflare.com"
+          ],
+          "created": "2010-10-21T18:53:43Z",
+          "updated": "2026-06-14T13:23:00Z",
+          "expires": "2026-10-21T18:53:43Z",
+          "registrant_org": "Anonymize LLC",
+          "registrant_country": "US",
+          "dnssec": "unsigned",
+          "roid": "1621551184_DOMAIN_COM-VRSN",
+          "abuse_email": "abuse@epik.com",
+          "abuse_phone": "+17373015923"
+        },
+        "registry_data": {
+          "registrar": "Epik LLC",
+          "registrar_iana_id": "617",
+          "rdap_server": "https://rdap.verisign.com",
+          "rdap_build": null,
+          "status": [
+            "clientTransferProhibited"
+          ],
+          "nameservers": [
+            "amy.ns.cloudflare.com",
+            "christian.ns.cloudflare.com"
+          ],
+          "created": "2010-10-21T18:53:43Z",
+          "updated": "2026-06-14T13:23:13Z",
+          "expires": "2026-10-21T18:53:43Z",
+          "registrant_org": null,
+          "registrant_country": null,
+          "dnssec": "unsigned",
+          "roid": "1621551184_DOMAIN_COM-VRSN",
+          "abuse_email": "abuse@epik.com",
+          "abuse_phone": "+1.7373015923"
+        },
         "anomalies": {}
       },
-      "queried_at": "2026-06-14T08:06:14.202Z"
+      "queried_at": "2026-06-14T13:23:20.300Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -393,7 +413,7 @@
           "ns4.epik.com"
         ],
         "created": "2025-06-20T17:13:35.808Z",
-        "updated": "2026-06-14T08:06:50.327Z",
+        "updated": "2026-06-14T13:23:27.918Z",
         "expires": "2026-06-20T17:13:35.808Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -414,7 +434,7 @@
             "ns4.epik.com"
           ],
           "created": "2025-06-20T17:13:35Z",
-          "updated": "2026-06-14T08:06:00Z",
+          "updated": "2026-06-14T13:23:00Z",
           "expires": "2026-06-20T17:13:35Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -436,7 +456,7 @@
             "ns4.epik.com"
           ],
           "created": "2025-06-20T17:13:35.808Z",
-          "updated": "2026-06-14T08:06:50.327Z",
+          "updated": "2026-06-14T13:23:27.918Z",
           "expires": "2026-06-20T17:13:35.808Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -447,7 +467,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-14T08:06:46.989Z"
+      "queried_at": "2026-06-14T13:23:24.777Z"
     }
   }
 }
