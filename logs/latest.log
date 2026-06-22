@@ -2,10 +2,10 @@
 [epik-watcher] Starting run for 2026-06-22
 Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbucks.com, forensicexam.info
 
-  Querying cryptoweed.com … CHANGED (5 field(s))
-  Querying epikroidsarefake.org … CHANGED (14 field(s))
-  Querying epikraaviolations.com … CHANGED (1 field(s))
-  Querying masterbucks.com … CHANGED (5 field(s))
+  Querying cryptoweed.com … unchanged
+  Querying epikroidsarefake.org … unchanged
+  Querying epikraaviolations.com … CHANGED (5 field(s))
+  Querying masterbucks.com … unchanged
   Querying forensicexam.info … CHANGED (1 field(s))
 
   Generating reports…
@@ -19,10 +19,10 @@ Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbuck
 ────────────────────────────────────────────────────────────
 Domain                          Status      Fields Δ  
 ────────────────────────────────────────────────────────────
-cryptoweed.com                  CHANGED               5         
-epikroidsarefake.org            CHANGED               14        
-epikraaviolations.com           CHANGED               1         
-masterbucks.com                 CHANGED               5         
+cryptoweed.com                  OK          —         
+epikroidsarefake.org            OK          —         
+epikraaviolations.com           CHANGED               5         
+masterbucks.com                 OK          —         
 forensicexam.info               CHANGED               1         
 ────────────────────────────────────────────────────────────
 
