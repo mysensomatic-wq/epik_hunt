@@ -1,7 +1,7 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-06-25",
-  "queried_at": "2026-06-25T17:59:48.710Z",
+  "queried_at": "2026-06-25T21:19:39.394Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
   "fields_hash": "046a50058e15370bd1bcc98ca99f53ae48fd0224b93c2f77e4c0a6b6df3e9b72",
   "parsed": {
@@ -27,7 +27,7 @@
   },
   "raw": {
     "registrar": "NOT FOUND\n",
-    "tld": null,
+    "tld": "NOT FOUND\n",
     "tld_rdap": {
       "error": "RDAP fetch failed: The user aborted a request."
     },
