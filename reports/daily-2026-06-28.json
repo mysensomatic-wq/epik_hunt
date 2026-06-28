@@ -1,7 +1,7 @@
 {
   "run_meta": {
     "date": "2026-06-28",
-    "started_at": "2026-06-28T16:55:04.526Z",
+    "started_at": "2026-06-28T20:49:05.202Z",
     "rotation": {
       "rotated": false,
       "size_mb": 6.993,
@@ -10,7 +10,7 @@
     "domains_queried": 5,
     "changed_count": 5,
     "unchanged_count": 0,
-    "error_count": 0
+    "error_count": 1
   },
   "results": [
     {
@@ -24,7 +24,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-27T20:46:33Z",
-          "after": "2026-06-28T16:55:09Z"
+          "after": "2026-06-28T20:49:00Z"
         }
       }
     },
@@ -39,9 +39,10 @@
       "diff": {
         "updated": {
           "before": "2026-06-27T20:47:05.67Z",
-          "after": "2026-06-28T16:56:01.629Z"
+          "after": "2026-06-28T20:49:13.925Z"
         }
-      }
+      },
+      "error": "tld: "
     },
     {
       "domain": "epikraaviolations.com",
@@ -54,7 +55,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-27T20:47:00Z",
-          "after": "2026-06-28T16:56:24Z"
+          "after": "2026-06-28T20:49:00Z"
         }
       }
     },
@@ -69,7 +70,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-27T20:47:03Z",
-          "after": "2026-06-28T16:56:39Z"
+          "after": "2026-06-28T20:49:00Z"
         }
       }
     },
@@ -84,7 +85,7 @@
       "diff": {
         "updated": {
           "before": "2026-06-27T20:47:48.594Z",
-          "after": "2026-06-28T16:57:12.244Z"
+          "after": "2026-06-28T20:49:27.439Z"
         }
       }
     }
@@ -105,7 +106,7 @@
           "ns4.epik.com"
         ],
         "created": "2016-03-18T21:40:46Z",
-        "updated": "2026-06-28T16:55:09Z",
+        "updated": "2026-06-28T20:49:00Z",
         "expires": "2027-03-18T21:40:46Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -126,7 +127,7 @@
             "ns4.epik.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-06-28T16:55:00Z",
+          "updated": "2026-06-28T20:49:00Z",
           "expires": "2027-03-18T21:40:46Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -148,7 +149,7 @@
             "ns4.epik.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-06-28T16:55:09Z",
+          "updated": "2026-06-28T20:48:39Z",
           "expires": "2027-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -159,7 +160,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-28T16:55:04.534Z"
+      "queried_at": "2026-06-28T20:49:05.211Z"
     },
     "epikroidsarefake.org": {
       "parsed": {
@@ -176,7 +177,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-05T18:56:05.831Z",
-        "updated": "2026-06-28T16:56:01.629Z",
+        "updated": "2026-06-28T20:49:13.925Z",
         "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -197,7 +198,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05Z",
-          "updated": "2026-06-28T16:56:00Z",
+          "updated": "2026-06-28T20:49:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -219,7 +220,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05.831Z",
-          "updated": "2026-06-28T16:56:01.629Z",
+          "updated": "2026-06-28T20:49:13.925Z",
           "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -230,7 +231,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-28T16:55:33.084Z"
+      "queried_at": "2026-06-28T20:49:10.141Z"
     },
     "epikraaviolations.com": {
       "parsed": {
@@ -247,7 +248,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-06-28T16:56:24Z",
+        "updated": "2026-06-28T20:49:00Z",
         "expires": "2027-03-16T13:38:10Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -268,7 +269,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-06-28T16:56:00Z",
+          "updated": "2026-06-28T20:49:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -290,7 +291,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-06-28T16:56:24Z",
+          "updated": "2026-06-28T20:48:54Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -301,7 +302,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-28T16:56:03.218Z"
+      "queried_at": "2026-06-28T20:49:15.466Z"
     },
     "masterbucks.com": {
       "parsed": {
@@ -318,7 +319,7 @@
           "christian.ns.cloudflare.com"
         ],
         "created": "2010-10-21T18:53:43Z",
-        "updated": "2026-06-28T16:56:39Z",
+        "updated": "2026-06-28T20:49:00Z",
         "expires": "2026-10-21T18:53:43Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -339,7 +340,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-06-28T16:56:00Z",
+          "updated": "2026-06-28T20:49:00Z",
           "expires": "2026-10-21T18:53:43Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -361,7 +362,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-06-28T16:56:39Z",
+          "updated": "2026-06-28T20:48:54Z",
           "expires": "2026-10-21T18:53:43Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -372,7 +373,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-28T16:56:37.043Z"
+      "queried_at": "2026-06-28T20:49:19.914Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -390,7 +391,7 @@
           "ns4.epik.com"
         ],
         "created": "2025-06-20T17:13:35.808Z",
-        "updated": "2026-06-28T16:57:12.244Z",
+        "updated": "2026-06-28T20:49:27.439Z",
         "expires": "2027-06-20T17:13:35.808Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -412,7 +413,7 @@
             "ns4.epik.com"
           ],
           "created": "2025-06-20T17:13:35Z",
-          "updated": "2026-06-28T16:57:00Z",
+          "updated": "2026-06-28T20:49:00Z",
           "expires": "2027-06-20T17:13:35Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -435,7 +436,7 @@
             "ns4.epik.com"
           ],
           "created": "2025-06-20T17:13:35.808Z",
-          "updated": "2026-06-28T16:57:12.244Z",
+          "updated": "2026-06-28T20:49:27.439Z",
           "expires": "2027-06-20T17:13:35.808Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -446,7 +447,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-06-28T16:56:59.602Z"
+      "queried_at": "2026-06-28T20:49:24.511Z"
     }
   }
 }
