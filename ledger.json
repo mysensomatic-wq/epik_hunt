@@ -319,6 +319,10 @@
     {
       "date": "2026-07-01",
       "hash": "69db1eba5797fae416d58351e17ea103ec6acdd7f36cb75c873126568acf2a1d"
+    },
+    {
+      "date": "2026-07-02",
+      "hash": "6eddfe7eba7deba004fa350a66584c3ee4128daec91cd5bc95752ed772cc44ab"
     }
   ],
   "epikroidsarefake.com": [
@@ -647,6 +651,10 @@
     {
       "date": "2026-07-01",
       "hash": "1e1c07be3ec13461e0d7ebaf9f1f9ac551211096f0171c2a3462e320c0a92ae9"
+    },
+    {
+      "date": "2026-07-02",
+      "hash": "d3dc5bd29c55b5c944e544282de44ec695092dc4138ae2d06a00d5725135aa0c"
     }
   ],
   "masterbucks.com": [
@@ -969,6 +977,10 @@
     {
       "date": "2026-07-01",
       "hash": "e40fbca5109f1255f5b905fb85a21f383cdcd208b0c0ab5951017d928a26eee5"
+    },
+    {
+      "date": "2026-07-02",
+      "hash": "267786893a4e2ee13400b665c16c6df502d2ac9102c6894fba636e04443541aa"
     }
   ],
   "epikroidsarefake.org": [
@@ -1291,6 +1303,10 @@
     {
       "date": "2026-07-01",
       "hash": "6b6c262bf2a92d297c2ff909656f86bad00f91f6b8f23735b463e66f7e76bf63"
+    },
+    {
+      "date": "2026-07-02",
+      "hash": "7da3f0615d81bb6ed99d5b41faf1ccf5acbcfd9aaf8d1debd0e9989032824725"
     }
   ],
   "forensicexam.info": [
@@ -1373,6 +1389,10 @@
     {
       "date": "2026-07-01",
       "hash": "1146ae0ea09142c844aa600a0c0aa814fe3505e59297923e13db56cb7b956ab2"
+    },
+    {
+      "date": "2026-07-02",
+      "hash": "712c1c7de45994893f0abcd2367cf01a9241426a2e97c1652633c13343384cd4"
     }
   ]
 }
