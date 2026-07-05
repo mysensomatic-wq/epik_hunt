@@ -1,5 +1,5 @@
 
-[epik-watcher] Starting run for 2026-07-04
+[epik-watcher] Starting run for 2026-07-05
 Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbucks.com, forensicexam.info
 
   Querying cryptoweed.com … CHANGED (1 field(s))
@@ -9,13 +9,13 @@ Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbuck
   Querying forensicexam.info … CHANGED (14 field(s))
 
   Generating reports…
-  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-04.md
-  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-04.json
+  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-05.md
+  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-05.json
   Sending notifications…
   No changes — email suppressed.
 
 ────────────────────────────────────────────────────────────
-  Epik Watcher — Daily Run Summary  (2026-07-04)
+  Epik Watcher — Daily Run Summary  (2026-07-05)
 ────────────────────────────────────────────────────────────
 Domain                          Status      Fields Δ  
 ────────────────────────────────────────────────────────────
