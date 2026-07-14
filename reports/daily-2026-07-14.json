@@ -1,10 +1,10 @@
 {
   "run_meta": {
     "date": "2026-07-14",
-    "started_at": "2026-07-14T13:00:26.743Z",
+    "started_at": "2026-07-14T16:58:51.410Z",
     "rotation": {
       "rotated": false,
-      "size_mb": 8.721,
+      "size_mb": 8.682,
       "archive_path": null
     },
     "domains_queried": 5,
@@ -15,6 +15,46 @@
   "results": [
     {
       "domain": "cryptoweed.com",
+      "date": "2026-07-14",
+      "changed": true,
+      "first_seen": false,
+      "fields_changed": [
+        "rdap_build",
+        "updated"
+      ],
+      "diff": {
+        "rdap_build": {
+          "before": "e04fa418fc373c1eaccca6587acd9fe6467068f1 (2026-07-13T20:20:16Z)",
+          "after": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)"
+        },
+        "updated": {
+          "before": "2026-07-13T20:46:09Z",
+          "after": "2026-07-14T16:59:12Z"
+        }
+      }
+    },
+    {
+      "domain": "epikroidsarefake.org",
+      "date": "2026-07-14",
+      "changed": true,
+      "first_seen": false,
+      "fields_changed": [
+        "rdap_build",
+        "updated"
+      ],
+      "diff": {
+        "rdap_build": {
+          "before": "e04fa418fc373c1eaccca6587acd9fe6467068f1 (2026-07-13T20:20:16Z)",
+          "after": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)"
+        },
+        "updated": {
+          "before": "2026-07-13T20:46:33.426Z",
+          "after": "2026-07-14T16:59:26.097Z"
+        }
+      }
+    },
+    {
+      "domain": "epikraaviolations.com",
       "date": "2026-07-14",
       "changed": true,
       "first_seen": false,
@@ -43,117 +83,12 @@
           ]
         },
         "updated": {
-          "before": "2026-07-13T20:46:09Z",
-          "after": "2026-05-01t17:04:20z"
+          "before": "2026-07-13T20:46:24Z",
+          "after": "2026-03-16t13:38:11z"
         },
         "abuse_phone": {
           "before": "+17373015923",
           "after": "+1.7373015923"
-        }
-      }
-    },
-    {
-      "domain": "epikroidsarefake.org",
-      "date": "2026-07-14",
-      "changed": true,
-      "first_seen": false,
-      "fields_changed": [
-        "abuse_email",
-        "abuse_phone",
-        "created",
-        "dnssec",
-        "expires",
-        "nameservers",
-        "rdap_build",
-        "rdap_server",
-        "registrant_country",
-        "registrant_org",
-        "registrar",
-        "registrar_iana_id",
-        "status",
-        "updated"
-      ],
-      "diff": {
-        "registrar": {
-          "before": "Epik LLC",
-          "after": null
-        },
-        "registrar_iana_id": {
-          "before": "617",
-          "after": null
-        },
-        "rdap_server": {
-          "before": "https://rdap.publicinterestregistry.org",
-          "after": null
-        },
-        "rdap_build": {
-          "before": "e04fa418fc373c1eaccca6587acd9fe6467068f1 (2026-07-13T20:20:16Z)",
-          "after": null
-        },
-        "status": {
-          "before": [
-            "clientTransferProhibited"
-          ],
-          "after": []
-        },
-        "nameservers": {
-          "before": [
-            "ns3.epik.com",
-            "ns4.epik.com"
-          ],
-          "after": []
-        },
-        "created": {
-          "before": "2026-03-05T18:56:05.831Z",
-          "after": null
-        },
-        "updated": {
-          "before": "2026-07-13T20:46:33.426Z",
-          "after": null
-        },
-        "expires": {
-          "before": "2027-03-05T18:56:05.831Z",
-          "after": null
-        },
-        "registrant_org": {
-          "before": "Anonymize LLC",
-          "after": null
-        },
-        "registrant_country": {
-          "before": "US",
-          "after": null
-        },
-        "dnssec": {
-          "before": "signedDelegation",
-          "after": null
-        },
-        "abuse_email": {
-          "before": "abuse@epik.com",
-          "after": null
-        },
-        "abuse_phone": {
-          "before": "+17373015923",
-          "after": null
-        }
-      }
-    },
-    {
-      "domain": "epikraaviolations.com",
-      "date": "2026-07-14",
-      "changed": true,
-      "first_seen": false,
-      "fields_changed": [
-        "rdap_build",
-        "updated"
-      ],
-      "diff": {
-        "rdap_build": {
-          "before": "e04fa418fc373c1eaccca6587acd9fe6467068f1 (2026-07-13T20:20:16Z)",
-          "after": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)"
-        },
-        "updated": {
-          "before": "2026-07-13T20:46:24Z",
-          "after": "2026-07-14T13:01:27Z"
         }
       }
     },
@@ -163,17 +98,36 @@
       "changed": true,
       "first_seen": false,
       "fields_changed": [
+        "abuse_phone",
         "rdap_build",
+        "rdap_server",
+        "status",
         "updated"
       ],
       "diff": {
+        "rdap_server": {
+          "before": "https://rdap.verisign.com",
+          "after": "whois.epik.com"
+        },
         "rdap_build": {
           "before": "e04fa418fc373c1eaccca6587acd9fe6467068f1 (2026-07-13T20:20:16Z)",
-          "after": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)"
+          "after": null
+        },
+        "status": {
+          "before": [
+            "clientTransferProhibited"
+          ],
+          "after": [
+            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+          ]
         },
         "updated": {
           "before": "2026-07-13T20:46:24Z",
-          "after": "2026-07-14T13:01:27Z"
+          "after": "2025-10-08t01:17:59z"
+        },
+        "abuse_phone": {
+          "before": "+17373015923",
+          "after": "+1.7373015923"
         }
       }
     },
@@ -193,7 +147,7 @@
         },
         "updated": {
           "before": "2026-07-13T20:46:47.555Z",
-          "after": "2026-07-14T13:02:11.635Z"
+          "after": "2026-07-14T17:00:37.126Z"
         }
       }
     }
@@ -202,57 +156,6 @@
     "cryptoweed.com": {
       "parsed": {
         "domain": "cryptoweed.com",
-        "registrar": "epik llc",
-        "registrar_iana_id": "617",
-        "rdap_server": "whois.epik.com",
-        "rdap_build": null,
-        "status": [
-          "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
-        ],
-        "nameservers": [
-          "NS3.EPIK.COM",
-          "NS4.EPIK.COM"
-        ],
-        "created": "2016-03-18t21:40:46z",
-        "updated": "2026-05-01t17:04:20z",
-        "expires": "2027-03-18t21:40:46z",
-        "registrant_org": "anonymize llc",
-        "registrant_country": "us",
-        "dnssec": "unsigned",
-        "roid": "2013616432_domain_com-vrsn",
-        "abuse_email": "abuse@epik.com",
-        "abuse_phone": "+1.7373015923",
-        "anomalies": {}
-      },
-      "queried_at": "2026-07-14T13:00:26.748Z"
-    },
-    "epikroidsarefake.org": {
-      "parsed": {
-        "domain": "epikroidsarefake.org",
-        "registrar": null,
-        "registrar_iana_id": null,
-        "rdap_server": null,
-        "rdap_build": null,
-        "status": [],
-        "nameservers": [],
-        "created": null,
-        "updated": null,
-        "expires": null,
-        "registrant_org": null,
-        "registrant_country": null,
-        "dnssec": null,
-        "roid": null,
-        "abuse_email": null,
-        "abuse_phone": null,
-        "anomalies": {
-          "status": "Domain has no status codes reported"
-        }
-      },
-      "queried_at": "2026-07-14T13:01:00.052Z"
-    },
-    "epikraaviolations.com": {
-      "parsed": {
-        "domain": "epikraaviolations.com",
         "registrar": "Epik LLC",
         "registrar_iana_id": "617",
         "rdap_server": "https://rdap.verisign.com",
@@ -264,13 +167,13 @@
           "ns3.epik.com",
           "ns4.epik.com"
         ],
-        "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-07-14T13:01:27Z",
-        "expires": "2027-03-16T13:38:10Z",
+        "created": "2016-03-18T21:40:46Z",
+        "updated": "2026-07-14T16:59:12Z",
+        "expires": "2027-03-18T21:40:46Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
-        "dnssec": "signedDelegation",
-        "roid": "3077512874_DOMAIN_COM-VRSN",
+        "dnssec": "unsigned",
+        "roid": "2013616432_DOMAIN_COM-VRSN",
         "abuse_email": "abuse@epik.com",
         "abuse_phone": "+17373015923",
         "epik_data": {
@@ -285,13 +188,13 @@
             "ns3.epik.com",
             "ns4.epik.com"
           ],
-          "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-07-14T13:01:00Z",
-          "expires": "2027-03-16T13:38:10Z",
+          "created": "2016-03-18T21:40:46Z",
+          "updated": "2026-07-14T16:59:00Z",
+          "expires": "2027-03-18T21:40:46Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
           "dnssec": "unsigned",
-          "roid": "3077512874_DOMAIN_COM-VRSN",
+          "roid": "2013616432_DOMAIN_COM-VRSN",
           "abuse_email": "abuse@epik.com",
           "abuse_phone": "+17373015923"
         },
@@ -307,41 +210,41 @@
             "ns3.epik.com",
             "ns4.epik.com"
           ],
-          "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-07-14T13:01:27Z",
-          "expires": "2027-03-16T13:38:10Z",
+          "created": "2016-03-18T21:40:46Z",
+          "updated": "2026-07-14T16:59:12Z",
+          "expires": "2027-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
-          "dnssec": "signedDelegation",
-          "roid": "3077512874_DOMAIN_COM-VRSN",
+          "dnssec": "unsigned",
+          "roid": "2013616432_DOMAIN_COM-VRSN",
           "abuse_email": "abuse@epik.com",
           "abuse_phone": "+1.7373015923"
         },
         "anomalies": {}
       },
-      "queried_at": "2026-07-14T13:01:33.581Z"
+      "queried_at": "2026-07-14T16:58:51.424Z"
     },
-    "masterbucks.com": {
+    "epikroidsarefake.org": {
       "parsed": {
-        "domain": "masterbucks.com",
+        "domain": "epikroidsarefake.org",
         "registrar": "Epik LLC",
         "registrar_iana_id": "617",
-        "rdap_server": "https://rdap.verisign.com",
+        "rdap_server": "https://rdap.publicinterestregistry.org",
         "rdap_build": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)",
         "status": [
           "clientTransferProhibited"
         ],
         "nameservers": [
-          "amy.ns.cloudflare.com",
-          "christian.ns.cloudflare.com"
+          "ns3.epik.com",
+          "ns4.epik.com"
         ],
-        "created": "2010-10-21T18:53:43Z",
-        "updated": "2026-07-14T13:01:27Z",
-        "expires": "2026-10-21T18:53:43Z",
+        "created": "2026-03-05T18:56:05.831Z",
+        "updated": "2026-07-14T16:59:26.097Z",
+        "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
-        "dnssec": "unsigned",
-        "roid": "1621551184_DOMAIN_COM-VRSN",
+        "dnssec": "signedDelegation",
+        "roid": null,
         "abuse_email": "abuse@epik.com",
         "abuse_phone": "+17373015923",
         "epik_data": {
@@ -353,44 +256,98 @@
             "clientTransferProhibited"
           ],
           "nameservers": [
-            "amy.ns.cloudflare.com",
-            "christian.ns.cloudflare.com"
+            "ns3.epik.com",
+            "ns4.epik.com"
           ],
-          "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-07-14T13:01:00Z",
-          "expires": "2026-10-21T18:53:43Z",
+          "created": "2026-03-05T18:56:05Z",
+          "updated": "2026-07-14T16:59:00Z",
+          "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
           "dnssec": "unsigned",
-          "roid": "1621551184_DOMAIN_COM-VRSN",
+          "roid": null,
           "abuse_email": "abuse@epik.com",
           "abuse_phone": "+17373015923"
         },
         "registry_data": {
           "registrar": "Epik LLC",
           "registrar_iana_id": "617",
-          "rdap_server": "https://rdap.verisign.com",
+          "rdap_server": "https://rdap.publicinterestregistry.org",
           "rdap_build": null,
           "status": [
             "clientTransferProhibited"
           ],
           "nameservers": [
-            "amy.ns.cloudflare.com",
-            "christian.ns.cloudflare.com"
+            "ns3.epik.com",
+            "ns4.epik.com"
           ],
-          "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-07-14T13:01:27Z",
-          "expires": "2026-10-21T18:53:43Z",
+          "created": "2026-03-05T18:56:05.831Z",
+          "updated": "2026-07-14T16:59:26.097Z",
+          "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
-          "dnssec": "unsigned",
-          "roid": "1621551184_DOMAIN_COM-VRSN",
+          "dnssec": "signedDelegation",
+          "roid": null,
           "abuse_email": "abuse@epik.com",
           "abuse_phone": "+1.7373015923"
         },
         "anomalies": {}
       },
-      "queried_at": "2026-07-14T13:01:38.593Z"
+      "queried_at": "2026-07-14T16:59:22.499Z"
+    },
+    "epikraaviolations.com": {
+      "parsed": {
+        "domain": "epikraaviolations.com",
+        "registrar": "epik llc",
+        "registrar_iana_id": "617",
+        "rdap_server": "whois.epik.com",
+        "rdap_build": null,
+        "status": [
+          "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+        ],
+        "nameservers": [
+          "NS3.EPIK.COM",
+          "NS4.EPIK.COM"
+        ],
+        "created": "2026-03-16t13:38:10z",
+        "updated": "2026-03-16t13:38:11z",
+        "expires": "2027-03-16t13:38:10z",
+        "registrant_org": "anonymize llc",
+        "registrant_country": "us",
+        "dnssec": "signeddelegation",
+        "roid": "3077512874_domain_com-vrsn",
+        "abuse_email": "abuse@epik.com",
+        "abuse_phone": "+1.7373015923",
+        "anomalies": {}
+      },
+      "queried_at": "2026-07-14T16:59:27.582Z"
+    },
+    "masterbucks.com": {
+      "parsed": {
+        "domain": "masterbucks.com",
+        "registrar": "epik llc",
+        "registrar_iana_id": "617",
+        "rdap_server": "whois.epik.com",
+        "rdap_build": null,
+        "status": [
+          "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+        ],
+        "nameservers": [
+          "AMY.NS.CLOUDFLARE.COM",
+          "CHRISTIAN.NS.CLOUDFLARE.COM"
+        ],
+        "created": "2010-10-21t18:53:43z",
+        "updated": "2025-10-08t01:17:59z",
+        "expires": "2026-10-21t18:53:43z",
+        "registrant_org": "anonymize llc",
+        "registrant_country": "us",
+        "dnssec": "unsigned",
+        "roid": "1621551184_domain_com-vrsn",
+        "abuse_email": "abuse@epik.com",
+        "abuse_phone": "+1.7373015923",
+        "anomalies": {}
+      },
+      "queried_at": "2026-07-14T17:00:00.729Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -408,7 +365,7 @@
           "ns4.epik.com"
         ],
         "created": "2025-06-20T17:13:35.808Z",
-        "updated": "2026-07-14T13:02:11.635Z",
+        "updated": "2026-07-14T17:00:37.126Z",
         "expires": "2027-06-20T17:13:35.808Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -430,7 +387,7 @@
             "ns4.epik.com"
           ],
           "created": "2025-06-20T17:13:35Z",
-          "updated": "2026-07-14T13:02:00Z",
+          "updated": "2026-07-14T17:00:00Z",
           "expires": "2027-06-20T17:13:35Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -453,7 +410,7 @@
             "ns4.epik.com"
           ],
           "created": "2025-06-20T17:13:35.808Z",
-          "updated": "2026-07-14T13:02:11.635Z",
+          "updated": "2026-07-14T17:00:37.126Z",
           "expires": "2027-06-20T17:13:35.808Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -464,7 +421,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-07-14T13:01:46.640Z"
+      "queried_at": "2026-07-14T17:00:33.757Z"
     }
   }
 }
