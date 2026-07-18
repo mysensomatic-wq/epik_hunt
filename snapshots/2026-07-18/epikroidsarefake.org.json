@@ -1,15 +1,15 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-07-18",
-  "queried_at": "2026-07-18T01:15:10.452Z",
+  "queried_at": "2026-07-18T05:54:53.076Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "10bce520ed289c2dd612c06790473102e45a3e0c66cc9a68ff707111ce9882b3",
+  "fields_hash": "f615e704f54e1909fff1207f3516830175ce480822011b975e98d5dd9061621d",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
     "rdap_server": "https://rdap.publicinterestregistry.org",
-    "rdap_build": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)",
+    "rdap_build": "d48eb2c6e97bc7d91f47e1da2681a7ed86ad52cb (2026-07-18T02:41:40Z)",
     "status": [
       "clientTransferProhibited"
     ],
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-07-18T01:15:15.004Z",
+    "updated": "2026-07-18T05:54:56.689Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -29,8 +29,8 @@
     "epik_data": {
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
-      "rdap_server": "https://rdap-whois.epik.com",
-      "rdap_build": "2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)",
+      "rdap_server": "https://rdap.epik.com",
+      "rdap_build": "d48eb2c6e97bc7d91f47e1da2681a7ed86ad52cb (2026-07-18T02:41:40Z)",
       "status": [
         "clientTransferProhibited"
       ],
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-07-18T01:15:00Z",
+      "updated": "2026-07-18T05:54:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-07-18T01:15:15.004Z",
+      "updated": "2026-07-18T05:54:56.689Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-07-18T01:15:15.004Z"
+          "eventDate": "2026-07-18T05:54:56.689Z"
         }
       ],
       "entities": [
@@ -302,8 +302,8 @@
           "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.146.53",
-              "209.196.146.153"
+              "209.196.146.153",
+              "209.196.146.53"
             ]
           },
           "status": [
@@ -341,9 +341,9 @@
       },
       "links": [
         {
-          "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+          "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
           "rel": "self",
-          "href": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+          "href": "https://rdap.epik.com/domain/epikroidsarefake.org",
           "type": "application/rdap+json"
         }
       ],
@@ -717,7 +717,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-07-18T01:15:00Z"
+          "eventDate": "2026-07-18T05:54:00Z"
         }
       ],
       "status": [
@@ -727,8 +727,8 @@
         {
           "title": "Server Information",
           "description": [
-            "RDAP Server Version: 1.3.1-2fe3e51a86b1",
-            "Build: 2fe3e51a86b1878f9af4b5079def68d3fb0fca1f (2026-07-13T23:14:55Z)",
+            "RDAP Server Version: 1.3.1-d48eb2c6e97b",
+            "Build: d48eb2c6e97bc7d91f47e1da2681a7ed86ad52cb (2026-07-18T02:41:40Z)",
             "Environment: production"
           ]
         },
@@ -739,15 +739,15 @@
           ],
           "links": [
             {
-              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
               "rel": "terms-of-service",
               "href": "https://www.epik.com/tos",
               "type": "text/html"
             },
             {
-              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
               "rel": "terms-of-service",
-              "href": "https://rdap-whois.epik.com/help/terms",
+              "href": "https://rdap.epik.com/help/terms",
               "type": "text/html"
             }
           ]
@@ -759,7 +759,7 @@
           ],
           "links": [
             {
-              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
               "rel": "glossary",
               "href": "https://icann.org/epp",
               "type": "text/html"
@@ -773,7 +773,7 @@
           ],
           "links": [
             {
-              "value": "https://rdap-whois.epik.com/domain/epikroidsarefake.org",
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
               "rel": "help",
               "href": "https://icann.org/wicf",
               "type": "text/html"
