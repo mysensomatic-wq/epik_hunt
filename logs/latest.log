@@ -1,29 +1,29 @@
 
-[epik-watcher] Starting run for 2026-07-18
+[epik-watcher] Starting run for 2026-07-19
 Domains: cryptoweed.com, epikroidsarefake.org, epikraaviolations.com, masterbucks.com, forensicexam.info
 
-  Querying cryptoweed.com … CHANGED (2 field(s))
-  Querying epikroidsarefake.org … CHANGED (5 field(s))
-  Querying epikraaviolations.com … CHANGED (5 field(s))
-  Querying masterbucks.com … CHANGED (2 field(s))
-  Querying forensicexam.info … CHANGED (2 field(s))
+  Querying cryptoweed.com … CHANGED (1 field(s))
+  Querying epikroidsarefake.org … CHANGED (1 field(s))
+  Querying epikraaviolations.com … CHANGED (1 field(s))
+  Querying masterbucks.com … CHANGED (1 field(s))
+  Querying forensicexam.info … CHANGED (1 field(s))
 
   Generating reports…
-  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-18.md
-  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-18.json
+  Markdown: /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-19.md
+  JSON:     /home/runner/work/epik_hunt/epik_hunt/reports/daily-2026-07-19.json
   Sending notifications…
   No changes — email suppressed.
 
 ────────────────────────────────────────────────────────────
-  Epik Watcher — Daily Run Summary  (2026-07-18)
+  Epik Watcher — Daily Run Summary  (2026-07-19)
 ────────────────────────────────────────────────────────────
 Domain                          Status      Fields Δ  
 ────────────────────────────────────────────────────────────
-cryptoweed.com                  CHANGED               2         
-epikroidsarefake.org            CHANGED               5         
-epikraaviolations.com           CHANGED               5         
-masterbucks.com                 CHANGED               2         
-forensicexam.info               CHANGED               2         
+cryptoweed.com                  CHANGED               1         
+epikroidsarefake.org            CHANGED               1         
+epikraaviolations.com           CHANGED               1         
+masterbucks.com                 CHANGED               1         
+forensicexam.info               CHANGED               1         
 ────────────────────────────────────────────────────────────
 
   Saved last_run.json (Success: true)
