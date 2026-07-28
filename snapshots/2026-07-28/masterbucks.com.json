@@ -1,0 +1,242 @@
+{
+  "domain": "masterbucks.com",
+  "date": "2026-07-28",
+  "queried_at": "2026-07-28T01:18:47.497Z",
+  "raw_hash": "7e1ab9fc54d408ed3f61ee8749a699e209480b7ab1f75521c38a00f25245b183",
+  "fields_hash": "c04a5f2b7188aa65de1c02a06b717bf286902df46983f3f6d4f4f363682b7490",
+  "parsed": {
+    "domain": "masterbucks.com",
+    "registrar": "Epik LLC",
+    "registrar_iana_id": "617",
+    "rdap_server": "https://rdap.verisign.com",
+    "rdap_build": null,
+    "status": [
+      "clientTransferProhibited"
+    ],
+    "nameservers": [
+      "amy.ns.cloudflare.com",
+      "christian.ns.cloudflare.com"
+    ],
+    "created": "2010-10-21T18:53:43Z",
+    "updated": "2026-07-28T01:18:43Z",
+    "expires": "2026-10-21T18:53:43Z",
+    "registrant_org": "anonymize llc",
+    "registrant_country": "us",
+    "dnssec": "unsigned",
+    "roid": "1621551184_DOMAIN_COM-VRSN",
+    "abuse_email": "abuse@epik.com",
+    "abuse_phone": "+1.7373015923",
+    "epik_data": null,
+    "registry_data": {
+      "registrar": "Epik LLC",
+      "registrar_iana_id": "617",
+      "rdap_server": "https://rdap.verisign.com",
+      "rdap_build": null,
+      "status": [
+        "clientTransferProhibited"
+      ],
+      "nameservers": [
+        "amy.ns.cloudflare.com",
+        "christian.ns.cloudflare.com"
+      ],
+      "created": "2010-10-21T18:53:43Z",
+      "updated": "2026-07-28T01:18:43Z",
+      "expires": "2026-10-21T18:53:43Z",
+      "registrant_org": null,
+      "registrant_country": null,
+      "dnssec": "unsigned",
+      "roid": "1621551184_DOMAIN_COM-VRSN",
+      "abuse_email": "abuse@epik.com",
+      "abuse_phone": "+1.7373015923"
+    },
+    "anomalies": {}
+  },
+  "raw": {
+    "registrar": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-urejw6miohfa@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-urejw6miohfa@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-urejw6miohfa@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-urejw6miohfa@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-urejw6miohfa@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-urejw6miohfa@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld_rdap": {
+      "objectClassName": "domain",
+      "handle": "1621551184_DOMAIN_COM-VRSN",
+      "ldhName": "MASTERBUCKS.COM",
+      "links": [
+        {
+          "value": "https://rdap.verisign.com/com/v1/domain/MASTERBUCKS.COM",
+          "rel": "self",
+          "href": "https://rdap.verisign.com/com/v1/domain/MASTERBUCKS.COM",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.verisign.com/com/v1/domain/MASTERBUCKS.COM",
+          "rel": "related",
+          "href": "https://rdap-whois.epik.com/domain/MASTERBUCKS.COM",
+          "type": "application/rdap+json"
+        }
+      ],
+      "status": [
+        "client transfer prohibited"
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "617",
+          "roles": [
+            "registrar"
+          ],
+          "links": [
+            {
+              "href": "http://www.epik.com",
+              "type": "text/html",
+              "value": "https://rdap-whois.epik.com/",
+              "rel": "about"
+            }
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "617"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Epik LLC"
+              ]
+            ]
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "roles": [
+                "abuse"
+              ],
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    ""
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "email",
+                    {},
+                    "text",
+                    "abuse@epik.com"
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2010-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2026-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2025-10-08T01:17:59Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-07-28T01:18:43Z"
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": false
+      },
+      "nameservers": [
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "AMY.NS.CLOUDFLARE.COM"
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "CHRISTIAN.NS.CLOUDFLARE.COM"
+        }
+      ],
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_technical_implementation_guide_1",
+        "icann_rdap_response_profile_1"
+      ],
+      "notices": [
+        {
+          "title": "Terms of Service",
+          "description": [
+            "Service subject to Terms of Use."
+          ],
+          "links": [
+            {
+              "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+              "rel": "terms-of-service"
+            }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "href": "https://icann.org/epp",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+              "rel": "glossary"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "href": "https://icann.org/wicf",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+              "rel": "help"
+            }
+          ]
+        }
+      ]
+    },
+    "registrar_rdap": {
+      "error": "HTTP 503 Service Unavailable"
+    }
+  }
+}
