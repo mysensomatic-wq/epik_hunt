@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-07-29",
-  "queried_at": "2026-07-29T17:01:07.683Z",
+  "queried_at": "2026-07-29T20:41:18.022Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "62349d91c799ec079cc657d30e1428afa48c448ad1d04a38dbbad6d0ed67d487",
+  "fields_hash": "318d357aee9dd03155cafeadca1d93c4db2d9cdc13cb09b96728e5068a28ccfd",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-07-29T17:01:11.481Z",
+    "updated": "2026-07-29T20:41:22.435Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": null,
     "registrant_country": null,
@@ -40,7 +40,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-07-29T17:01:11.481Z",
+      "updated": "2026-07-29T20:41:22.435Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -168,7 +168,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-07-29T17:01:11.481Z"
+          "eventDate": "2026-07-29T20:41:22.435Z"
         }
       ],
       "entities": [
