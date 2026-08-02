@@ -1,9 +1,9 @@
 {
   "date": "2026-08-02",
-  "started_at": "2026-08-02T06:24:18.248Z",
-  "finished_at": "2026-08-02T06:24:55.445Z",
+  "started_at": "2026-08-02T09:46:18.275Z",
+  "finished_at": "2026-08-02T09:46:42.236Z",
   "success": true,
   "domains_checked": 5,
   "changed_count": 5,
-  "error_count": 0
+  "error_count": 1
 }
