@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-09-08",
-  "queried_at": "2026-09-08T19:02:55.363Z",
+  "queried_at": "2026-09-08T22:06:01.757Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "669a39dbd474d4b0a305d5ea8429a22d1457a91dcc0bcbac6569055bc2838ff8",
+  "fields_hash": "65eb48505f1f255cf28da85356eeb0186719b5cbfc88167ad3a8c517e1046e3b",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-09-08T19:03:17.456Z",
+    "updated": "2026-09-08T22:06:06.503Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": null,
     "registrant_country": null,
@@ -40,7 +40,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-09-08T19:03:17.456Z",
+      "updated": "2026-09-08T22:06:06.503Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -168,7 +168,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-08T19:03:17.456Z"
+          "eventDate": "2026-09-08T22:06:06.503Z"
         }
       ],
       "entities": [
@@ -272,7 +272,7 @@
       ]
     },
     "registrar_rdap": {
-      "error": "Registrar RDAP fetch failed: request to https://rdap-whois.epik.com/domain/epikroidsarefake.org failed, reason: Client network socket disconnected before secure TLS connection was established"
+      "error": "HTTP 503 Service Unavailable"
     }
   }
 }
