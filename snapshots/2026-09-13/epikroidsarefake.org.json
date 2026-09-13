@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-09-13",
-  "queried_at": "2026-09-13T01:41:22.567Z",
+  "queried_at": "2026-09-13T08:35:00.523Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "56896fe7581bd73f521759c87b9a0b508068a92064fc62318244dd42b846616e",
+  "fields_hash": "f8d8215a5422c2ca20f1e0ba144aa014c279e2071056557d1912bc43803eb945",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-09-13T01:41:27.237Z",
+    "updated": "2026-09-13T08:35:05.034Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-09-13T01:41:00Z",
+      "updated": "2026-09-13T08:35:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-09-13T01:41:27.237Z",
+      "updated": "2026-09-13T08:35:05.034Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-13T01:41:27.237Z"
+          "eventDate": "2026-09-13T08:35:05.034Z"
         }
       ],
       "entities": [
@@ -717,7 +717,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-13T01:41:00Z"
+          "eventDate": "2026-09-13T08:35:00Z"
         }
       ],
       "status": [
