@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-09-18",
-  "queried_at": "2026-09-18T18:41:40.755Z",
+  "queried_at": "2026-09-18T21:59:47.202Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "704f15f19b13904cd10b23cb90e1217464619bc7cb0acbe99a15d289873f14c0",
+  "fields_hash": "538f14fb1cdc2a9b76d6cc6896b4803f7a0c208323c8ffb7a4e2d3155c6fc48e",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-09-18T18:41:44.967Z",
+    "updated": "2026-09-18T21:59:51.139Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-09-18T18:41:00Z",
+      "updated": "2026-09-18T21:59:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-09-18T18:41:44.967Z",
+      "updated": "2026-09-18T21:59:51.139Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-18T18:41:44.967Z"
+          "eventDate": "2026-09-18T21:59:51.139Z"
         }
       ],
       "entities": [
@@ -302,8 +302,8 @@
           "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.146.53",
-              "209.196.146.153"
+              "209.196.146.153",
+              "209.196.146.53"
             ]
           },
           "status": [
@@ -717,7 +717,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-18T18:41:00Z"
+          "eventDate": "2026-09-18T21:59:00Z"
         }
       ],
       "status": [
