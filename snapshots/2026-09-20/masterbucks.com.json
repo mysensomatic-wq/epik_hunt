@@ -1,15 +1,15 @@
 {
   "domain": "masterbucks.com",
   "date": "2026-09-20",
-  "queried_at": "2026-09-20T08:51:54.990Z",
-  "raw_hash": "e56051efe47df77b8deeed351ad44067f62d646c43389b26803b87b0e116eee3",
-  "fields_hash": "eec6660fb42ab6e4bf689380b07b0c1ced67e3ec4d6152e3f26d1ecfdc92fd52",
+  "queried_at": "2026-09-20T14:59:19.605Z",
+  "raw_hash": "4ec5fd6178e1287f96a56f758c9e5250f60eb744423f083c9fcbf4c8403853d0",
+  "fields_hash": "ee83bab3817aa58828e4ef7a979fbe75baf47d2c45edd277a8315aad3a9a7ced",
   "parsed": {
     "domain": "masterbucks.com",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
     "rdap_server": "https://rdap.verisign.com",
-    "rdap_build": "8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+    "rdap_build": "0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
     "status": [
       "clientTransferProhibited"
     ],
@@ -18,7 +18,7 @@
       "christian.ns.cloudflare.com"
     ],
     "created": "2010-10-21T18:53:43Z",
-    "updated": "2026-09-20T08:51:44Z",
+    "updated": "2026-09-20T14:59:13Z",
     "expires": "2026-10-21T18:53:43Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -30,7 +30,7 @@
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
       "rdap_server": "https://rdap-whois.epik.com",
-      "rdap_build": "8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+      "rdap_build": "0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
       "status": [
         "clientTransferProhibited"
       ],
@@ -39,7 +39,7 @@
         "christian.ns.cloudflare.com"
       ],
       "created": "2010-10-21T18:53:43Z",
-      "updated": "2026-09-20T08:51:00Z",
+      "updated": "2026-09-20T14:59:00Z",
       "expires": "2026-10-21T18:53:43Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "christian.ns.cloudflare.com"
       ],
       "created": "2010-10-21T18:53:43Z",
-      "updated": "2026-09-20T08:51:44Z",
+      "updated": "2026-09-20T14:59:13Z",
       "expires": "2026-10-21T18:53:43Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -73,8 +73,8 @@
     "anomalies": {}
   },
   "raw": {
-    "registrar": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-uv5weayrokzb@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-uv5weayrokzb@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-uv5weayrokzb@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
-    "tld": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-uv5weayrokzb@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-uv5weayrokzb@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-uv5weayrokzb@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-t4hvljaty4wx@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-t4hvljaty4wx@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-t4hvljaty4wx@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2025-10-08T01:17:59Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2026-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-t4hvljaty4wx@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-t4hvljaty4wx@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-t4hvljaty4wx@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
     "tld_rdap": {
       "objectClassName": "domain",
       "handle": "1621551184_DOMAIN_COM-VRSN",
@@ -190,7 +190,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-20T08:51:44Z"
+          "eventDate": "2026-09-20T14:59:13Z"
         }
       ],
       "secureDNS": {
@@ -267,9 +267,9 @@
           "ldhName": "amy.ns.cloudflare.com",
           "ipAddresses": {
             "v4": [
+              "172.64.32.101",
               "173.245.58.101",
-              "108.162.192.101",
-              "172.64.32.101"
+              "108.162.192.101"
             ],
             "v6": [
               "2606:4700:50::adf5:3a65",
@@ -327,7 +327,7 @@
       "entities": [
         {
           "objectClassName": "entity",
-          "handle": "REG_144474453FCDD773-VRSN",
+          "handle": "REG_9E88ED417B1F2336-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -358,12 +358,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -391,7 +385,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
               ]
             ]
           ],
@@ -407,7 +401,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "ADM_83ED02AD8317E714-VRSN",
+          "handle": "ADM_136F4F70E922CC6F-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -438,12 +432,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -471,7 +459,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
               ]
             ]
           ],
@@ -487,7 +475,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "TEC_C2F86216FB750A3F-VRSN",
+          "handle": "TEC_0053B11944C9AD02-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -518,12 +506,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -551,7 +533,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
               ]
             ]
           ],
@@ -694,7 +676,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-20T08:51:00Z"
+          "eventDate": "2026-09-20T14:59:00Z"
         }
       ],
       "status": [
@@ -704,8 +686,8 @@
         {
           "title": "Server Information",
           "description": [
-            "RDAP Server Version: 1.3.1-8b2081017db5",
-            "Build: 8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+            "RDAP Server Version: 1.3.1-0ed780fcf9e2",
+            "Build: 0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
             "Environment: production"
           ]
         },
@@ -769,7 +751,46 @@
       "rdapConformance": [
         "rdap_level_0",
         "icann_rdap_response_profile_1",
-        "icann_rdap_technical_implementation_guide_1"
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "redacted": [
+        {
+          "name": {
+            "type": "Registrant Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Admin Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Tech Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        }
       ]
     }
   }

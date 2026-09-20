@@ -1,15 +1,15 @@
 {
   "domain": "cryptoweed.com",
   "date": "2026-09-20",
-  "queried_at": "2026-09-20T08:51:38.623Z",
-  "raw_hash": "fa55474761e16fc98b1a898231a47673ea3ecf1ae56aee1089fd2d4b118d9036",
-  "fields_hash": "094220ad9ba72406f02003e6aaf949e57b5a7f821e0d4de9a935f3417baec7ed",
+  "queried_at": "2026-09-20T14:59:04.408Z",
+  "raw_hash": "c86b3aac37849059ca8ec1cc87feac1187fb2b5de1c8bd11e89835f7a6aa8304",
+  "fields_hash": "dc965016d25addeb89497cf100d94bbf47566d7f44085a15eeeb07a35cf9321c",
   "parsed": {
     "domain": "cryptoweed.com",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
     "rdap_server": "https://rdap.verisign.com",
-    "rdap_build": "8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+    "rdap_build": "0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
     "status": [
       "clientTransferProhibited"
     ],
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2016-03-18T21:40:46Z",
-    "updated": "2026-09-20T08:51:29Z",
+    "updated": "2026-09-20T14:59:00Z",
     "expires": "2027-03-18T21:40:46Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -30,7 +30,7 @@
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
       "rdap_server": "https://rdap-whois.epik.com",
-      "rdap_build": "8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+      "rdap_build": "0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
       "status": [
         "clientTransferProhibited"
       ],
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2016-03-18T21:40:46Z",
-      "updated": "2026-09-20T08:51:00Z",
+      "updated": "2026-09-20T14:59:00Z",
       "expires": "2027-03-18T21:40:46Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2016-03-18T21:40:46Z",
-      "updated": "2026-09-20T08:51:29Z",
+      "updated": "2026-09-20T14:58:58Z",
       "expires": "2027-03-18T21:40:46Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -73,8 +73,8 @@
     "anomalies": {}
   },
   "raw": {
-    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-05-01T17:04:20Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1iv9d6z6yd1ep@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1iv9d6z6yd1ep@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1iv9d6z6yd1ep@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
-    "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-05-01T17:04:20Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1iv9d6z6yd1ep@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1iv9d6z6yd1ep@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1iv9d6z6yd1ep@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-05-01T17:04:20Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-uv94xmebgfvm@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-uv94xmebgfvm@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-uv94xmebgfvm@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-05-01T17:04:20Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-uv94xmebgfvm@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-uv94xmebgfvm@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-uv94xmebgfvm@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
     "tld_rdap": {
       "objectClassName": "domain",
       "handle": "2013616432_DOMAIN_COM-VRSN",
@@ -190,7 +190,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-20T08:51:29Z"
+          "eventDate": "2026-09-20T14:58:58Z"
         }
       ],
       "secureDNS": {
@@ -267,8 +267,8 @@
           "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.146.53",
-              "209.196.146.153"
+              "209.196.146.153",
+              "209.196.146.53"
             ]
           },
           "status": [
@@ -286,8 +286,8 @@
           "ldhName": "ns4.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.147.53",
-              "209.196.147.153"
+              "209.196.147.153",
+              "209.196.147.53"
             ]
           },
           "status": [
@@ -315,7 +315,7 @@
       "entities": [
         {
           "objectClassName": "entity",
-          "handle": "REG_A5EA655EC8CBFB4D-VRSN",
+          "handle": "REG_96490ACD33468904-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -346,12 +346,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -379,7 +373,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=cryptoweed.com"
               ]
             ]
           ],
@@ -395,7 +389,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "ADM_69723DC0DFFA9A1E-VRSN",
+          "handle": "ADM_1A74CEAD46B81F7D-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -426,12 +420,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -459,7 +447,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=cryptoweed.com"
               ]
             ]
           ],
@@ -475,7 +463,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "TEC_F285B06243A85B61-VRSN",
+          "handle": "TEC_EEBA976AE8C70048-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -506,12 +494,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -539,7 +521,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=cryptoweed.com"
               ]
             ]
           ],
@@ -682,7 +664,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-20T08:51:00Z"
+          "eventDate": "2026-09-20T14:59:00Z"
         }
       ],
       "status": [
@@ -692,8 +674,8 @@
         {
           "title": "Server Information",
           "description": [
-            "RDAP Server Version: 1.3.1-8b2081017db5",
-            "Build: 8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+            "RDAP Server Version: 1.3.1-0ed780fcf9e2",
+            "Build: 0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
             "Environment: production"
           ]
         },
@@ -757,7 +739,46 @@
       "rdapConformance": [
         "rdap_level_0",
         "icann_rdap_response_profile_1",
-        "icann_rdap_technical_implementation_guide_1"
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "redacted": [
+        {
+          "name": {
+            "type": "Registrant Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Admin Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Tech Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        }
       ]
     }
   }

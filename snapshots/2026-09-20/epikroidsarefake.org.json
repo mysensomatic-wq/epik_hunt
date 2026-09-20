@@ -1,15 +1,15 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-09-20",
-  "queried_at": "2026-09-20T08:51:44.028Z",
+  "queried_at": "2026-09-20T14:59:09.299Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "0f9a48cb9b8353204898ed0cc30cd068f10f574131aac62419043fc5ed5b47bb",
+  "fields_hash": "c047a28db1a114eaec09ca9aa9def9e6e2eef9d38304f115793719c23a91ff56",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
     "rdap_server": "https://rdap.publicinterestregistry.org",
-    "rdap_build": "8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+    "rdap_build": "0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
     "status": [
       "clientTransferProhibited"
     ],
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-09-20T08:51:48.412Z",
+    "updated": "2026-09-20T14:59:13.478Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -30,7 +30,7 @@
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
       "rdap_server": "https://rdap-whois.epik.com",
-      "rdap_build": "8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+      "rdap_build": "0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
       "status": [
         "clientTransferProhibited"
       ],
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-09-20T08:51:00Z",
+      "updated": "2026-09-20T14:59:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-09-20T08:51:48.412Z",
+      "updated": "2026-09-20T14:59:13.478Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-20T08:51:48.412Z"
+          "eventDate": "2026-09-20T14:59:13.478Z"
         }
       ],
       "entities": [
@@ -302,8 +302,8 @@
           "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.146.53",
-              "209.196.146.153"
+              "209.196.146.153",
+              "209.196.146.53"
             ]
           },
           "status": [
@@ -321,8 +321,8 @@
           "ldhName": "ns4.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.147.53",
-              "209.196.147.153"
+              "209.196.147.153",
+              "209.196.147.53"
             ]
           },
           "status": [
@@ -350,7 +350,7 @@
       "entities": [
         {
           "objectClassName": "entity",
-          "handle": "REG_9676A33DA0F0514F-VRSN",
+          "handle": "REG_ACA7AEA862F37CF2-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -381,12 +381,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -414,7 +408,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=epikroidsarefake.org"
               ]
             ]
           ],
@@ -430,7 +424,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "ADM_4F2B3A51988CF1A4-VRSN",
+          "handle": "ADM_B062B380F492BCDF-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -461,12 +455,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -494,7 +482,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=epikroidsarefake.org"
               ]
             ]
           ],
@@ -510,7 +498,7 @@
         },
         {
           "objectClassName": "entity",
-          "handle": "TEC_014612818BA985C3-VRSN",
+          "handle": "TEC_43BDBF0151C45066-VRSN",
           "vcardArray": [
             "vcard",
             [
@@ -541,12 +529,6 @@
                 "Anonymize LLC"
               ],
               [
-                "email",
-                {},
-                "text",
-                "privacy@anonymize.com"
-              ],
-              [
                 "adr",
                 {
                   "cc": "US"
@@ -574,7 +556,7 @@
                 "contact-uri",
                 {},
                 "uri",
-                "https://www.epik.com/contact"
+                "https://www.epik.com/contact-domain-owner/?domainName=epikroidsarefake.org"
               ]
             ]
           ],
@@ -717,7 +699,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-09-20T08:51:00Z"
+          "eventDate": "2026-09-20T14:59:00Z"
         }
       ],
       "status": [
@@ -727,8 +709,8 @@
         {
           "title": "Server Information",
           "description": [
-            "RDAP Server Version: 1.3.1-8b2081017db5",
-            "Build: 8b2081017db5191a1daa003c2a8e2e84c6e7fa54 (2026-09-17T20:54:02Z)",
+            "RDAP Server Version: 1.3.1-0ed780fcf9e2",
+            "Build: 0ed780fcf9e2e28901c3c46ebfe2207ef67ac8f0 (2026-09-20T11:17:20Z)",
             "Environment: production"
           ]
         },
@@ -796,6 +778,42 @@
         "redacted"
       ],
       "redacted": [
+        {
+          "name": {
+            "type": "Registrant Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Admin Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Tech Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
         {
           "name": {
             "type": "Registry Domain ID"
