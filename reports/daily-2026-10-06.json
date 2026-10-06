@@ -1,7 +1,7 @@
 {
   "run_meta": {
     "date": "2026-10-06",
-    "started_at": "2026-10-06T10:50:38.663Z",
+    "started_at": "2026-10-06T17:29:37.785Z",
     "rotation": {
       "rotated": false,
       "size_mb": 17.55,
@@ -30,7 +30,7 @@
         },
         "updated": {
           "before": "2026-10-05T19:49:32Z",
-          "after": "2026-10-06T10:50:31Z"
+          "after": "2026-10-06T17:29:31Z"
         },
         "abuse_phone": {
           "before": "+1.7373015923",
@@ -49,7 +49,7 @@
       "diff": {
         "updated": {
           "before": "2026-10-05T19:50:00Z",
-          "after": "2026-10-06T10:50:48.758Z"
+          "after": "2026-10-06T17:29:46.775Z"
         }
       }
     },
@@ -64,7 +64,7 @@
       "diff": {
         "updated": {
           "before": "2026-10-05T19:50:00Z",
-          "after": "2026-10-06T10:50:46Z"
+          "after": "2026-10-06T17:29:31Z"
         }
       }
     },
@@ -79,7 +79,7 @@
       "diff": {
         "updated": {
           "before": "2026-10-05T19:50:02Z",
-          "after": "2026-10-06T10:51:00Z"
+          "after": "2026-10-06T17:29:46Z"
         }
       }
     },
@@ -105,7 +105,7 @@
           "ns4.epik.com"
         ],
         "created": "2016-03-18T21:40:46Z",
-        "updated": "2026-10-06T10:50:31Z",
+        "updated": "2026-10-06T17:29:31Z",
         "expires": "2027-03-18T21:40:46Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -126,7 +126,7 @@
             "ns4.epik.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-10-06T10:50:00Z",
+          "updated": "2026-10-06T17:29:00Z",
           "expires": "2027-03-18T21:40:46Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -148,7 +148,7 @@
             "ns4.epik.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-10-06T10:50:31Z",
+          "updated": "2026-10-06T17:29:31Z",
           "expires": "2027-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -159,7 +159,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-10-06T10:50:38.675Z"
+      "queried_at": "2026-10-06T17:29:37.800Z"
     },
     "epikroidsarefake.org": {
       "parsed": {
@@ -176,7 +176,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-05T18:56:05.831Z",
-        "updated": "2026-10-06T10:50:48.758Z",
+        "updated": "2026-10-06T17:29:46.775Z",
         "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -197,7 +197,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05Z",
-          "updated": "2026-10-06T10:50:00Z",
+          "updated": "2026-10-06T17:29:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -219,7 +219,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05.831Z",
-          "updated": "2026-10-06T10:50:48.758Z",
+          "updated": "2026-10-06T17:29:46.775Z",
           "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -230,7 +230,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-10-06T10:50:44.597Z"
+      "queried_at": "2026-10-06T17:29:43.078Z"
     },
     "epikraaviolations.com": {
       "parsed": {
@@ -247,7 +247,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-10-06T10:50:46Z",
+        "updated": "2026-10-06T17:29:31Z",
         "expires": "2027-03-16T13:38:10Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -268,7 +268,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-10-06T10:50:00Z",
+          "updated": "2026-10-06T17:29:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -290,7 +290,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-10-06T10:50:46Z",
+          "updated": "2026-10-06T17:29:31Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -301,7 +301,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-10-06T10:50:50.937Z"
+      "queried_at": "2026-10-06T17:29:48.665Z"
     },
     "masterbucks.com": {
       "parsed": {
@@ -318,7 +318,7 @@
           "christian.ns.cloudflare.com"
         ],
         "created": "2010-10-21T18:53:43Z",
-        "updated": "2026-10-06T10:51:00Z",
+        "updated": "2026-10-06T17:29:46Z",
         "expires": "2026-10-21T18:53:43Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -339,7 +339,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-10-06T10:51:00Z",
+          "updated": "2026-10-06T17:29:00Z",
           "expires": "2026-10-21T18:53:43Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -361,7 +361,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-10-06T10:50:46Z",
+          "updated": "2026-10-06T17:29:46Z",
           "expires": "2026-10-21T18:53:43Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -372,7 +372,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-10-06T10:50:56.148Z"
+      "queried_at": "2026-10-06T17:29:53.672Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -396,7 +396,7 @@
           "status": "Domain has no status codes reported"
         }
       },
-      "queried_at": "2026-10-06T10:51:01.302Z"
+      "queried_at": "2026-10-06T17:29:58.695Z"
     }
   }
 }
