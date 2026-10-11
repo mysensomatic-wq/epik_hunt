@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-10-11",
-  "queried_at": "2026-10-11T10:22:31.130Z",
+  "queried_at": "2026-10-11T16:52:43.038Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "817a82a899947cc9f2151de58bdd7d89eda3c1944c9d8f72504d1119905fe9e6",
+  "fields_hash": "0e2b3ce2af62c146474cc0ff48db9f0d13bf377c3f487e228d2aa829a369ebef",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-10-11T10:22:34.921Z",
+    "updated": "2026-10-11T16:52:47.289Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-10-11T10:22:00Z",
+      "updated": "2026-10-11T16:52:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-10-11T10:22:34.921Z",
+      "updated": "2026-10-11T16:52:47.289Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-10-11T10:22:34.921Z"
+          "eventDate": "2026-10-11T16:52:47.289Z"
         }
       ],
       "entities": [
@@ -302,8 +302,8 @@
           "ldhName": "ns3.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.146.153",
-              "209.196.146.53"
+              "209.196.146.53",
+              "209.196.146.153"
             ]
           },
           "status": [
@@ -321,8 +321,8 @@
           "ldhName": "ns4.epik.com",
           "ipAddresses": {
             "v4": [
-              "209.196.147.153",
-              "209.196.147.53"
+              "209.196.147.53",
+              "209.196.147.153"
             ]
           },
           "status": [
@@ -699,7 +699,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-10-11T10:22:00Z"
+          "eventDate": "2026-10-11T16:52:00Z"
         }
       ],
       "status": [
