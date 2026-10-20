@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-10-20",
-  "queried_at": "2026-10-20T08:57:14.129Z",
+  "queried_at": "2026-10-20T15:55:00.273Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "117eaf35cc118555d09865ab6cc7834635837588b0ae9280ca55c403a7b8cf5a",
+  "fields_hash": "083a81866e54b4da41b63aac88206bf6a882f11eb8be0e176e172a341d3fcc37",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-10-20T08:57:18.763Z",
+    "updated": "2026-10-20T15:55:04.006Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": null,
     "registrant_country": null,
@@ -40,7 +40,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-10-20T08:57:18.763Z",
+      "updated": "2026-10-20T15:55:04.006Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -168,7 +168,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-10-20T08:57:18.763Z"
+          "eventDate": "2026-10-20T15:55:04.006Z"
         }
       ],
       "entities": [
@@ -272,7 +272,7 @@
       ]
     },
     "registrar_rdap": {
-      "error": "Registrar RDAP fetch failed: The user aborted a request."
+      "error": "Registrar RDAP fetch failed: request to https://rdap-whois.epik.com/domain/epikroidsarefake.org failed, reason: "
     }
   }
 }
