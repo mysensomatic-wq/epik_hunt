@@ -1,15 +1,15 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-10-26",
-  "queried_at": "2026-10-26T09:25:34.860Z",
+  "queried_at": "2026-10-26T17:45:15.233Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "527b0b4f6f8e4933f60e398bc3d1257a9e42d95b8c75e65d1ad47d40c943ef6c",
+  "fields_hash": "f681d97c01fa92eb141c639f4e014b9505ba260067bdd1177fb48c966c9b0f85",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
     "registrar_iana_id": "617",
     "rdap_server": "https://rdap.publicinterestregistry.org",
-    "rdap_build": "686ec5e3b290560046b871f794ca4d8d7fd34dd7 (2026-10-26T01:29:17Z)",
+    "rdap_build": "0bc6f6b9ac74e5bef4a0434c2699893fca068ee1 (2026-10-26T07:52:49Z)",
     "status": [
       "clientTransferProhibited"
     ],
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-10-26T09:25:40.138Z",
+    "updated": "2026-10-26T17:45:18.995Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -30,7 +30,7 @@
       "registrar": "Epik LLC",
       "registrar_iana_id": "617",
       "rdap_server": "https://rdap-whois.epik.com",
-      "rdap_build": "686ec5e3b290560046b871f794ca4d8d7fd34dd7 (2026-10-26T01:29:17Z)",
+      "rdap_build": "0bc6f6b9ac74e5bef4a0434c2699893fca068ee1 (2026-10-26T07:52:49Z)",
       "status": [
         "clientTransferProhibited"
       ],
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-10-26T09:25:00Z",
+      "updated": "2026-10-26T17:45:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-10-26T09:25:40.138Z",
+      "updated": "2026-10-26T17:45:18.995Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -189,7 +189,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-10-26T09:25:40.138Z"
+          "eventDate": "2026-10-26T17:45:18.995Z"
         }
       ],
       "entities": [
@@ -699,7 +699,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-10-26T09:25:00Z"
+          "eventDate": "2026-10-26T17:45:00Z"
         }
       ],
       "status": [
@@ -709,8 +709,8 @@
         {
           "title": "Server Information",
           "description": [
-            "RDAP Server Version: 1.3.1-686ec5e3b290",
-            "Build: 686ec5e3b290560046b871f794ca4d8d7fd34dd7 (2026-10-26T01:29:17Z)",
+            "RDAP Server Version: 1.3.1-0bc6f6b9ac74",
+            "Build: 0bc6f6b9ac74e5bef4a0434c2699893fca068ee1 (2026-10-26T07:52:49Z)",
             "Environment: production"
           ]
         },
