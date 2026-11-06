@@ -1,9 +1,9 @@
 {
   "domain": "cryptoweed.com",
   "date": "2026-11-06",
-  "queried_at": "2026-11-06T18:35:58.271Z",
-  "raw_hash": "5411c4f513c4374d6b34c7c4f1449fb8dcef83728389a29f7f82d244b97d08c0",
-  "fields_hash": "6fb65f31cb4c971d58ee57d5450bf906ec0cc246ef3b343268831ac4b1584c4f",
+  "queried_at": "2026-11-06T23:51:11.109Z",
+  "raw_hash": "3feac4650be4568f30190ea83ec0429478e220d02725d20180729d7972ac3b6a",
+  "fields_hash": "3bd57493e10d2d94e00ad319cc035ced3b3535ee6a6f14234a2015233d625a54",
   "parsed": {
     "domain": "cryptoweed.com",
     "registrar": "DYNADOT LLC",
@@ -18,7 +18,7 @@
       "ns2.dynadot.com"
     ],
     "created": "2016-03-18T21:40:46Z",
-    "updated": "2026-11-06T18:35:48Z",
+    "updated": "2026-11-06T23:51:05Z",
     "expires": "2028-03-18T21:40:46Z",
     "registrant_org": "Super Privacy Service LTD c/o Dynadot",
     "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns2.dynadot.com"
       ],
       "created": "2016-03-18T21:40:46Z",
-      "updated": "2026-11-06T18:35:48Z",
+      "updated": "2026-11-06T23:51:05Z",
       "expires": "2028-03-18T21:40:46Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -75,7 +75,7 @@
     }
   },
   "raw": {
-    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-11-01T21:44:58Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1jy26gt5vknqo@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1jy26gt5vknqo@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1jy26gt5vknqo@anonymize.com\nName Server: NS1.DYNADOT.COM\nName Server: NS2.DYNADOT.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-11-01T21:44:58Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-rhtzdzibipmg@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-rhtzdzibipmg@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-rhtzdzibipmg@anonymize.com\nName Server: NS1.DYNADOT.COM\nName Server: NS2.DYNADOT.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
     "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.dynadot.com\nRegistrar URL: http://www.dynadot.com\nUpdated Date: 2026-11-01T21:44:58.0Z\nCreation Date: 2016-03-18T21:40:46.0Z\nRegistrar Registration Expiration Date: 2028-03-18T21:40:46.0Z\nRegistrar: DYNADOT LLC\nRegistrar IANA ID: 472\nRegistrar Abuse Contact Email: abuse@dynadot.com\nRegistrar Abuse Contact Phone: +1.6502620100\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: REDACTED FOR PRIVACY\nRegistrant Organization: Super Privacy Service LTD c/o Dynadot\nRegistrant Street: PO Box 701\nRegistrant Street: \nRegistrant City: San Mateo\nRegistrant State/Province: California\nRegistrant Postal Code: 94401\nRegistrant Country: US\nRegistrant Phone: +1.6505854708\nRegistrant Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Admin ID: \nAdmin Name: REDACTED FOR PRIVACY\nAdmin Organization: Super Privacy Service LTD c/o Dynadot\nAdmin Street: PO Box 701\nAdmin Street: \nAdmin City: San Mateo\nAdmin State/Province: California\nAdmin Postal Code: 94401\nAdmin Country: US\nAdmin Phone: +1.6505854708\nAdmin Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Tech ID: \nTech Name: REDACTED FOR PRIVACY\nTech Organization: Super Privacy Service LTD c/o Dynadot\nTech Street: PO Box 701\nTech Street: \nTech City: San Mateo\nTech State/Province: California\nTech Postal Code: 94401\nTech Country: US\nTech Phone: +1.6505854708\nTech Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nName Server: ns1.dynadot.com\nName Server: ns2.dynadot.com\nDNSSEC: unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2026-11-01 13:44:58 -0800 <<<\n\n",
     "tld_rdap": {
       "objectClassName": "domain",
@@ -192,7 +192,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-06T18:35:48Z"
+          "eventDate": "2026-11-06T23:51:05Z"
         }
       ],
       "secureDNS": {
