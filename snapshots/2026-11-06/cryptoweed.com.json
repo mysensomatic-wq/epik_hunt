@@ -1,0 +1,818 @@
+{
+  "domain": "cryptoweed.com",
+  "date": "2026-11-06",
+  "queried_at": "2026-11-06T00:35:02.287Z",
+  "raw_hash": "5967c4dc9c6865b1b872abf9094c1000476bb95ea0f3260b0cb884a5e497701b",
+  "fields_hash": "dc49c4b02f193566a41e11757f2f17f88589099341508f074e14a9fa7df64e5d",
+  "parsed": {
+    "domain": "cryptoweed.com",
+    "registrar": "DYNADOT LLC",
+    "registrar_iana_id": "472",
+    "rdap_server": "https://rdap.verisign.com",
+    "rdap_build": null,
+    "status": [
+      "clientTransferProhibited"
+    ],
+    "nameservers": [
+      "ns1.dynadot.com",
+      "ns2.dynadot.com"
+    ],
+    "created": "2016-03-18T21:40:46Z",
+    "updated": "2026-11-06T00:34:48Z",
+    "expires": "2028-03-18T21:40:46Z",
+    "registrant_org": "Super Privacy Service LTD c/o Dynadot",
+    "registrant_country": "US",
+    "dnssec": "unsigned",
+    "roid": "2013616432_DOMAIN_COM-VRSN",
+    "abuse_email": "abuse@dynadot.com",
+    "abuse_phone": "+1.6505854708",
+    "epik_data": {
+      "registrar": "DYNADOT LLC",
+      "registrar_iana_id": "472",
+      "rdap_server": "https://rdap.dynadot.com",
+      "rdap_build": null,
+      "status": [
+        "transferProhibited"
+      ],
+      "nameservers": [
+        "ns1.dynadot.com",
+        "ns2.dynadot.com"
+      ],
+      "created": "2016-03-18T21:40:46Z",
+      "updated": "2026-11-05T08:37:10Z",
+      "expires": "2028-03-18T21:40:46Z",
+      "registrant_org": "Super Privacy Service LTD c/o Dynadot",
+      "registrant_country": "US",
+      "dnssec": "unsigned",
+      "roid": "2013616432_DOMAIN_COM-VRSN",
+      "abuse_email": "abuse@dynadot.com",
+      "abuse_phone": "+1.6505854708"
+    },
+    "registry_data": {
+      "registrar": "Dynadot Inc",
+      "registrar_iana_id": "472",
+      "rdap_server": "https://rdap.verisign.com",
+      "rdap_build": null,
+      "status": [
+        "clientTransferProhibited"
+      ],
+      "nameservers": [
+        "ns1.dynadot.com",
+        "ns2.dynadot.com"
+      ],
+      "created": "2016-03-18T21:40:46Z",
+      "updated": "2026-11-06T00:34:48Z",
+      "expires": "2028-03-18T21:40:46Z",
+      "registrant_org": null,
+      "registrant_country": null,
+      "dnssec": "unsigned",
+      "roid": "2013616432_DOMAIN_COM-VRSN",
+      "abuse_email": "abuse@dynadot.com",
+      "abuse_phone": "+16502620100"
+    },
+    "anomalies": {
+      "status": "Status mismatch: Epik (transferProhibited) vs Registry (clientTransferProhibited)"
+    }
+  },
+  "raw": {
+    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-11-01T21:44:58Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-qy263b6z438k@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-qy263b6z438k@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-qy263b6z438k@anonymize.com\nName Server: NS1.DYNADOT.COM\nName Server: NS2.DYNADOT.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.dynadot.com\nRegistrar URL: http://www.dynadot.com\nUpdated Date: 2026-11-01T21:44:58.0Z\nCreation Date: 2016-03-18T21:40:46.0Z\nRegistrar Registration Expiration Date: 2028-03-18T21:40:46.0Z\nRegistrar: DYNADOT LLC\nRegistrar IANA ID: 472\nRegistrar Abuse Contact Email: abuse@dynadot.com\nRegistrar Abuse Contact Phone: +1.6502620100\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: REDACTED FOR PRIVACY\nRegistrant Organization: Super Privacy Service LTD c/o Dynadot\nRegistrant Street: PO Box 701\nRegistrant Street: \nRegistrant City: San Mateo\nRegistrant State/Province: California\nRegistrant Postal Code: 94401\nRegistrant Country: US\nRegistrant Phone: +1.6505854708\nRegistrant Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Admin ID: \nAdmin Name: REDACTED FOR PRIVACY\nAdmin Organization: Super Privacy Service LTD c/o Dynadot\nAdmin Street: PO Box 701\nAdmin Street: \nAdmin City: San Mateo\nAdmin State/Province: California\nAdmin Postal Code: 94401\nAdmin Country: US\nAdmin Phone: +1.6505854708\nAdmin Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Tech ID: \nTech Name: REDACTED FOR PRIVACY\nTech Organization: Super Privacy Service LTD c/o Dynadot\nTech Street: PO Box 701\nTech Street: \nTech City: San Mateo\nTech State/Province: California\nTech Postal Code: 94401\nTech Country: US\nTech Phone: +1.6505854708\nTech Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nName Server: ns1.dynadot.com\nName Server: ns2.dynadot.com\nDNSSEC: unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2026-11-01 13:44:58 -0800 <<<\n\n",
+    "tld_rdap": {
+      "objectClassName": "domain",
+      "handle": "2013616432_DOMAIN_COM-VRSN",
+      "ldhName": "CRYPTOWEED.COM",
+      "links": [
+        {
+          "value": "https://rdap.verisign.com/com/v1/domain/cryptoweed.com",
+          "rel": "self",
+          "href": "https://rdap.verisign.com/com/v1/domain/cryptoweed.com",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.verisign.com/com/v1/domain/cryptoweed.com",
+          "rel": "related",
+          "href": "https://rdap.dynadot.com/domain/CRYPTOWEED.COM",
+          "type": "application/rdap+json"
+        }
+      ],
+      "status": [
+        "client transfer prohibited"
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "472",
+          "roles": [
+            "registrar"
+          ],
+          "links": [
+            {
+              "href": "http://www.dynadot.com",
+              "type": "text/html",
+              "value": "https://rdap.dynadot.com/",
+              "rel": "about"
+            }
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "472"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Dynadot Inc"
+              ]
+            ]
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "roles": [
+                "abuse"
+              ],
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    ""
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+16502620100"
+                  ],
+                  [
+                    "email",
+                    {},
+                    "text",
+                    "abuse@dynadot.com"
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2016-03-18T21:40:46Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2028-03-18T21:40:46Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-11-01T21:44:58Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-11-06T00:34:48Z"
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": false
+      },
+      "nameservers": [
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "NS1.DYNADOT.COM"
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "NS2.DYNADOT.COM"
+        }
+      ],
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_technical_implementation_guide_1",
+        "icann_rdap_response_profile_1"
+      ],
+      "notices": [
+        {
+          "title": "Terms of Service",
+          "description": [
+            "Service subject to Terms of Use."
+          ],
+          "links": [
+            {
+              "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/cryptoweed.com",
+              "rel": "terms-of-service"
+            }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "href": "https://icann.org/epp",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/cryptoweed.com",
+              "rel": "glossary"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "href": "https://icann.org/wicf",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/cryptoweed.com",
+              "rel": "help"
+            }
+          ]
+        }
+      ]
+    },
+    "registrar_rdap": {
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_response_profile_1",
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "notices": [
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "rel": "glossary",
+              "value": "https://rdap.dynadot.com/domain/CRYPTOWEED.COM",
+              "href": "https://icann.org/epp",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "rel": "help",
+              "value": "https://rdap.dynadot.com/domain/CRYPTOWEED.COM",
+              "href": "https://icann.org/wicf",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "Terms of Service",
+          "description": [
+            "URL of the Dynadot terms of service: https://www.dynadot.com/registration_agreement.html"
+          ],
+          "links": [
+            {
+              "rel": "terms-of-service",
+              "value": "https://rdap.dynadot.com/domain/CRYPTOWEED.COM",
+              "href": "https://www.dynadot.com/registration_agreement.html",
+              "type": "text/html"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "value": "https://rdap.dynadot.com/domain/CRYPTOWEED.COM",
+          "rel": "self",
+          "href": "https://rdap.dynadot.com/domain/CRYPTOWEED.COM",
+          "type": "application/rdap+json"
+        }
+      ],
+      "publicIds": [
+        {
+          "type": "IANA Registrar ID",
+          "identifier": "472"
+        }
+      ],
+      "objectClassName": "domain",
+      "handle": "2013616432_DOMAIN_COM-VRSN",
+      "ldhName": "cryptoweed.com",
+      "nameservers": [
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns1.dynadot.com"
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns2.dynadot.com"
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": false
+      },
+      "events": [
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-11-05T08:37:10Z"
+        },
+        {
+          "eventAction": "registration",
+          "eventDate": "2016-03-18T21:40:46Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2028-03-18T21:40:46Z"
+        },
+        {
+          "eventAction": "registrar expiration",
+          "eventDate": "2028-03-18T21:40:46Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-11-01T21:44:58Z"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "472",
+          "roles": [
+            "registrar"
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "472"
+            }
+          ],
+          "links": [
+            {
+              "rel": "about",
+              "value": "https://rdap.dynadot.com/",
+              "href": "https://dynadot.com/"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "DYNADOT LLC"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "PO Box 701",
+                  "",
+                  "San Mateo",
+                  "California",
+                  "94401",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": [
+                    "voice"
+                  ]
+                },
+                "uri",
+                "tel:+1.6505854708"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "abuse@dynadot.com"
+              ]
+            ]
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "roles": [
+                "abuse"
+              ],
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    ""
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": [
+                        "voice"
+                      ]
+                    },
+                    "uri",
+                    "tel:+1.6505854708"
+                  ],
+                  [
+                    "email",
+                    {},
+                    "text",
+                    "abuse@dynadot.com"
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "a333652663e33936f5a755232454b5eb-Dyna",
+          "roles": [
+            "registrant"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-31T06:30:33Z"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Dynadot Privacy Service"
+              ],
+              [
+                "org",
+                {},
+                "text",
+                "Super Privacy Service LTD c/o Dynadot"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "PO Box 701",
+                  "San Mateo",
+                  "California",
+                  "94401",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": [
+                    "voice"
+                  ]
+                },
+                "uri",
+                "tel:+1.6505854708"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com"
+              ]
+            ]
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "a333652663e33936f5a755232454b5eb-Dyna",
+          "roles": [
+            "administrative"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-31T06:30:33Z"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Dynadot Privacy Service"
+              ],
+              [
+                "org",
+                {},
+                "text",
+                "Super Privacy Service LTD c/o Dynadot"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "PO Box 701",
+                  "San Mateo",
+                  "California",
+                  "94401",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": [
+                    "voice"
+                  ]
+                },
+                "uri",
+                "tel:+1.6505854708"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com"
+              ]
+            ]
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "a333652663e33936f5a755232454b5eb-Dyna",
+          "roles": [
+            "technical"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-31T06:30:33Z"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Dynadot Privacy Service"
+              ],
+              [
+                "org",
+                {},
+                "text",
+                "Super Privacy Service LTD c/o Dynadot"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "PO Box 701",
+                  "San Mateo",
+                  "California",
+                  "94401",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": [
+                    "voice"
+                  ]
+                },
+                "uri",
+                "tel:+1.6505854708"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com"
+              ]
+            ]
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "a333652663e33936f5a755232454b5eb-Dyna",
+          "roles": [
+            "billing"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-31T06:30:33Z"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Dynadot Privacy Service"
+              ],
+              [
+                "org",
+                {},
+                "text",
+                "Super Privacy Service LTD c/o Dynadot"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "PO Box 701",
+                  "San Mateo",
+                  "California",
+                  "94401",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": [
+                    "voice"
+                  ]
+                },
+                "uri",
+                "tel:+1.6505854708"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com"
+              ]
+            ]
+          ]
+        }
+      ],
+      "redacted": [
+        {
+          "name": {
+            "description": "Registrant Email"
+          },
+          "method": "replacementValue",
+          "prePath": "$.entities[?(@.roles[*]=='registrant')].vcardArray[1][?(@[0]=='email')][3]",
+          "replacementPath": "$.entities[?(@.roles[*]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')][3]"
+        },
+        {
+          "name": {
+            "description": "Admin Email"
+          },
+          "method": "replacementValue",
+          "prePath": "$.entities[?(@.roles[*]=='administrative')].vcardArray[1][?(@[0]=='email')][3]",
+          "replacementPath": "$.entities[?(@.roles[*]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')][3]"
+        },
+        {
+          "name": {
+            "description": "Tech Email"
+          },
+          "method": "replacementValue",
+          "prePath": "$.entities[?(@.roles[*]=='technical')].vcardArray[1][?(@[0]=='email')][3]",
+          "replacementPath": "$.entities[?(@.roles[*]=='technical')].vcardArray[1][?(@[0]=='contact-uri')][3]"
+        },
+        {
+          "name": {
+            "description": "Billing Email"
+          },
+          "method": "replacementValue",
+          "prePath": "$.entities[?(@.roles[*]=='billing')].vcardArray[1][?(@[0]=='email')][3]",
+          "replacementPath": "$.entities[?(@.roles[*]=='billing')].vcardArray[1][?(@[0]=='contact-uri')][3]"
+        }
+      ],
+      "port43": "whois.dynadot.com",
+      "status": [
+        "transfer prohibited"
+      ]
+    }
+  }
+}
