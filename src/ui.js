@@ -534,7 +534,7 @@ function renderIcannRecord(snapshot) {
   html += '<div class="icann-section">';
   html += '<span class="icann-section-title">Domain Information</span>';
   html += '<table class="icann-table">';
-  html += '<thead><tr><th>Field</th><th>EPIK Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += '<thead><tr><th>Field</th><th>Registrar Value</th><th>Registry Value</th></tr></thead><tbody>';
   html += icannRow('Domain Name', '<strong>' + esc(domainUp) + '</strong>', '<strong>' + esc(domainUp) + '</strong>');
   if (p.roid) html += icannRow('Registry Domain ID', esc(epik.roid), esc(reg.roid), anom.roid);
   html += icannRow('Domain Status', renderStatusPills(epik.status), renderStatusPills(reg.status), anom.status);
@@ -548,7 +548,7 @@ function renderIcannRecord(snapshot) {
   html += '<div class="icann-section">';
   html += '<span class="icann-section-title">Registrar Information</span>';
   html += '<table class="icann-table">';
-  html += '<thead><tr><th>Field</th><th>EPIK Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += '<thead><tr><th>Field</th><th>Registrar Value</th><th>Registry Value</th></tr></thead><tbody>';
   html += icannRow('Registrar',     fmtVal(epik.registrar), fmtVal(reg.registrar), anom.registrar);
   html += icannRow('IANA ID',       fmtVal(epik.registrar_iana_id), fmtVal(reg.registrar_iana_id), anom.registrar_iana_id);
   html += icannRow('RDAP Server',   fmtVal(epik.rdap_server), fmtVal(reg.rdap_server), anom.rdap_server);
@@ -561,7 +561,7 @@ function renderIcannRecord(snapshot) {
   html += '<div class="icann-section">';
   html += '<span class="icann-section-title">Registrant Contact</span>';
   html += '<table class="icann-table">';
-  html += '<thead><tr><th>Field</th><th>EPIK Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += '<thead><tr><th>Field</th><th>Registrar Value</th><th>Registry Value</th></tr></thead><tbody>';
   html += icannRow('Organization', epik.registrant_org ? esc(epik.registrant_org) : '<span class="redacted">REDACTED FOR PRIVACY</span>', reg.registrant_org ? esc(reg.registrant_org) : '<span class="redacted">REDACTED FOR PRIVACY</span>', anom.registrant_org);
   html += icannRow('Country', fmtVal(epik.registrant_country), fmtVal(reg.registrant_country), anom.registrant_country);
   html += '</tbody></table></div>';

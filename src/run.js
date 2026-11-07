@@ -191,7 +191,11 @@ async function main() {
 
     // b. Parse (prefer registrar raw, fall back to TLD)
     const rawForParsing = queryResult.raw_registrar || queryResult.raw_tld || '';
-    const parsed = parseDomainData(queryResult.raw_registrar, queryResult.raw_tld, queryResult.registrar_rdap_json, queryResult.rdap_json, domain);
+    const parsed = parseDomainData(queryResult.raw_registrar, queryResult.raw_tld, queryResult.registrar_rdap_json, queryResult.rdap_json, domain, {
+      raw_epik_whois: queryResult.raw_epik_whois,
+      registrar_whois_server: queryResult.registrar_whois_server,
+      watched_rdap: queryResult.watched_rdap,
+    });
 
     // c. Hash
     const raw_hash = hashRaw(rawForParsing);
@@ -210,6 +214,9 @@ async function main() {
         tld: queryResult.raw_tld,
         tld_rdap: queryResult.rdap_json,
         registrar_rdap: queryResult.registrar_rdap_json,
+        registrar_whois_server: queryResult.registrar_whois_server,
+        epik_whois: queryResult.raw_epik_whois,
+        watched_rdap: queryResult.watched_rdap,
       },
     };
 

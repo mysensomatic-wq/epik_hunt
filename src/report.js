@@ -21,8 +21,8 @@ function tolerateDateOffset(d1, d2) {
 
 function mdTable3(rows) {
   if (!rows.length) return '';
-  const header = '| Field | EPIK Value | Registry Value | Delta |';
-  const sep    = '|-------|------------|----------------|-------|';
+  const header = '| Field | Registrar Value | Registry Value | Delta |';
+  const sep    = '|-------|-----------------|----------------|-------|';
   const body = rows.map(([f, epikVal, regVal]) => {
     let e = epikVal ?? '—';
     let r = regVal ?? '—';
@@ -123,6 +123,24 @@ function renderIcannSection(domain, snapshot, diffResult) {
     lines.push('- —');
   }
   lines.push('');
+
+  // ── Cross-registrar check ─────────────────────────────────────────────────
+  const cross = p.cross_registrar;
+  if (cross) {
+    lines.push(`### Cross-Registrar Check\n`);
+    lines.push(`Registry: ${fmtVal(cross.registry_registrar)} (IANA ${fmtVal(cross.registry_iana_id)}). Registrar WHOIS queried: ${fmtVal(cross.registrar_whois_server)}.\n`);
+    lines.push('| Source | HTTP | Registrar | IANA ID | Updated | Expires |');
+    lines.push('|--------|------|-----------|---------|---------|---------|');
+    if (cross.epik_whois) {
+      const w = cross.epik_whois;
+      lines.push(`| whois.epik.com | — | ${fmtVal(w.registrar)} | ${fmtVal(w.iana_id)} | ${fmtVal(w.updated)} | ${fmtVal(w.expires)} |`);
+    }
+    for (const [name, r] of Object.entries(cross.watched_rdap || {})) {
+      lines.push(`| ${name} RDAP | ${fmtVal(r.http_status)}${r.error ? ' (' + r.error + ')' : ''} | ${fmtVal(r.registrar)} | ${fmtVal(r.iana_id)} | ${fmtVal(r.updated)} | ${fmtVal(r.expires)} |`);
+    }
+    lines.push('');
+    if (anom.stale_sponsorship) lines.push(`> ⚠ **Stale sponsorship claim:** ${anom.stale_sponsorship}\n`);
+  }
 
   // ── Changes Since Previous Snapshot ──────────────────────────────────────
   lines.push(`### Changes Since Previous Snapshot\n`);

@@ -98,7 +98,7 @@ function detectAnomalies(parsed) {
     const eStatus = (parsed.epik_data.status || []).join(', ');
     const rStatus = (parsed.registry_data.status || []).join(', ');
     if (eStatus && rStatus && eStatus !== rStatus) {
-      anomalies.status = `Status mismatch: Epik (${eStatus}) vs Registry (${rStatus})`;
+      anomalies.status = `Status mismatch: Registrar (${eStatus}) vs Registry (${rStatus})`;
     }
   }
   
@@ -155,7 +155,53 @@ function extractSubObject(rdap) {
   };
 }
 
-function parseDomainData(rawReg, rawTld, registrarRdap, tldRdap, domain) {
+/**
+ * Compare what each watched registrar server says about the name with what the
+ * registry says. Flags any server that still claims sponsorship of a name the
+ * registry shows at another registrar (e.g. Epik after a transfer out).
+ * Writes parsed.cross_registrar and adds anomalies; neither is part of fields_hash.
+ */
+function analyzeCrossRegistrar(parsed, extras) {
+  if (!extras) return parsed;
+  const registryIana = (parsed.registry_data && parsed.registry_data.registrar_iana_id) || parsed.registrar_iana_id || null;
+  const registryName = (parsed.registry_data && parsed.registry_data.registrar) || parsed.registrar || null;
+  const cross = { registry_registrar: registryName, registry_iana_id: registryIana, registrar_whois_server: extras.registrar_whois_server || null, epik_whois: null, watched_rdap: {} };
+  const stale = [];
+
+  if (extras.raw_epik_whois) {
+    const w = parseWhoisText(extras.raw_epik_whois, parsed.domain);
+    cross.epik_whois = { registrar: w.registrar, iana_id: w.registrar_iana_id, updated: w.updated, expires: w.expires, status: w.status };
+    if (w.registrar_iana_id && registryIana && String(w.registrar_iana_id) !== String(registryIana)) {
+      stale.push(`whois.epik.com reports ${w.registrar || 'a registrar'} (IANA ${w.registrar_iana_id}) as registrar; registry reports ${registryName || '?'} (IANA ${registryIana})`);
+    }
+  }
+
+  for (const [name, r] of Object.entries(extras.watched_rdap || {})) {
+    const entry = { url: r.url, http_status: r.status, fetched_at: r.fetched_at };
+    if (r.error) entry.error = r.error;
+    if (r.status === 200 && r.body && !r.body.non_json) {
+      const sub = extractSubObject(r.body) || {};
+      Object.assign(entry, { registrar: sub.registrar, iana_id: sub.registrar_iana_id, updated: sub.updated, expires: sub.expires, status: sub.status });
+      if (sub.registrar_iana_id && registryIana && String(sub.registrar_iana_id) !== String(registryIana)) {
+        stale.push(`${name} RDAP (${r.url}) reports ${sub.registrar || 'a registrar'} (IANA ${sub.registrar_iana_id}); registry reports ${registryName || '?'} (IANA ${registryIana})`);
+      }
+    }
+    cross.watched_rdap[name] = entry;
+  }
+
+  parsed.cross_registrar = cross;
+  if (stale.length) {
+    parsed.anomalies = parsed.anomalies || {};
+    parsed.anomalies.stale_sponsorship = stale.join(' | ');
+  }
+  return parsed;
+}
+
+function parseDomainData(rawReg, rawTld, registrarRdap, tldRdap, domain, extras) {
+  return analyzeCrossRegistrar(parseCore(rawReg, rawTld, registrarRdap, tldRdap, domain), extras);
+}
+
+function parseCore(rawReg, rawTld, registrarRdap, tldRdap, domain) {
   // Gracefully fallback to old parser if neither RDAP is valid
   if ((!registrarRdap || registrarRdap.error) && (!tldRdap || tldRdap.error)) {
      const raw = rawReg || rawTld || '';

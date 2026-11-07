@@ -27,6 +27,7 @@ function hashFields(parsedObject) {
   delete copy.anomalies;
   delete copy.epik_data;
   delete copy.registry_data;
+  delete copy.cross_registrar;
 
   const sorted = sortObjectKeys(copy);
   const json = JSON.stringify(sorted);
