@@ -142,6 +142,25 @@ function renderIcannSection(domain, snapshot, diffResult) {
     if (anom.stale_sponsorship) lines.push(`> ⚠ **Stale sponsorship claim:** ${anom.stale_sponsorship}\n`);
   }
 
+  // ── Website & marketplaces ────────────────────────────────────────────────
+  const web = snapshot.raw && snapshot.raw.web;
+  if (web && !web.error) {
+    lines.push(`### Website & Marketplaces\n`);
+    lines.push(`Final page: ${fmtVal(p.site_final_url)} (HTTP ${fmtVal(p.site_status)}). Title: ${fmtVal(p.site_title)}.${p.site_platform ? ' Platform: ' + p.site_platform + '.' : ''}\n`);
+    const chain = (web.http && web.http.hops || []).map(h => `${h.status ?? 'ERR'} ${h.url}`).join(' → ');
+    if (chain) lines.push(`http redirect chain: ${chain}\n`);
+    if (web.dns) lines.push(`DNS: A ${fmtVal(web.dns.a)}; NS ${fmtVal(web.dns.ns)}${web.dns.errors && web.dns.errors.length ? ' (' + web.dns.errors.join('; ') + ')' : ''}\n`);
+    if (p.site_disabled) lines.push(`> ⚠ **Site disabled:** "${p.site_disabled}"\n`);
+    if (p.site_sale_signals && p.site_sale_signals.length) lines.push(`> ⚠ **Sale signals:** ${p.site_sale_signals.join('; ')}\n`);
+    const mk = Object.entries(web.marketplaces || {});
+    if (mk.length) {
+      lines.push('| Marketplace | HTTP | State |');
+      lines.push('|-------------|------|-------|');
+      for (const [name, m] of mk) lines.push(`| ${name} | ${fmtVal(m.http_status)} | ${m.state}${m.state === 'blocked' ? ' (bot check; not evidence either way)' : ''} |`);
+      lines.push('');
+    }
+  }
+
   // ── Changes Since Previous Snapshot ──────────────────────────────────────
   lines.push(`### Changes Since Previous Snapshot\n`);
   if (!diffResult.changed) {

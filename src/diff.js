@@ -73,7 +73,7 @@ function diffDomain(domain, todaySnapshot, ledger, today, config) {
   ]);
 
   for (const field of allFields) {
-    if (['domain', 'anomalies', 'epik_data', 'registry_data'].includes(field)) continue; // skip metadata fields
+    if (['domain', 'anomalies', 'epik_data', 'registry_data', 'cross_registrar'].includes(field)) continue; // skip metadata fields
     const before = priorParsed ? priorParsed[field] ?? null : null;
     const after = todayParsed ? todayParsed[field] ?? null : null;
     if (!deepEqual(before, after)) {

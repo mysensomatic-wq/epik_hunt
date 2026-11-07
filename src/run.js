@@ -32,6 +32,7 @@ const chalk = require('chalk');
 
 const { queryDomain } = require('./query');
 const { parseDomainData } = require('./parse');
+const { captureWeb } = require('./web');
 const { hashRaw, hashFields } = require('./hash');
 const { saveSnapshot, loadLedger, saveLedger, updateLedger } = require('./store');
 const { checkAndRotate } = require('./archive');
@@ -197,6 +198,22 @@ async function main() {
       watched_rdap: queryResult.watched_rdap,
     });
 
+    // b2. Website, DNS and marketplace capture. Summary fields go into parsed
+    //     (and so into fields_hash); full detail goes into raw.web.
+    let web = null;
+    if (config.web_capture !== false) {
+      try {
+        web = await captureWeb(domain, config, ms => new Promise(r => setTimeout(r, ms)));
+        Object.assign(parsed, web.summary);
+        parsed.anomalies = parsed.anomalies || {};
+        if (web.summary.site_sale_signals.length) parsed.anomalies.for_sale = web.summary.site_sale_signals.join(' | ');
+        if (web.summary.marketplace_listed.length) parsed.anomalies.marketplace_listing = web.summary.marketplace_listed.join(', ');
+        if (web.summary.site_disabled) parsed.anomalies.site_disabled = web.summary.site_disabled;
+      } catch (err) {
+        web = { error: `web capture failed: ${err.message}` };
+      }
+    }
+
     // c. Hash
     const raw_hash = hashRaw(rawForParsing);
     const fields_hash = hashFields(parsed);
@@ -217,6 +234,7 @@ async function main() {
         registrar_whois_server: queryResult.registrar_whois_server,
         epik_whois: queryResult.raw_epik_whois,
         watched_rdap: queryResult.watched_rdap,
+        web: web ? (web.raw || web) : null,
       },
     };
 

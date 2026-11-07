@@ -43,7 +43,7 @@ function fieldDiff(before, after) {
   const changed = [];
   const keys = new Set([...Object.keys(before || {}), ...Object.keys(after || {})]);
   for (const k of keys) {
-    if (['domain', 'anomalies', 'epik_data', 'registry_data'].includes(k)) continue;
+    if (['domain', 'anomalies', 'epik_data', 'registry_data', 'cross_registrar'].includes(k)) continue;
     const b = (before || {})[k] ?? null;
     const a = (after || {})[k] ?? null;
     if (JSON.stringify(b) !== JSON.stringify(a)) {
