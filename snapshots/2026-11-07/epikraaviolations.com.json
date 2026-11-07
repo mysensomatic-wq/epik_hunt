@@ -1,9 +1,9 @@
 {
   "domain": "epikraaviolations.com",
   "date": "2026-11-07",
-  "queried_at": "2026-11-07T18:55:04.987Z",
+  "queried_at": "2026-11-07T18:59:26.858Z",
   "raw_hash": "ce6967eac3871d95e121d74b09bc5f5a791d968c67c9352374ce832dfb6db341",
-  "fields_hash": "1d7c19e658a98a2ff5e39bb77a074c51d3cbe83638507977b6738ad65442dfe2",
+  "fields_hash": "19e7a33750acbc90136ea824e7ebdb626ce28bb5c75b5b3154963eb055aba070",
   "parsed": {
     "domain": "epikraaviolations.com",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-16T13:38:10Z",
-    "updated": "2026-11-07T18:55:00Z",
+    "updated": "2026-11-07T18:59:23Z",
     "expires": "2027-03-16T13:38:10Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-16T13:38:10Z",
-      "updated": "2026-11-07T18:55:00Z",
+      "updated": "2026-11-07T18:59:00Z",
       "expires": "2027-03-16T13:38:10Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-16T13:38:10Z",
-      "updated": "2026-11-07T18:54:53Z",
+      "updated": "2026-11-07T18:59:23Z",
       "expires": "2027-03-16T13:38:10Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -80,10 +80,10 @@
         "epik": {
           "url": "https://rdap.epik.com/domain/epikraaviolations.com",
           "http_status": 200,
-          "fetched_at": "2026-11-07T18:55:11.918Z",
+          "fetched_at": "2026-11-07T18:59:33.603Z",
           "registrar": "Epik LLC",
           "iana_id": "617",
-          "updated": "2026-11-07T18:55:00Z",
+          "updated": "2026-11-07T18:59:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "status": [
             "clientTransferProhibited"
@@ -92,16 +92,16 @@
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/epikraaviolations.com",
           "http_status": 404,
-          "fetched_at": "2026-11-07T18:55:13.842Z"
+          "fetched_at": "2026-11-07T18:59:35.486Z"
         }
       }
     },
     "site_final_url": "https://epikraaviolations.com/",
-    "site_status": 200,
-    "site_title": "epikraaviolations.com - contact with domain owner | Epik.com",
+    "site_status": 403,
+    "site_title": "403 Forbidden",
     "site_sale_signals": [],
     "site_disabled": null,
-    "site_platform": "epik-parking",
+    "site_platform": null,
     "marketplace_listed": []
   },
   "raw": {
@@ -222,7 +222,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-07T18:54:53Z"
+          "eventDate": "2026-11-07T18:59:23Z"
         }
       ],
       "secureDNS": {
@@ -704,7 +704,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-07T18:55:00Z"
+          "eventDate": "2026-11-07T18:59:00Z"
         }
       ],
       "status": [
@@ -827,7 +827,7 @@
       "epik": {
         "url": "https://rdap.epik.com/domain/epikraaviolations.com",
         "status": 200,
-        "fetched_at": "2026-11-07T18:55:11.918Z",
+        "fetched_at": "2026-11-07T18:59:33.603Z",
         "body": {
           "objectClassName": "domain",
           "handle": "3077512874_DOMAIN_COM-VRSN",
@@ -1236,7 +1236,7 @@
             },
             {
               "eventAction": "last update of RDAP database",
-              "eventDate": "2026-11-07T18:55:00Z"
+              "eventDate": "2026-11-07T18:59:00Z"
             }
           ],
           "status": [
@@ -1357,7 +1357,7 @@
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/epikraaviolations.com",
         "status": 404,
-        "fetched_at": "2026-11-07T18:55:13.842Z",
+        "fetched_at": "2026-11-07T18:59:35.486Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -1418,7 +1418,7 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-07T18:55:13.977Z",
+      "captured_at": "2026-11-07T18:59:35.681Z",
       "dns": {
         "a": [
           "209.196.146.115"
@@ -1441,40 +1441,40 @@
           },
           {
             "url": "https://epikraaviolations.com/",
-            "status": 200,
+            "status": 403,
             "location": null,
             "server": "nginx/1.22.1",
             "error": null
           }
         ],
         "final_url": "https://epikraaviolations.com/",
-        "final_status": 200,
+        "final_status": 403,
         "final_error": null,
-        "content_type": "text/html; charset=UTF-8",
-        "title": "epikraaviolations.com - contact with domain owner | Epik.com",
-        "body_sha256": "02fd9982f57a84381e614e78162d075bd253c76dce07ccc21db3dfe90130b147",
-        "body_length": 11712,
-        "text_excerpt": "epikraaviolations.com - contact with domain owner | Epik.com epikraaviolations.com The domain name is parked using the Epik parking platform. Contact Domain Owner For more information about this domain Contact Owner Why purchase this domain with Epik? Secure & Instant Domain Delivery The domain you are buying is delivered upon purchase. Buyer Protection Program Buy with confidence. Your purchase is secured by Epik. All-inclusive. No-nonsense Free WHOIS privacy, free forwarding, 24/7 Support are all standard. We accept Share it Facebook Twitter LinkedIn Currency: Language: English Spanish Portuguese French German Chinese Russian Tagalog Thai Italian Turkey Epik &reg; is a registered trademark of Epik LLC . Copyright &copy; 2026 by Epik LLC. All rights reserved. Whois Privacy services provided by Anonymize.com"
+        "content_type": "text/html",
+        "title": "403 Forbidden",
+        "body_sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+        "body_length": 146,
+        "text_excerpt": "403 Forbidden 403 Forbidden nginx"
       },
       "https": {
         "start_url": "https://epikraaviolations.com/",
         "hops": [
           {
             "url": "https://epikraaviolations.com/",
-            "status": 200,
+            "status": 403,
             "location": null,
             "server": "nginx/1.22.1",
             "error": null
           }
         ],
         "final_url": "https://epikraaviolations.com/",
-        "final_status": 200,
+        "final_status": 403,
         "final_error": null,
-        "content_type": "text/html; charset=UTF-8",
-        "title": "epikraaviolations.com - contact with domain owner | Epik.com",
-        "body_sha256": "02fd9982f57a84381e614e78162d075bd253c76dce07ccc21db3dfe90130b147",
-        "body_length": 11712,
-        "text_excerpt": "epikraaviolations.com - contact with domain owner | Epik.com epikraaviolations.com The domain name is parked using the Epik parking platform. Contact Domain Owner For more information about this domain Contact Owner Why purchase this domain with Epik? Secure & Instant Domain Delivery The domain you are buying is delivered upon purchase. Buyer Protection Program Buy with confidence. Your purchase is secured by Epik. All-inclusive. No-nonsense Free WHOIS privacy, free forwarding, 24/7 Support are all standard. We accept Share it Facebook Twitter LinkedIn Currency: Language: English Spanish Portuguese French German Chinese Russian Tagalog Thai Italian Turkey Epik &reg; is a registered trademark of Epik LLC . Copyright &copy; 2026 by Epik LLC. All rights reserved. Whois Privacy services provided by Anonymize.com"
+        "content_type": "text/html",
+        "title": "403 Forbidden",
+        "body_sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+        "body_length": 146,
+        "text_excerpt": "403 Forbidden 403 Forbidden nginx"
       },
       "marketplaces": {
         "afternic": {
@@ -1487,7 +1487,7 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:17.465Z"
+          "fetched_at": "2026-11-07T18:59:45.732Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=epikraaviolations.com",
@@ -1499,7 +1499,7 @@
           "title": "Domain Details Page",
           "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:19.189Z"
+          "fetched_at": "2026-11-07T18:59:47.352Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/epikraaviolations",
@@ -1509,9 +1509,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "392623db07ee20fdb98562e2b60a1eadbc03c0d15f6616043d2543e58d195ad4",
+          "body_sha256": "9ddc6e5134b012e07c37a197aeec68e7819b2ee5d127b3832d94ac7c83541416",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:20.417Z"
+          "fetched_at": "2026-11-07T18:59:48.590Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/epikraaviolations.com",
@@ -1523,7 +1523,7 @@
           "title": null,
           "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:21.825Z"
+          "fetched_at": "2026-11-07T18:59:49.965Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/epikraaviolations.com/",
@@ -1533,9 +1533,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "24671aa5d4f432a1bf96ce2737cfca055a4fc9d22ccdc660415b64c99b771892",
+          "body_sha256": "87f54a48ae4782a17a5fd32f6debe0acf1790f6913d4714420ac18f775471c4a",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:23.065Z"
+          "fetched_at": "2026-11-07T18:59:51.230Z"
         }
       }
     }

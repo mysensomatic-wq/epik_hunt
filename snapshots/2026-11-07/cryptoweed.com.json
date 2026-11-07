@@ -1,9 +1,9 @@
 {
   "domain": "cryptoweed.com",
   "date": "2026-11-07",
-  "queried_at": "2026-11-07T18:54:05.767Z",
+  "queried_at": "2026-11-07T18:58:25.281Z",
   "raw_hash": "419191658973d0c965e8ab4baffb95d5d71a13599c2cf4a60a9666b47e82c63a",
-  "fields_hash": "2260366424572ffb1fd39940a4c7074ced9aa2628d557a79dc7144f986405a2e",
+  "fields_hash": "8cf4f6b124a654a25a793d0fc8f2cad38a0c0b4927db6f7ab3eb8beb0a104203",
   "parsed": {
     "domain": "cryptoweed.com",
     "registrar": "DYNADOT LLC",
@@ -18,7 +18,7 @@
       "ns2.dynadot.com"
     ],
     "created": "2016-03-18T21:40:46Z",
-    "updated": "2026-11-07T18:53:53Z",
+    "updated": "2026-11-07T18:58:08Z",
     "expires": "2028-03-18T21:40:46Z",
     "registrant_org": "Super Privacy Service LTD c/o Dynadot",
     "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns2.dynadot.com"
       ],
       "created": "2016-03-18T21:40:46Z",
-      "updated": "2026-11-07T18:53:53Z",
+      "updated": "2026-11-07T18:58:08Z",
       "expires": "2028-03-18T21:40:46Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -92,12 +92,12 @@
         "epik": {
           "url": "https://rdap.epik.com/domain/cryptoweed.com",
           "http_status": 404,
-          "fetched_at": "2026-11-07T18:54:13.182Z"
+          "fetched_at": "2026-11-07T18:58:32.569Z"
         },
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/cryptoweed.com",
           "http_status": 200,
-          "fetched_at": "2026-11-07T18:54:15.135Z",
+          "fetched_at": "2026-11-07T18:58:34.514Z",
           "registrar": "DYNADOT LLC",
           "iana_id": "472",
           "updated": "2026-11-06T12:41:52Z",
@@ -108,8 +108,8 @@
         }
       }
     },
-    "site_final_url": "https://registrar-transfers.com/",
-    "site_status": 500,
+    "site_final_url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+    "site_status": 200,
     "site_title": "Authorization",
     "site_sale_signals": [],
     "site_disabled": "temporarily disabled",
@@ -234,7 +234,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-07T18:53:53Z"
+          "eventDate": "2026-11-07T18:58:08Z"
         }
       ],
       "secureDNS": {
@@ -862,7 +862,7 @@
       "epik": {
         "url": "https://rdap.epik.com/domain/cryptoweed.com",
         "status": 404,
-        "fetched_at": "2026-11-07T18:54:13.182Z",
+        "fetched_at": "2026-11-07T18:58:32.569Z",
         "body": {
           "errorCode": 404,
           "title": "Not Found",
@@ -876,7 +876,7 @@
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/cryptoweed.com",
         "status": 200,
-        "fetched_at": "2026-11-07T18:54:15.135Z",
+        "fetched_at": "2026-11-07T18:58:34.514Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -1436,10 +1436,10 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-07T18:54:15.166Z",
+      "captured_at": "2026-11-07T18:58:34.558Z",
       "dns": {
         "a": [
-          "137.131.40.164"
+          "132.226.59.218"
         ],
         "ns": [
           "ns1.dynadot.com",
@@ -1453,26 +1453,26 @@
           {
             "url": "http://cryptoweed.com/",
             "status": 301,
-            "location": "https://registrar-transfers.com/?whois-suspension-bluehost.jsp",
+            "location": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
             "server": null,
             "error": null
           },
           {
-            "url": "https://registrar-transfers.com/?whois-suspension-bluehost.jsp",
-            "status": 500,
+            "url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+            "status": 200,
             "location": null,
             "server": "cloudflare",
             "error": null
           }
         ],
-        "final_url": "https://registrar-transfers.com/?whois-suspension-bluehost.jsp",
-        "final_status": 500,
+        "final_url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+        "final_status": 200,
         "final_error": null,
         "content_type": "text/html;charset=ISO-8859-1",
         "title": "Authorization",
-        "body_sha256": "2074f7a38c8b8280556c6174c1efe7e6a28b868cac1cafb3c17225457d1c59de",
-        "body_length": 1995,
-        "text_excerpt": "Authorization This domain has been temporarily disabled. If you own this domain,please log in to your account manager to re-enable the domain."
+        "body_sha256": "9eb62bbb4fbcfb7209cc8fc849f35c27dccd08808f8e489a887b2c98caa94ba6",
+        "body_length": 1765,
+        "text_excerpt": "Authorization Domain Temporarily Disabled This domain has been temporarily disabled. If you own this domain,please log in to your account manager to re-enable the domain."
       },
       "https": {
         "start_url": "https://cryptoweed.com/",
@@ -1505,7 +1505,7 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-07T18:54:38.878Z"
+          "fetched_at": "2026-11-07T18:58:58.443Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=cryptoweed.com",
@@ -1517,7 +1517,7 @@
           "title": "Domain Details Page",
           "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
           "error": null,
-          "fetched_at": "2026-11-07T18:54:40.650Z"
+          "fetched_at": "2026-11-07T18:59:00.120Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/cryptoweed",
@@ -1527,9 +1527,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "8284d38679ba1e926267ffce2f6938ac57bdaeed12333521c98a6ddf9b948470",
+          "body_sha256": "08f375c24581246c63f6faa918397485c08f73dde750281136513666e42a5545",
           "error": null,
-          "fetched_at": "2026-11-07T18:54:41.932Z"
+          "fetched_at": "2026-11-07T18:59:01.383Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/cryptoweed.com",
@@ -1541,7 +1541,7 @@
           "title": null,
           "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
           "error": null,
-          "fetched_at": "2026-11-07T18:54:43.325Z"
+          "fetched_at": "2026-11-07T18:59:02.795Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/cryptoweed.com/",
@@ -1551,9 +1551,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "068706b43af078734fc89342020fc514d923b5381f0aa60f39e92e8cdf7c108d",
+          "body_sha256": "6d972623e7cc6205fdb5a71813677bd6bd6da29cb8a8a00aeeaf2453ce2ff2c2",
           "error": null,
-          "fetched_at": "2026-11-07T18:54:44.613Z"
+          "fetched_at": "2026-11-07T18:59:04.115Z"
         }
       }
     }

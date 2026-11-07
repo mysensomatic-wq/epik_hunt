@@ -1,7 +1,7 @@
 {
   "domain": "forensicexam.info",
   "date": "2026-11-07",
-  "queried_at": "2026-11-07T18:55:40.727Z",
+  "queried_at": "2026-11-07T19:00:09.369Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
   "fields_hash": "5a4f9e3e883bfbb38c6a6bd438c72a1060916e1286897e4dd59ce3b736c0e3bc",
   "parsed": {
@@ -33,12 +33,12 @@
         "epik": {
           "url": "https://rdap.epik.com/domain/forensicexam.info",
           "http_status": 404,
-          "fetched_at": "2026-11-07T18:55:45.221Z"
+          "fetched_at": "2026-11-07T19:00:13.740Z"
         },
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/forensicexam.info",
           "http_status": 404,
-          "fetched_at": "2026-11-07T18:55:46.947Z"
+          "fetched_at": "2026-11-07T19:00:15.323Z"
         }
       }
     },
@@ -52,7 +52,7 @@
   },
   "raw": {
     "registrar": "NOT FOUND\n",
-    "tld": "TLD is not supported.\r\n>>> Last update of WHOIS database: 2026-11-07T18:55:41Z <<<\r\n\r\nTerms of Use: Access to WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital or the Registry Operator for informational purposes only, and accuracy is not guaranteed. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Identity Digital except as reasonably necessary to register domain names or modify existing registrations. When using the Whois service, please consider the following: The Whois service is not a replacement for standard EPP commands to the SRS service. Whois is not considered authoritative for registered domain objects. The Whois service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the Whois services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of Whois service access. Abuse of the Whois system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the Whois records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to this data provided by Identity Digital can be requested by submitting a request via the form found at https://www.identity.digital/about/policies/whois-layered-access/. The Registrar of Record identified in this output may have an RDDS service that can be queried for additional information on how to contact the Registrant, Admin, or Tech contact of the queried domain name. Identity Digital Inc. and Registry Operator reserve the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.\r\n",
+    "tld": "TLD is not supported.\r\n>>> Last update of WHOIS database: 2026-11-07T19:00:09Z <<<\r\n\r\nTerms of Use: Access to WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital or the Registry Operator for informational purposes only, and accuracy is not guaranteed. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Identity Digital except as reasonably necessary to register domain names or modify existing registrations. When using the Whois service, please consider the following: The Whois service is not a replacement for standard EPP commands to the SRS service. Whois is not considered authoritative for registered domain objects. The Whois service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the Whois services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of Whois service access. Abuse of the Whois system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the Whois records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to this data provided by Identity Digital can be requested by submitting a request via the form found at https://www.identity.digital/about/policies/whois-layered-access/. The Registrar of Record identified in this output may have an RDDS service that can be queried for additional information on how to contact the Registrant, Admin, or Tech contact of the queried domain name. Identity Digital Inc. and Registry Operator reserve the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.\r\n",
     "tld_rdap": {
       "error": "HTTP 404"
     },
@@ -63,7 +63,7 @@
       "epik": {
         "url": "https://rdap.epik.com/domain/forensicexam.info",
         "status": 404,
-        "fetched_at": "2026-11-07T18:55:45.221Z",
+        "fetched_at": "2026-11-07T19:00:13.740Z",
         "body": {
           "errorCode": 404,
           "title": "Not Found",
@@ -77,7 +77,7 @@
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/forensicexam.info",
         "status": 404,
-        "fetched_at": "2026-11-07T18:55:46.947Z",
+        "fetched_at": "2026-11-07T19:00:15.323Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -138,7 +138,7 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-07T18:55:47.083Z",
+      "captured_at": "2026-11-07T19:00:15.522Z",
       "dns": {
         "a": [],
         "ns": [],
@@ -198,7 +198,7 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:50.087Z"
+          "fetched_at": "2026-11-07T19:00:18.505Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=forensicexam.info",
@@ -210,7 +210,7 @@
           "title": "Domain Details Page",
           "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:51.813Z"
+          "fetched_at": "2026-11-07T19:00:20.147Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/forensicexam",
@@ -220,9 +220,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "d0180590fcf4e503fdd8ea35454464aaf074e4f2737d044937a8f152acef61f4",
+          "body_sha256": "47dba1e0bfe33d22df265f36e3882f94c64831320321c9e2b82b09eb1c9dab31",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:53.040Z"
+          "fetched_at": "2026-11-07T19:00:21.382Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/forensicexam.info",
@@ -234,7 +234,7 @@
           "title": null,
           "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:54.391Z"
+          "fetched_at": "2026-11-07T19:00:22.794Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/forensicexam.info/",
@@ -244,9 +244,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "59c963628e225d2d6882426e87f9ec86f5ebd0c27001df5bff076d853b211f38",
+          "body_sha256": "d338162bbd662a6955e14abdd25e2d045a7ca8697975d6d85d5ecf123344dc55",
           "error": null,
-          "fetched_at": "2026-11-07T18:55:55.635Z"
+          "fetched_at": "2026-11-07T19:00:24.070Z"
         }
       }
     }
