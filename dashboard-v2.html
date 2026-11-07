@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>epik-watcher v2</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f1f5f9;color:#1e293b;font-size:14px;line-height:1.5}
+
+/* Header */
+.app-header{display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:52px;background:#1e293b;color:#f8fafc;position:sticky;top:0;z-index:100;gap:16px}
+.app-header h1{font-size:16px;font-weight:700;letter-spacing:.5px;white-space:nowrap;color:#38bdf8}
+.header-meta{font-size:12px;color:#94a3b8;white-space:nowrap}
+.tab-nav{display:flex;gap:4px}
+.tab-btn{background:none;border:none;color:#94a3b8;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:500;transition:background .15s,color .15s}
+.tab-btn:hover{background:#334155;color:#f8fafc}
+.tab-btn.active{background:#0f172a;color:#38bdf8}
+
+/* Layout */
+main{padding:24px;max-width:1400px;margin:0 auto}
+.tab{display:none}.tab.active{display:block}
+.section-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.section-header h2{font-size:18px;font-weight:600;color:#0f172a}
+.muted{color:#64748b;font-size:12px}
+
+/* Cards */
+.card{background:#fff;border-radius:10px;border:1px solid #e2e8f0;overflow:hidden}
+.card-header{padding:14px 18px;border-bottom:1px solid #e2e8f0;font-weight:600;font-size:13px;background:#f8fafc;color:#475569}
+
+/* Status badges */
+.badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.3px;text-transform:uppercase}
+.badge-changed  {background:#fef3c7;color:#92400e}
+.badge-unchanged{background:#dcfce7;color:#166534}
+.badge-new      {background:#dbeafe;color:#1e40af}
+.badge-never    {background:#f1f5f9;color:#64748b}
+.badge-stale    {background:#f3e8ff;color:#6b21a8}
+.badge-error    {background:#fee2e2;color:#991b1b}
+.status-pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:500;background:#e0f2fe;color:#0369a1;margin:1px 2px}
+
+/* Domain table */
+.domain-table{width:100%;border-collapse:collapse}
+.domain-table th{padding:10px 16px;text-align:left;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:#64748b;border-bottom:2px solid #e2e8f0;white-space:nowrap}
+.domain-table td{padding:12px 16px;border-bottom:1px solid #f1f5f9;vertical-align:middle}
+.domain-table tr:last-child td{border-bottom:none}
+.domain-table tr:hover td{background:#f8fafc}
+.domain-link{color:#2563eb;cursor:pointer;font-weight:600;text-decoration:none;font-size:13px}
+.domain-link:hover{text-decoration:underline}
+.hash-cell{font-family:monospace;font-size:11px;color:#94a3b8;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* Detail split view */
+.detail-split{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+@media(max-width:900px){.detail-split{grid-template-columns:1fr}}
+.back-btn{background:none;border:1px solid #e2e8f0;color:#475569;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:500}
+.back-btn:hover{background:#f1f5f9}
+
+/* ICANN record */
+.icann-section{margin-bottom:20px}
+.icann-section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#fff;background:#2563eb;padding:6px 14px;border-radius:6px 6px 0 0;display:block}
+.icann-table{width:100%;border-collapse:collapse;border:1px solid #e2e8f0;border-top:none}
+.icann-table th{width:25%;padding:8px 14px;font-weight:500;color:#475569;background:#f8fafc;border-bottom:1px solid #f1f5f9;font-size:12px;text-align:left;vertical-align:top}
+.icann-table td{width:37.5%;padding:8px 14px;color:#1e293b;border-bottom:1px solid #f1f5f9;font-size:13px;word-break:break-all}
+.icann-table tr:last-child th,.icann-table tr:last-child td{border-bottom:none}
+.ns-list{list-style:none;padding:10px 14px;border:1px solid #e2e8f0;border-top:none;font-family:monospace;font-size:12px}
+.ns-list li{padding:3px 0;color:#0f172a}
+.redacted{color:#94a3b8;font-style:italic}
+.raw-toggle{width:100%;text-align:left;background:#f8fafc;border:1px solid #e2e8f0;border-top:none;padding:8px 14px;font-size:12px;cursor:pointer;color:#475569;font-weight:500}
+.raw-toggle:hover{background:#f1f5f9}
+.raw-block{background:#0f172a;color:#e2e8f0;padding:16px;font-size:11px;line-height:1.6;overflow-x:auto;display:none;font-family:monospace;border-radius:0 0 6px 6px;white-space:pre-wrap;word-break:break-all}
+.raw-block.open{display:block}
+
+/* Diff panel */
+.diff-table{width:100%;border-collapse:collapse}
+.diff-table th{padding:8px 12px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:#64748b;border-bottom:2px solid #e2e8f0;text-align:left}
+.diff-table td{padding:8px 12px;border-bottom:1px solid #f1f5f9;font-size:12px;vertical-align:top}
+.diff-table tr:last-child td{border-bottom:none}
+.diff-field{font-family:monospace;color:#475569;font-size:11px;font-weight:600}
+.diff-before{color:#b91c1c;background:#fef2f2;padding:2px 5px;border-radius:3px;font-size:11px;font-family:monospace}
+.diff-after {color:#15803d;background:#f0fdf4;padding:2px 5px;border-radius:3px;font-size:11px;font-family:monospace}
+.no-change{color:#64748b;font-style:italic;padding:16px}
+
+/* History */
+.domain-pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.domain-pill{padding:6px 14px;border-radius:999px;border:2px solid #e2e8f0;background:#fff;cursor:pointer;font-size:12px;font-weight:600;color:#475569;transition:all .15s}
+.domain-pill.active,.domain-pill:hover{border-color:#2563eb;color:#2563eb;background:#eff6ff}
+.timeline{display:flex;flex-direction:column;gap:1px}
+.tl-entry{background:#fff;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;margin-bottom:8px}
+.tl-header{display:flex;align-items:center;gap:12px;padding:12px 16px;cursor:pointer;user-select:none}
+.tl-header:hover{background:#f8fafc}
+.tl-date{font-weight:700;font-size:13px;color:#0f172a;min-width:100px}
+.tl-fields{font-size:12px;color:#64748b}
+.tl-body{display:none;padding:0 16px 16px;border-top:1px solid #f1f5f9}
+.tl-body.open{display:block}
+.hist-note{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:12px 16px;margin-bottom:12px;font-size:12px;color:#475569}
+.hist-note b{color:#0f172a}
+.hist-controls{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-bottom:12px;font-size:12px;color:#475569}
+.hist-controls label{display:flex;align-items:center;gap:6px;cursor:pointer}
+.tl-time{font-family:monospace;font-size:12px;color:#0f172a;min-width:130px}
+.tl-anom{font-size:11px;color:#6b21a8;background:#f3e8ff;border-radius:999px;padding:1px 8px}
+.tl-ver{margin-left:auto;font-size:11px;white-space:nowrap}
+.ok{color:#15803d;font-weight:600}.bad{color:#b91c1c;font-weight:700}.pend{color:#94a3b8}
+.prov-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:11px}
+.prov-table th{text-align:left;color:#64748b;font-weight:600;padding:4px 8px;width:150px;vertical-align:top}
+.prov-table td{font-family:monospace;padding:4px 8px;word-break:break-all}
+.prov-table a{color:#2563eb}
+.badge-updated{background:#f1f5f9;color:#475569}
+.progress{height:6px;background:#e2e8f0;border-radius:3px;overflow:hidden;width:200px;display:inline-block;vertical-align:middle}
+.progress>div{height:100%;background:#2563eb;width:0}
+
+/* Reports */
+.reports-layout{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start}
+@media(max-width:768px){.reports-layout{grid-template-columns:1fr}}
+.reports-sidebar{display:flex;flex-direction:column;gap:4px}
+.report-file-btn{text-align:left;background:#fff;border:1px solid #e2e8f0;padding:10px 14px;border-radius:8px;cursor:pointer;font-size:12px;color:#475569;font-weight:500;transition:all .15s}
+.report-file-btn:hover,.report-file-btn.active{background:#eff6ff;border-color:#2563eb;color:#2563eb}
+.md-h1{font-size:22px;font-weight:700;color:#0f172a;margin:20px 0 12px}
+.md-h2{font-size:17px;font-weight:700;color:#1e293b;margin:18px 0 10px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+.md-h3{font-size:14px;font-weight:700;color:#334155;margin:14px 0 8px}
+.md-h4,.md-h5,.md-h6{font-size:13px;font-weight:600;color:#475569;margin:10px 0 6px}
+.md-table{width:100%;border-collapse:collapse;margin:10px 0}
+.md-table th{background:#f8fafc;padding:8px 12px;text-align:left;font-size:12px;font-weight:600;border:1px solid #e2e8f0}
+.md-table td{padding:7px 12px;border:1px solid #e2e8f0;font-size:12px;vertical-align:top}
+blockquote{border-left:4px solid #38bdf8;padding:8px 16px;background:#f0f9ff;margin:10px 0;border-radius:0 6px 6px 0;color:#0369a1;font-size:13px}
+pre.raw-block{background:#0f172a;color:#e2e8f0;padding:14px;border-radius:6px;font-size:11px;overflow-x:auto;white-space:pre-wrap;margin:8px 0}
+details summary{cursor:pointer;font-size:12px;color:#2563eb;padding:6px 0}
+code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:12px;font-family:monospace;color:#be185d}
+p{margin:6px 0;font-size:13px;color:#334155}
+ul{margin:6px 0 6px 20px}
+li{margin:3px 0;font-size:13px}
+hr{border:none;border-top:1px solid #e2e8f0;margin:16px 0}
+
+/* Log */
+.log-pre{background:#0f172a;color:#94a3b8;padding:20px;border-radius:10px;font-size:11px;line-height:1.7;overflow-x:auto;white-space:pre-wrap;word-break:break-all;min-height:200px;font-family:monospace}
+.btn-sm{padding:5px 12px;border-radius:6px;border:1px solid #e2e8f0;background:#fff;cursor:pointer;font-size:12px;color:#475569;font-weight:500}
+.btn-sm:hover{background:#f1f5f9}
+.refresh-info{font-size:11px;color:#94a3b8;margin-left:auto}
+.empty-state{padding:40px;text-align:center;color:#94a3b8;font-size:13px}
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="app-header">
+    <h1>&#x1F4E1; epik-watcher</h1>
+    <span class="header-meta" id="run-meta"></span>
+    <nav class="tab-nav">
+      <button class="tab-btn active" onclick="switchTab('dashboard')">Dashboard</button>
+      <button class="tab-btn" onclick="switchTab('history')">History</button>
+      <button class="tab-btn" onclick="switchTab('reports')">Reports</button>
+      <button class="tab-btn" onclick="switchTab('log')">Run Log</button>
+      <a class="tab-btn" href="index.html" style="text-decoration:none" title="The original dashboard, unchanged">Classic</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- DASHBOARD -->
+    <div id="tab-dashboard" class="tab active">
+      <div id="status-view">
+        <div class="section-header">
+          <h2>Domain Status</h2>
+          <span class="refresh-info muted" id="refresh-countdown"></span>
+        </div>
+        <div class="card">
+          <div id="domain-table-wrap"><div class="empty-state">Loading&hellip;</div></div>
+        </div>
+      </div>
+
+      <div id="detail-view" style="display:none">
+        <div class="section-header">
+          <button class="back-btn" onclick="closeDetail()">&#8592; All Domains</button>
+          <h2 id="detail-title"></h2>
+          <span class="muted" id="detail-date"></span>
+        </div>
+        <div class="detail-split">
+          <div>
+            <div class="card-header">Current Record</div>
+            <div class="card" style="border-top:none;border-radius:0 0 10px 10px" id="record-panel"><div class="empty-state">Loading&hellip;</div></div>
+          </div>
+          <div>
+            <div class="card-header">Changes from Previous Snapshot</div>
+            <div class="card" style="border-top:none;border-radius:0 0 10px 10px" id="diff-panel"><div class="empty-state">Loading&hellip;</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORY -->
+    <div id="tab-history" class="tab">
+      <div class="section-header"><h2>Change History</h2><span class="muted" id="hist-index-meta"></span></div>
+      <div class="hist-note">
+        Every version of each snapshot that git holds, one per watcher run. The watcher keeps one file per domain per day and
+        rewrites it every run, so the earlier runs of a day exist only in git history. Each version is fetched from GitHub
+        <b>by commit</b>, and before anything is shown your browser checks that its git blob ID matches and recomputes
+        <code>fields_hash</code> and <code>raw_hash</code>. Nothing here changes any data file.
+      </div>
+      <div class="domain-pills" id="history-pills"></div>
+      <div class="hist-controls" id="hist-controls" style="display:none">
+        <label><input type="checkbox" id="hf-updated" onchange="renderHistory()"> Show versions where only <code>updated</code> changed</label>
+        <label><input type="checkbox" id="hf-same" onchange="renderHistory()"> Show versions with no change</label>
+        <button class="btn-sm" onclick="verifyAll()">Verify every version against git</button>
+        <span id="verify-status"></span>
+        <span class="muted" id="hist-count" style="margin-left:auto"></span>
+      </div>
+      <div id="history-timeline"><div class="empty-state">Select a domain above.</div></div>
+    </div>
+
+    <!-- REPORTS -->
+    <div id="tab-reports" class="tab">
+      <div class="section-header"><h2>Reports</h2></div>
+      <div class="reports-layout">
+        <div class="reports-sidebar" id="reports-list"><div class="muted">Loading&hellip;</div></div>
+        <div class="card" id="reports-content"><div class="empty-state">Select a report to view it.</div></div>
+      </div>
+    </div>
+
+    <!-- LOG -->
+    <div id="tab-log" class="tab">
+      <div class="section-header">
+        <h2>Run Log</h2>
+        <button class="btn-sm" onclick="loadLog()">&#x21BA; Refresh</button>
+      </div>
+      <pre class="log-pre" id="log-content">Loading&hellip;</pre>
+    </div>
+  </main>
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+var currentTab = 'dashboard';
+var refreshTimer = null;
+var countdown = 60;
+var currentDomain = null;
+var historyDomain = null;
+var ledger = {};
+var config = { snapshots_dir: 'snapshots', reports_dir: 'reports' };
+
+// ── Tab switching ─────────────────────────────────────────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.tab').forEach(function(el) { el.classList.remove('active'); });
+  document.querySelectorAll('.tab-btn').forEach(function(el) { el.classList.remove('active'); });
+  var panel = document.getElementById('tab-' + name);
+  if (panel) panel.classList.add('active');
+  document.querySelectorAll('.tab-btn').forEach(function(b) {
+    if (b.textContent.toLowerCase().trim().startsWith(name.slice(0,4))) b.classList.add('active');
+  });
+  currentTab = name;
+  if (name === 'history') initHistory();
+  if (name === 'reports') loadReports();
+  if (name === 'log')     loadLog();
+}
+
+// ── Utilities ─────────────────────────────────────────────────────────────────
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function fmtVal(v) {
+  if (v === null || v === undefined) return '<em class="redacted">—</em>';
+  if (Array.isArray(v)) return v.length ? v.map(esc).join(', ') : '<em class="redacted">—</em>';
+  return esc(String(v));
+}
+function fmtDiff(v) {
+  if (v === null || v === undefined) return '<span class="redacted">(null)</span>';
+  if (Array.isArray(v)) return v.length ? esc(v.join(', ')) : '<span class="redacted">(empty)</span>';
+  return esc(String(v));
+}
+function approxEqualDate(a, b) {
+  if (a === b) return true;
+  if (typeof a === 'string' && typeof b === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(a) && /^\d{4}-\d{2}-\d{2}T/.test(b)) {
+    var t1 = new Date(a).getTime(), t2 = new Date(b).getTime();
+    if (!isNaN(t1) && !isNaN(t2) && Math.abs(t1-t2) <= 1000) return true;
+  }
+  return false;
+}
+function fieldDiff(before, after) {
+  var diff = {}, changed = [];
+  var keys = new Set(Object.keys(before || {}).concat(Object.keys(after || {})));
+  keys.forEach(function(k) {
+    if (['domain','anomalies','epik_data','registry_data','cross_registrar'].includes(k)) return;
+    var b = (before || {})[k] !== undefined ? (before || {})[k] : null;
+    var a = (after  || {})[k] !== undefined ? (after  || {})[k] : null;
+    if (JSON.stringify(b) !== JSON.stringify(a)) { changed.push(k); diff[k] = { before: b, after: a }; }
+  });
+  return { fields_changed: changed.sort(), diff: diff };
+}
+
+// ── Auto-refresh ──────────────────────────────────────────────────────────────
+function startRefreshTimer() {
+  clearInterval(refreshTimer); countdown = 60;
+  refreshTimer = setInterval(function() {
+    countdown--;
+    var el = document.getElementById('refresh-countdown');
+    if (el) el.textContent = 'Auto-refresh in ' + countdown + 's';
+    if (countdown <= 0) { loadStatus(); countdown = 60; }
+  }, 1000);
+}
+
+// ── Data bootstrap ────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    var results = await Promise.all([
+      fetch('ledger.json').then(r => r.json()),
+      fetch('config.json').then(r => r.json()).catch(() => ({ snapshots_dir: 'snapshots', reports_dir: 'reports' })),
+      fetch('last_run.json').then(r => r.json()).catch(() => null)
+    ]);
+    ledger = results[0]; config = results[1];
+    var lrRes = results[2];
+    if (lrRes && lrRes.finished_at) {
+      var icon = lrRes.success ? '🟢' : '🔴';
+      document.getElementById('run-meta').innerHTML =
+        icon + ' Last Sync: ' + lrRes.finished_at.slice(0,16).replace('T',' ') +
+        ' &nbsp;|&nbsp; ' + lrRes.domains_checked + ' domains';
+    }
+    loadStatus();
+  } catch(e) {
+    document.getElementById('domain-table-wrap').innerHTML =
+      '<div class="empty-state">Failed to load ledger.json. Make sure the workflow has run at least once.</div>';
+  }
+}
+
+async function loadStatus() {
+  var today = new Date().toISOString().slice(0,10);
+  var domains = Object.keys(ledger);
+  var statuses = await Promise.all(domains.map(async function(domain) {
+    var entries = (ledger[domain] || []).slice().sort((a,b) => a.date.localeCompare(b.date));
+    if (!entries.length) return { domain: domain, status: 'never', last_checked: null };
+    var latest = entries[entries.length-1];
+    var prev   = entries.length > 1 ? entries[entries.length-2] : null;
+    var status = latest.date !== today ? 'stale' : (!prev ? 'new' : (latest.hash !== prev.hash ? 'changed' : 'unchanged'));
+    var fields_changed = null;
+    if (status === 'changed' && prev) {
+      try {
+        var r = await Promise.all([
+          fetch(config.snapshots_dir+'/'+latest.date+'/'+domain+'.json').then(r=>r.json()),
+          fetch(config.snapshots_dir+'/'+prev.date+'/'+domain+'.json').then(r=>r.json())
+        ]);
+        fields_changed = fieldDiff(r[1].parsed, r[0].parsed).fields_changed;
+      } catch(e) {}
+    }
+    return { domain: domain, status: status, last_checked: latest.date, fields_hash: latest.hash, fields_changed: fields_changed };
+  }));
+  renderDomainTable({ date: today, domains: statuses });
+  startRefreshTimer();
+}
+
+function badgeHtml(status) {
+  var labels = { changed:'Changed', unchanged:'Unchanged', new:'First Seen', never:'Never Run', stale:'Stale', error:'Error' };
+  return '<span class="badge badge-' + status + '">' + (labels[status] || status) + '</span>';
+}
+
+function renderDomainTable(data) {
+  if (!data.domains || !data.domains.length) {
+    document.getElementById('domain-table-wrap').innerHTML = '<div class="empty-state">No domain history in ledger.json.</div>';
+    return;
+  }
+  var rows = data.domains.map(function(d) {
+    return '<tr>' +
+      '<td><a class="domain-link" data-domain="'+esc(d.domain)+'" onclick="openDomain(this.dataset.domain)">'+esc(d.domain)+'</a></td>' +
+      '<td>'+badgeHtml(d.status)+'</td>' +
+      '<td>'+esc(d.last_checked||'—')+'</td>' +
+      '<td class="hash-cell" title="'+esc(d.fields_hash||'')+'">'+esc(d.fields_hash ? d.fields_hash.slice(0,16)+'…' : '—')+'</td>' +
+      '<td>'+(d.fields_changed ? esc(d.fields_changed.join(', ')) : '—')+'</td>' +
+    '</tr>';
+  }).join('');
+  document.getElementById('domain-table-wrap').innerHTML =
+    '<table class="domain-table"><thead><tr><th>Domain</th><th>Status</th><th>Last Checked</th><th>Fields Hash</th><th>Changed Fields</th></tr></thead>' +
+    '<tbody>'+rows+'</tbody></table>';
+}
+
+// ── Domain detail view ────────────────────────────────────────────────────────
+async function openDomain(domain) {
+  currentDomain = domain;
+  document.getElementById('status-view').style.display = 'none';
+  document.getElementById('detail-view').style.display = 'block';
+  document.getElementById('detail-title').textContent = domain;
+  document.getElementById('detail-date').textContent = '';
+  document.getElementById('record-panel').innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+  document.getElementById('diff-panel').innerHTML   = '<div class="empty-state">Loading&hellip;</div>';
+
+  var entries = (ledger[domain] || []).slice().sort((a,b) => b.date.localeCompare(a.date));
+  if (!entries.length) {
+    document.getElementById('record-panel').innerHTML = '<div class="empty-state">No ledger entries.</div>';
+    return;
+  }
+  var latest = entries[0], prev = entries.length > 1 ? entries[1] : null;
+  try {
+    var snap = await fetch(config.snapshots_dir+'/'+latest.date+'/'+domain+'.json').then(r=>r.json());
+    var diff = null;
+    if (prev) {
+      var prevSnap = await fetch(config.snapshots_dir+'/'+prev.date+'/'+domain+'.json').then(r=>r.json());
+      diff = Object.assign(fieldDiff(prevSnap.parsed, snap.parsed), { from_date: prev.date, to_date: latest.date });
+    }
+    document.getElementById('detail-date').textContent = 'Snapshot: ' + latest.date;
+    document.getElementById('record-panel').innerHTML = renderIcannRecord(snap);
+    document.getElementById('diff-panel').innerHTML   = renderDiffPanel(diff, latest.date);
+  } catch(e) {
+    document.getElementById('record-panel').innerHTML = '<div class="empty-state">Error: '+esc(e.message)+'</div>';
+  }
+}
+
+function closeDetail() {
+  currentDomain = null;
+  document.getElementById('detail-view').style.display = 'none';
+  document.getElementById('status-view').style.display = 'block';
+}
+
+function toggleRaw(id) { var el = document.getElementById(id); if (el) el.classList.toggle('open'); }
+
+function renderStatusPills(arr) {
+  if (!arr || !arr.length) return '<em class="redacted">—</em>';
+  return arr.map(function(s) { return '<span class="status-pill">'+esc(s)+'</span>'; }).join(' ');
+}
+
+function icannRow3(label, epikVal, regVal) {
+  var ignored = ['Domain Name','RDAP Server','RDAP Build'];
+  var ePlain = epikVal ? epikVal.replace(/<[^>]+>/g,'') : '';
+  var rPlain = regVal  ? regVal.replace(/<[^>]+>/g,'')  : '';
+  var epikHtml = epikVal;
+  if (!ignored.includes(label) && ePlain !== rPlain && !approxEqualDate(ePlain, rPlain)) {
+    epikHtml = '<span style="color:#ef4444;font-weight:bold">'+epikVal+'</span>';
+  }
+  return '<tr><th>'+esc(label)+'</th><td>'+epikHtml+'</td><td>'+regVal+'</td></tr>';
+}
+
+function renderIcannRecord(snapshot) {
+  if (!snapshot || !snapshot.parsed) return '<div class="empty-state">No snapshot data.</div>';
+  var p    = snapshot.parsed;
+  var epik = p.epik_data || p;
+  var reg  = p.registry_data || p;
+  var domainUp = (p.domain || '').toUpperCase();
+
+  var html = '<div style="padding:16px">';
+
+  // Domain Information
+  html += '<div class="icann-section"><span class="icann-section-title">Domain Information</span>';
+  html += '<table class="icann-table"><thead><tr><th>Field</th><th>Registrar Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += icannRow3('Domain Name', '<strong>'+esc(domainUp)+'</strong>', '<strong>'+esc(domainUp)+'</strong>');
+  if (epik.roid || reg.roid) html += icannRow3('Registry Domain ID', fmtVal(epik.roid), fmtVal(reg.roid));
+  html += icannRow3('Domain Status', renderStatusPills(epik.status), renderStatusPills(reg.status));
+  html += icannRow3('Creation Date',   fmtVal(epik.created),  fmtVal(reg.created));
+  html += icannRow3('Updated Date',    fmtVal(epik.updated),  fmtVal(reg.updated));
+  html += icannRow3('Expiration Date', fmtVal(epik.expires),  fmtVal(reg.expires));
+  html += icannRow3('DNSSEC',          fmtVal(epik.dnssec),   fmtVal(reg.dnssec));
+  html += '</tbody></table></div>';
+
+  // Registrar Information
+  html += '<div class="icann-section"><span class="icann-section-title">Registrar Information</span>';
+  html += '<table class="icann-table"><thead><tr><th>Field</th><th>Registrar Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += icannRow3('Registrar',   fmtVal(epik.registrar),         fmtVal(reg.registrar));
+  html += icannRow3('IANA ID',     fmtVal(epik.registrar_iana_id), fmtVal(reg.registrar_iana_id));
+  html += icannRow3('RDAP Server', fmtVal(epik.rdap_server),       fmtVal(reg.rdap_server));
+  html += icannRow3('RDAP Build',  fmtVal(epik.rdap_build),        fmtVal(reg.rdap_build));
+  if (epik.abuse_email || reg.abuse_email) html += icannRow3('Abuse Email', fmtVal(epik.abuse_email), fmtVal(reg.abuse_email));
+  if (epik.abuse_phone || reg.abuse_phone) html += icannRow3('Abuse Phone', fmtVal(epik.abuse_phone), fmtVal(reg.abuse_phone));
+  html += '</tbody></table></div>';
+
+  // Registrant Contact
+  html += '<div class="icann-section"><span class="icann-section-title">Registrant Contact</span>';
+  html += '<table class="icann-table"><thead><tr><th>Field</th><th>Registrar Value</th><th>Registry Value</th></tr></thead><tbody>';
+  html += icannRow3('Organization',
+    epik.registrant_org ? fmtVal(epik.registrant_org) : '<span class="redacted">REDACTED FOR PRIVACY</span>',
+    reg.registrant_org  ? fmtVal(reg.registrant_org)  : '<span class="redacted">REDACTED FOR PRIVACY</span>');
+  html += icannRow3('Country', fmtVal(epik.registrant_country), fmtVal(reg.registrant_country));
+  html += '</tbody></table></div>';
+
+  // Name Servers
+  html += '<div class="icann-section"><span class="icann-section-title">Name Servers</span><ul class="ns-list">';
+  if (p.nameservers && p.nameservers.length) {
+    p.nameservers.forEach(function(ns) { html += '<li>'+esc(ns)+'</li>'; });
+  } else { html += '<li><em class="redacted">—</em></li>'; }
+  html += '</ul></div>';
+
+  // EPIK Raw expander
+  var epikRaw  = snapshot.raw && snapshot.raw.registrar_rdap;
+  var epikText = snapshot.raw && (snapshot.raw.registrar || snapshot.raw.tld);
+  if (epikRaw || epikText) {
+    var id1 = 'raw-epik-' + Math.random().toString(36).slice(2);
+    html += '<div class="icann-section"><span class="icann-section-title">Registrar Raw Output</span>';
+    html += '<button class="raw-toggle" data-target="'+id1+'" onclick="toggleRaw(this.dataset.target)">&#9660; Show raw registrar output</button>';
+    html += '<pre class="raw-block" id="'+id1+'">'+esc(epikRaw ? JSON.stringify(epikRaw,null,2) : epikText)+'</pre></div>';
+  }
+
+  // Registry Raw expander
+  var regRaw = snapshot.raw && snapshot.raw.tld_rdap;
+  if (regRaw) {
+    var id2 = 'raw-reg-' + Math.random().toString(36).slice(2);
+    html += '<div class="icann-section"><span class="icann-section-title">Registry Raw Output</span>';
+    html += '<button class="raw-toggle" data-target="'+id2+'" onclick="toggleRaw(this.dataset.target)">&#9660; Show raw Registry JSON</button>';
+    html += '<pre class="raw-block" id="'+id2+'">'+esc(JSON.stringify(regRaw,null,2))+'</pre></div>';
+  }
+
+  html += '</div>';
+  return html;
+}
+
+function renderDiffPanel(diff, date) {
+  if (!diff) return '<div class="empty-state" style="padding:24px">No previous snapshot to compare against.</div>';
+  if (!diff.fields_changed || !diff.fields_changed.length)
+    return '<div class="no-change">&#10003; No changes detected since '+esc(diff.from_date||'last snapshot')+'.</div>';
+  var html = '<div><div style="padding:10px 16px;font-size:11px;color:#64748b;border-bottom:1px solid #f1f5f9">';
+  html += esc(diff.from_date||'?')+' &rarr; '+esc(date||'?')+' &nbsp;&bull;&nbsp; '+diff.fields_changed.length+' field(s) changed</div>';
+  html += '<table class="diff-table"><thead><tr><th>Field</th><th>Before</th><th>After</th></tr></thead><tbody>';
+  diff.fields_changed.forEach(function(field) {
+    var d = diff.diff[field];
+    html += '<tr><td class="diff-field">'+esc(field)+'</td><td><span class="diff-before">'+fmtDiff(d.before)+'</span></td><td><span class="diff-after">'+fmtDiff(d.after)+'</span></td></tr>';
+  });
+  html += '</tbody></table></div>';
+  return html;
+}
+
+// ── History tab ───────────────────────────────────────────────────────────────
+// Reads history-index/ (built from git by src/history_index.js). Every version shown is
+// fetched from raw.githubusercontent.com by commit and checked in the browser before use:
+//   1. git blob ID = SHA-1("blob <size>\0" + bytes) must equal the blob ID git recorded;
+//   2. fields_hash recomputed exactly as src/hash.js does must equal the stored value;
+//   3. raw_hash recomputed exactly as src/hash.js does must equal the stored value.
+var histIndex = null;          // history-index/index.json
+var histData = {};             // domain -> history-index/<domain>.json
+var histVerify = {};           // blob -> { ok, blob_ok, fields_ok, raw_ok, snap, error }
+var histBlobCache = {};        // blob -> Promise<{bytes, text}>
+
+function rawUrl(v) { return 'https://raw.githubusercontent.com/' + histIndex.repo + '/' + v.commit + '/' + v.path; }
+function commitUrl(v) { return 'https://github.com/' + histIndex.repo + '/commit/' + v.commit; }
+function runUrl(v) { return v.run_id ? 'https://github.com/' + histIndex.repo + '/actions/runs/' + v.run_id : null; }
+
+async function hexDigest(algo, bytes) {
+  var d = await crypto.subtle.digest(algo, bytes);
+  return Array.from(new Uint8Array(d)).map(function(b) { return b.toString(16).padStart(2, '0'); }).join('');
+}
+async function gitBlobId(bytes) {
+  var head = new TextEncoder().encode('blob ' + bytes.byteLength + '\0');
+  var all = new Uint8Array(head.length + bytes.byteLength);
+  all.set(head); all.set(bytes, head.length);
+  return hexDigest('SHA-1', all);
+}
+// Same as sortObjectKeys in src/hash.js: arrays are left in their stored order.
+function sortKeysLikeHashJs(o) {
+  if (Array.isArray(o)) return o;
+  if (o !== null && typeof o === 'object') return Object.keys(o).sort().reduce(function(a, k) { a[k] = sortKeysLikeHashJs(o[k]); return a; }, {});
+  return o;
+}
+async function fieldsHashLikeHashJs(parsed) {
+  var c = Object.assign({}, parsed);
+  delete c.anomalies; delete c.epik_data; delete c.registry_data; delete c.cross_registrar;
+  return hexDigest('SHA-256', new TextEncoder().encode(JSON.stringify(sortKeysLikeHashJs(c))));
+}
+async function rawHashLikeHashJs(snap) {
+  var s = (snap.raw && (snap.raw.registrar || snap.raw.tld)) || '';
+  return hexDigest('SHA-256', new TextEncoder().encode(s));
+}
+
+async function fetchBlob(v) {
+  if (!histBlobCache[v.blob]) {
+    histBlobCache[v.blob] = (async function() {
+      for (var attempt = 0; attempt < 3; attempt++) {
+        var r = await fetch(rawUrl(v), { cache: 'force-cache' });
+        if (r.ok) return new Uint8Array(await r.arrayBuffer());
+        if (r.status !== 429 && r.status < 500) throw new Error('HTTP ' + r.status);
+        await new Promise(function(res) { setTimeout(res, 1500 * (attempt + 1)); });
+      }
+      throw new Error('fetch failed after retries');
+    })();
+    histBlobCache[v.blob].catch(function() { delete histBlobCache[v.blob]; });
+  }
+  return histBlobCache[v.blob];
+}
+
+async function verifyVersion(v) {
+  if (histVerify[v.blob] && histVerify[v.blob].snap) return histVerify[v.blob];
+  var res = { ok: false };
+  try {
+    var bytes = await fetchBlob(v);
+    res.blob_ok = (await gitBlobId(bytes)) === v.blob;
+    var snap = JSON.parse(new TextDecoder('utf-8').decode(bytes));
+    res.fields_ok = !!(snap.parsed && snap.fields_hash) && (await fieldsHashLikeHashJs(snap.parsed)) === snap.fields_hash;
+    res.raw_ok = snap.raw_hash === undefined ? null : (await rawHashLikeHashJs(snap)) === snap.raw_hash;
+    res.stored_match = snap.fields_hash === v.fields_hash && (snap.raw_hash || null) === v.raw_hash;
+    res.ok = res.blob_ok && res.fields_ok && res.raw_ok !== false && res.stored_match;
+    res.snap = snap;
+  } catch (e) {
+    res.error = e.message;
+  }
+  histVerify[v.blob] = res;
+  return res;
+}
+
+function verMark(v) {
+  var r = histVerify[v.blob];
+  if (r && r.snap) return r.ok ? '<span class="ok" title="Blob ID, fields_hash and raw_hash checked in this browser">&#10003;&#10003; verified</span>'
+                               : '<span class="bad">&#10007; FAILED</span>';
+  if (r && r.error) return '<span class="bad" title="' + esc(r.error) + '">fetch error</span>';
+  if (v.fields_hash_ok === false || v.raw_hash_ok === false) return '<span class="bad">&#10007; index check failed</span>';
+  return '<span class="pend" title="Hashes recomputed when the index was built; not yet checked in this browser">&#10003; indexed</span>';
+}
+
+async function initHistory() {
+  var pills = document.getElementById('history-pills');
+  if (!histIndex) {
+    pills.innerHTML = '<span class="muted">Loading history index&hellip;</span>';
+    try {
+      histIndex = await fetch('history-index/index.json', { cache: 'no-cache' }).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    } catch (e) {
+      pills.innerHTML = '<div class="empty-state">history-index/index.json not found (' + esc(e.message) + '). Run <code>node src/history_index.js</code>.</div>';
+      return;
+    }
+    document.getElementById('hist-index-meta').textContent =
+      'Index built ' + histIndex.generated_at.slice(0, 16).replace('T', ' ') + ' UTC from commit ' + histIndex.head.slice(0, 7);
+  }
+  pills.innerHTML = Object.keys(histIndex.domains).sort().map(function(d) {
+    var s = histIndex.domains[d];
+    return '<button class="domain-pill" data-domain="' + esc(d) + '" onclick="loadHistory(this.dataset.domain)" title="' + s.versions + ' versions">' + esc(d) + '</button>';
+  }).join('');
+  if (historyDomain) loadHistory(historyDomain);
+}
+
+async function loadHistory(domain) {
+  historyDomain = domain;
+  document.querySelectorAll('.domain-pill').forEach(function(p) { p.classList.toggle('active', p.dataset.domain === domain); });
+  document.getElementById('verify-status').innerHTML = '';
+  if (!histData[domain]) {
+    document.getElementById('history-timeline').innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+    try {
+      histData[domain] = await fetch('history-index/' + histIndex.domains[domain].file, { cache: 'no-cache' }).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    } catch (e) {
+      document.getElementById('history-timeline').innerHTML = '<div class="empty-state">Could not load history for ' + esc(domain) + ': ' + esc(e.message) + '</div>';
+      return;
+    }
+  }
+  document.getElementById('hist-controls').style.display = 'flex';
+  renderHistory();
+}
+
+function versionKind(v, prev) {
+  if (v.first) return 'new';
+  var anomChange = prev && prev.anomalies.join(',') !== v.anomalies.join(',');
+  if (v.changed.length === 1 && v.changed[0] === 'updated') return anomChange ? 'changed' : 'updated';
+  if (v.changed.length) return 'changed';
+  return anomChange ? 'changed' : 'unchanged';
+}
+
+function renderHistory() {
+  var data = histData[historyDomain];
+  if (!data) return;
+  var showUpdated = document.getElementById('hf-updated').checked;
+  var showSame = document.getElementById('hf-same').checked;
+  var vs = data.versions;
+  var rows = [];
+  for (var i = vs.length - 1; i >= 0; i--) {
+    var v = vs[i], prev = i > 0 ? vs[i - 1] : null;
+    var kind = versionKind(v, prev);
+    if (kind === 'updated' && !showUpdated) continue;
+    if (kind === 'unchanged' && !showSame) continue;
+    rows.push({ v: v, i: i, prev: prev, kind: kind });
+  }
+  document.getElementById('hist-count').textContent = 'Showing ' + rows.length + ' of ' + vs.length + ' versions';
+  if (!rows.length) { document.getElementById('history-timeline').innerHTML = '<div class="empty-state">No versions match these filters.</div>'; return; }
+  var html = '<div class="timeline">';
+  rows.forEach(function(r) {
+    var v = r.v, bodyId = 'hv-' + r.i;
+    var badge = r.kind === 'updated' ? '<span class="badge badge-updated">Updated only</span>' : badgeHtml(r.kind);
+    var anomDiff = '';
+    if (r.prev) {
+      var added = v.anomalies.filter(function(a) { return r.prev.anomalies.indexOf(a) < 0; });
+      var removed = r.prev.anomalies.filter(function(a) { return v.anomalies.indexOf(a) < 0; });
+      anomDiff = added.map(function(a) { return '<span class="tl-anom">+' + esc(a) + '</span>'; }).join(' ') +
+                 removed.map(function(a) { return ' <span class="tl-anom">&minus;' + esc(a) + '</span>'; }).join('');
+    }
+    html += '<div class="tl-entry"><div class="tl-header" data-i="' + r.i + '" onclick="openVersion(+this.dataset.i)">';
+    html += '<span class="tl-time">' + esc(v.committed_at.slice(0, 16).replace('T', ' ')) + '</span>';
+    html += '<span>' + badge + '</span>';
+    html += '<span class="tl-fields">' + esc(v.changed.join(', ')) + '</span> ' + anomDiff;
+    html += '<span class="tl-ver" id="vm-' + r.i + '">' + verMark(v) + '</span>';
+    html += '</div><div class="tl-body" id="' + bodyId + '"></div></div>';
+  });
+  document.getElementById('history-timeline').innerHTML = html + '</div>';
+}
+
+function provRow(label, value, ok) {
+  var mark = ok === true ? ' <span class="ok">&#10003;</span>' : ok === false ? ' <span class="bad">&#10007; mismatch</span>' : '';
+  return '<tr><th>' + esc(label) + '</th><td>' + value + mark + '</td></tr>';
+}
+
+async function openVersion(i) {
+  var data = histData[historyDomain], v = data.versions[i], prev = i > 0 ? data.versions[i - 1] : null;
+  var body = document.getElementById('hv-' + i);
+  if (body.classList.contains('open')) { body.classList.remove('open'); return; }
+  body.classList.add('open');
+  body.innerHTML = '<div class="muted" style="padding:10px 0">Fetching this version' + (prev ? ' and the one before it' : '') + ' from git and checking hashes&hellip;</div>';
+  var res = await Promise.all([verifyVersion(v), prev ? verifyVersion(prev) : Promise.resolve(null)]);
+  var cur = res[0], before = res[1];
+  document.getElementById('vm-' + i).innerHTML = verMark(v);
+
+  var html = '<table class="prov-table">';
+  html += provRow('Committed', esc(v.committed_at) + ' &nbsp; <a href="' + commitUrl(v) + '" target="_blank" rel="noopener">' + esc(v.commit.slice(0, 10)) + '</a>');
+  if (v.run_id) html += provRow('Watcher run', '<a href="' + runUrl(v) + '" target="_blank" rel="noopener">' + esc(v.run_id) + '</a>');
+  html += provRow('Queried at', esc(v.queried_at || '—'));
+  html += provRow('File', '<a href="' + rawUrl(v) + '" target="_blank" rel="noopener">' + esc(v.path) + '</a>');
+  html += provRow('Git blob ID', esc(v.blob), cur.snap ? cur.blob_ok : undefined);
+  html += provRow('fields_hash', esc(v.fields_hash || '—'), cur.snap ? cur.fields_ok : undefined);
+  html += provRow('raw_hash', esc(v.raw_hash || '—'), cur.snap ? (cur.raw_ok === null ? undefined : cur.raw_ok) : undefined);
+  if (cur.snap && !cur.stored_match) html += provRow('Index vs file', '<span class="bad">The index does not match the file in git</span>');
+  html += '</table>';
+  if (cur.error) html += '<div class="bad" style="padding:6px 0">Could not fetch this version: ' + esc(cur.error) + '</div>';
+  if (before && before.error) html += '<div class="bad" style="padding:6px 0">Could not fetch the previous version: ' + esc(before.error) + '</div>';
+  if (before && before.snap && !before.ok) html += '<div class="bad" style="padding:6px 0">The previous version failed verification.</div>';
+
+  if (cur.snap) {
+    if (!prev) {
+      html += '<div class="muted" style="padding:6px 0">First recorded version of this domain.</div>';
+    } else if (before && before.snap) {
+      html += '<div class="muted" style="padding:4px 0">Compared with the previous version, committed ' + esc(prev.committed_at.slice(0, 16).replace('T', ' ')) +
+              ' (<a href="' + commitUrl(prev) + '" target="_blank" rel="noopener">' + esc(prev.commit.slice(0, 10)) + '</a>).</div>';
+      var d = fieldDiff(before.snap.parsed, cur.snap.parsed);
+      var bA = (before.snap.parsed && before.snap.parsed.anomalies) || {}, cA = (cur.snap.parsed && cur.snap.parsed.anomalies) || {};
+      var anomKeys = Array.from(new Set(Object.keys(bA).concat(Object.keys(cA)))).filter(function(k) { return JSON.stringify(bA[k]) !== JSON.stringify(cA[k]); }).sort();
+      if (!d.fields_changed.length && !anomKeys.length) {
+        html += '<div class="no-change">No field changes.</div>';
+      } else {
+        html += '<table class="diff-table"><thead><tr><th>Field</th><th>Before</th><th>After</th></tr></thead><tbody>';
+        d.fields_changed.forEach(function(f) {
+          html += '<tr><td class="diff-field">' + esc(f) + '</td><td><span class="diff-before">' + fmtDiffDeep(d.diff[f].before) + '</span></td><td><span class="diff-after">' + fmtDiffDeep(d.diff[f].after) + '</span></td></tr>';
+        });
+        anomKeys.forEach(function(k) {
+          html += '<tr><td class="diff-field">anomalies.' + esc(k) + '</td><td><span class="diff-before">' + fmtDiffDeep(bA[k]) + '</span></td><td><span class="diff-after">' + fmtDiffDeep(cA[k]) + '</span></td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+    }
+    if (cur.snap.parsed && cur.snap.parsed.anomalies && Object.keys(cur.snap.parsed.anomalies).length) {
+      html += '<div style="margin-top:8px;font-size:12px"><b>Anomalies in this version:</b><ul>' +
+        Object.entries(cur.snap.parsed.anomalies).map(function(e) { return '<li><code>' + esc(e[0]) + '</code> ' + esc(typeof e[1] === 'string' ? e[1] : JSON.stringify(e[1])) + '</li>'; }).join('') + '</ul></div>';
+    }
+  }
+  body.innerHTML = html;
+}
+
+function fmtDiffDeep(v) {
+  if (v !== null && typeof v === 'object' && !Array.isArray(v)) return esc(JSON.stringify(v));
+  return fmtDiff(v);
+}
+
+async function verifyAll() {
+  var data = histData[historyDomain];
+  if (!data) return;
+  var st = document.getElementById('verify-status');
+  var vs = data.versions, done = 0, failed = [], next = 0;
+  st.innerHTML = '<span class="progress"><div id="vp"></div></span> <span id="vp-t">0 / ' + vs.length + '</span>';
+  async function worker() {
+    while (next < vs.length) {
+      var v = vs[next++];
+      var r = await verifyVersion(v);
+      if (!r.ok) failed.push(v);
+      if (r.snap && r.ok) { r.snap = { parsed: r.snap.parsed }; delete histBlobCache[v.blob]; }
+      done++;
+      var bar = document.getElementById('vp'), t = document.getElementById('vp-t');
+      if (bar) bar.style.width = (100 * done / vs.length) + '%';
+      if (t) t.textContent = done + ' / ' + vs.length;
+    }
+  }
+  await Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]);
+  st.innerHTML = failed.length
+    ? '<span class="bad">' + failed.length + ' of ' + vs.length + ' versions failed or could not be fetched</span>'
+    : '<span class="ok">All ' + vs.length + ' versions verified against git in this browser</span>';
+  if (failed.length) console.warn('Failed versions', failed);
+  renderHistory();
+}
+
+function toggleTlEntry(id) { var el = document.getElementById(id); if (el) el.classList.toggle('open'); }
+
+// ── Reports tab ───────────────────────────────────────────────────────────────
+function loadReports() {
+  fetch(config.reports_dir + '/index.json').then(r=>r.json()).then(function(data) {
+    var list = document.getElementById('reports-list');
+    if (!data.files || !data.files.length) { list.innerHTML = '<div class="muted">No reports yet.</div>'; return; }
+    list.innerHTML = data.files.map(function(f) {
+      return '<button class="report-file-btn" data-file="'+esc(f)+'" onclick="loadReport(this.dataset.file)">'+esc(f)+'</button>';
+    }).join('');
+  }).catch(function() {
+    document.getElementById('reports-list').innerHTML = '<div class="muted">reports/index.json not found.</div>';
+  });
+}
+
+function loadReport(file) {
+  document.querySelectorAll('.report-file-btn').forEach(function(b) { b.classList.toggle('active', b.dataset.file === file); });
+  document.getElementById('reports-content').innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+  fetch(config.reports_dir + '/' + file).then(r=>r.text()).then(function(md) {
+    document.getElementById('reports-content').innerHTML = '<div style="padding:20px">'+mdToHtml(md)+'</div>';
+  }).catch(function(e) {
+    document.getElementById('reports-content').innerHTML = '<div class="empty-state">'+esc(e.message)+'</div>';
+  });
+}
+
+// ── Markdown → HTML (full parser from old ui.js) ──────────────────────────────
+function mdToHtml(md) {
+  var lines = md.split('\n'), out = [];
+  var inTable = false, tableBody = false, inList = false, inCode = false;
+  function closeList()  { if (inList)  { out.push('</ul>');    inList  = false; } }
+  function closeTable() { if (inTable) { if (tableBody) out.push('</tbody>'); out.push('</table>'); inTable = false; tableBody = false; } }
+  function inline(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+            .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+            .replace(/\*(.+?)\*/g,'<em>$1</em>')
+            .replace(/`(.+?)`/g,'<code>$1</code>');
+  }
+  for (var i = 0; i < lines.length; i++) {
+    var raw = lines[i], t = raw.trim();
+    // fenced code block
+    if (t === '```' || t.startsWith('```')) {
+      if (!inCode) { closeList(); closeTable(); out.push('<pre class="raw-block">'); inCode = true; }
+      else { out.push('</pre>'); inCode = false; }
+      continue;
+    }
+    if (inCode) { out.push(t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')); continue; }
+    // details / summary
+    if (t === '<details>') { closeList(); closeTable(); out.push('<details>'); continue; }
+    if (t === '</details>') { out.push('</details>'); continue; }
+    if (t.startsWith('<summary>')) { out.push(t); continue; }
+    // headings
+    if (/^#{1,6} /.test(t)) {
+      closeList(); closeTable();
+      var lvl = t.match(/^(#+)/)[1].length;
+      out.push('<h'+lvl+' class="md-h'+lvl+'">'+inline(t.replace(/^#+\s+/,''))+'</h'+lvl+'>');
+      continue;
+    }
+    // tables
+    if (t.startsWith('|')) {
+      closeList();
+      var cells = t.split('|').slice(1,-1).map(function(c){return c.trim();});
+      if (!inTable) {
+        inTable = true; tableBody = false;
+        out.push('<table class="md-table"><thead><tr>');
+        cells.forEach(function(c){out.push('<th>'+inline(c)+'</th>');});
+        out.push('</tr></thead>'); continue;
+      }
+      if (cells.every(function(c){return /^[-: ]+$/.test(c);})) {
+        if (!tableBody) { out.push('<tbody>'); tableBody = true; } continue;
+      }
+      out.push('<tr>'+cells.map(function(c){return '<td>'+inline(c)+'</td>';}).join('')+'</tr>');
+      continue;
+    }
+    // blockquote
+    if (t.startsWith('> ')) { closeList(); closeTable(); out.push('<blockquote>'+inline(t.slice(2))+'</blockquote>'); continue; }
+    // list
+    if (/^[-*] /.test(t)) { closeTable(); if (!inList) { out.push('<ul>'); inList = true; } out.push('<li>'+inline(t.slice(2))+'</li>'); continue; }
+    // hr
+    if (/^---+$/.test(t)) { closeList(); closeTable(); out.push('<hr>'); continue; }
+    // blank
+    if (!t) { closeList(); closeTable(); continue; }
+    // paragraph
+    closeTable(); if (inList) closeList();
+    out.push('<p>'+inline(t)+'</p>');
+  }
+  closeList(); closeTable();
+  return out.join('\n');
+}
+
+// ── Log tab ───────────────────────────────────────────────────────────────────
+function loadLog() {
+  fetch('logs/latest.log').then(r=>r.text()).then(function(txt) {
+    document.getElementById('log-content').textContent = txt;
+  }).catch(function() {
+    document.getElementById('log-content').textContent = 'logs/latest.log not available yet.';
+  });
+}
+
+// ── Bootstrap ─────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

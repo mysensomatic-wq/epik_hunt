@@ -72,3 +72,21 @@ jobs:
           branch: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Read-only over the data: indexes every committed snapshot version from git
+      # history into history-index/ for the dashboard's History tab. Runs after the
+      # data commit so the index includes this run. Pushed without --force.
+      - name: Build history index
+        if: always()
+        run: node src/history_index.js
+
+      - name: Commit history index
+        uses: stefanzweifel/git-auto-commit-action@v5
+        if: always()
+        with:
+          commit_message: "[watcher] history index ${{ github.run_id }}"
+          file_pattern: 'history-index'
+          repository: .
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
