@@ -1,10 +1,10 @@
 {
   "run_meta": {
     "date": "2026-11-07",
-    "started_at": "2026-11-07T03:28:19.933Z",
+    "started_at": "2026-11-07T10:44:46.840Z",
     "rotation": {
       "rotated": false,
-      "size_mb": 20.619,
+      "size_mb": 20.72,
       "archive_path": null
     },
     "domains_queried": 5,
@@ -24,7 +24,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-06T23:51:05Z",
-          "after": "2026-11-07T03:28:08Z"
+          "after": "2026-11-07T10:44:38Z"
         }
       }
     },
@@ -39,7 +39,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-06T23:51:19.259Z",
-          "after": "2026-11-07T03:28:28.851Z"
+          "after": "2026-11-07T10:44:55.515Z"
         }
       }
     },
@@ -54,7 +54,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-06T23:51:05Z",
-          "after": "2026-11-07T03:28:23Z"
+          "after": "2026-11-07T10:45:00Z"
         }
       }
     },
@@ -69,7 +69,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-06T23:51:20Z",
-          "after": "2026-11-07T03:28:23Z"
+          "after": "2026-11-07T10:45:00Z"
         }
       }
     },
@@ -95,7 +95,7 @@
           "ns2.dynadot.com"
         ],
         "created": "2016-03-18T21:40:46Z",
-        "updated": "2026-11-07T03:28:08Z",
+        "updated": "2026-11-07T10:44:38Z",
         "expires": "2028-03-18T21:40:46Z",
         "registrant_org": "Super Privacy Service LTD c/o Dynadot",
         "registrant_country": "US",
@@ -138,7 +138,7 @@
             "ns2.dynadot.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-11-07T03:28:08Z",
+          "updated": "2026-11-07T10:44:38Z",
           "expires": "2028-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -151,7 +151,7 @@
           "status": "Status mismatch: Epik (transferProhibited) vs Registry (clientTransferProhibited)"
         }
       },
-      "queried_at": "2026-11-07T03:28:19.950Z"
+      "queried_at": "2026-11-07T10:44:46.854Z"
     },
     "epikroidsarefake.org": {
       "parsed": {
@@ -168,7 +168,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-05T18:56:05.831Z",
-        "updated": "2026-11-07T03:28:28.851Z",
+        "updated": "2026-11-07T10:44:55.515Z",
         "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -189,7 +189,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05Z",
-          "updated": "2026-11-07T03:28:00Z",
+          "updated": "2026-11-07T10:44:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -211,7 +211,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05.831Z",
-          "updated": "2026-11-07T03:28:28.851Z",
+          "updated": "2026-11-07T10:44:55.515Z",
           "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -222,7 +222,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-11-07T03:28:25.175Z"
+      "queried_at": "2026-11-07T10:44:51.837Z"
     },
     "epikraaviolations.com": {
       "parsed": {
@@ -239,7 +239,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-11-07T03:28:23Z",
+        "updated": "2026-11-07T10:45:00Z",
         "expires": "2027-03-16T13:38:10Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -260,7 +260,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-11-07T03:28:00Z",
+          "updated": "2026-11-07T10:45:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -282,7 +282,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-11-07T03:28:23Z",
+          "updated": "2026-11-07T10:44:53Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -293,7 +293,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-11-07T03:28:30.582Z"
+      "queried_at": "2026-11-07T10:44:57.212Z"
     },
     "masterbucks.com": {
       "parsed": {
@@ -310,7 +310,7 @@
           "christian.ns.cloudflare.com"
         ],
         "created": "2010-10-21T18:53:43Z",
-        "updated": "2026-11-07T03:28:23Z",
+        "updated": "2026-11-07T10:45:00Z",
         "expires": "2027-10-21T18:53:43Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -331,7 +331,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-11-07T03:28:00Z",
+          "updated": "2026-11-07T10:45:00Z",
           "expires": "2027-10-21T18:53:43Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -353,7 +353,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-11-07T03:28:23Z",
+          "updated": "2026-11-07T10:44:53Z",
           "expires": "2027-10-21T18:53:43Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -364,7 +364,7 @@
         },
         "anomalies": {}
       },
-      "queried_at": "2026-11-07T03:28:36.330Z"
+      "queried_at": "2026-11-07T10:45:02.459Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -388,7 +388,7 @@
           "status": "Domain has no status codes reported"
         }
       },
-      "queried_at": "2026-11-07T03:28:41.854Z"
+      "queried_at": "2026-11-07T10:45:07.863Z"
     }
   }
 }
