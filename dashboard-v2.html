@@ -123,6 +123,7 @@ main{padding:24px;max-width:1400px;margin:0 auto}
 blockquote{border-left:4px solid #38bdf8;padding:8px 16px;background:#f0f9ff;margin:10px 0;border-radius:0 6px 6px 0;color:#0369a1;font-size:13px}
 pre.raw-block{background:#0f172a;color:#e2e8f0;padding:14px;border-radius:6px;font-size:11px;overflow-x:auto;white-space:pre-wrap;margin:8px 0}
 details summary{cursor:pointer;font-size:12px;color:#2563eb;padding:6px 0}
+pre.md-code{display:block;background:#0f172a;color:#e2e8f0;padding:14px;border-radius:6px;font-size:11px;line-height:1.5;font-family:monospace;overflow:auto;max-height:640px;white-space:pre;margin:8px 0}
 code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:12px;font-family:monospace;color:#be185d}
 p{margin:6px 0;font-size:13px;color:#334155}
 ul{margin:6px 0 6px 20px}
@@ -805,11 +806,13 @@ function mdToHtml(md) {
     var raw = lines[i], t = raw.trim();
     // fenced code block
     if (t === '```' || t.startsWith('```')) {
-      if (!inCode) { closeList(); closeTable(); out.push('<pre class="raw-block">'); inCode = true; }
+      // .raw-block is hidden until toggled (dashboard expanders); report code blocks use .md-code
+      if (!inCode) { closeList(); closeTable(); out.push('<pre class="md-code">'); inCode = true; }
       else { out.push('</pre>'); inCode = false; }
       continue;
     }
-    if (inCode) { out.push(t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')); continue; }
+    // keep indentation inside code blocks (JSON is pretty-printed)
+    if (inCode) { out.push(raw.replace(/\r$/,'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')); continue; }
     // details / summary
     if (t === '<details>') { closeList(); closeTable(); out.push('<details>'); continue; }
     if (t === '</details>') { out.push('</details>'); continue; }
