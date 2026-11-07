@@ -19,6 +19,17 @@
 - `index.html` (live or local), `snapshots/`, `reports/`, `ledger.json`, `last_run.json` and `logs/`. The data-collection steps in the workflow are unchanged.
 - No existing file was rewritten. The index lives in its own folder, and the data commit step's `file_pattern` does not include it.
 
+## Fix after the first run (run 42403544312)
+
+The first run built the index from a **shallow** clone. The data-commit action (`git-auto-commit-action`) re-fetches `main` with `--depth=1`, so the index step saw only one commit. It listed 209 versions per domain instead of about 1,085.
+
+That run committed no data errors: the snapshots, ledger and reports from that run verify. Only the derived index was incomplete. Two changes fix it:
+
+- The workflow step runs `git fetch --unshallow` before building the index whenever the clone is shallow.
+- `src/history_index.js` refuses to write if the clone is shallow, or if any domain would end up with fewer versions than the index already on disk. Both guards were tested.
+
+The full index was then rebuilt locally from complete history and committed.
+
 ## How the History tab verifies what it shows
 
 When you open a version, the page fetches that exact file from `raw.githubusercontent.com/<repo>/<commit>/<path>`, plus the version before it. Before showing a diff it checks, in the browser:

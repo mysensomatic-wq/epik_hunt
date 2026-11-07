@@ -56,6 +56,11 @@ function changedFields(before, after) {
 }
 
 function main() {
+  // A shallow clone hides older commits and would produce a truncated index.
+  if (git(['rev-parse', '--is-shallow-repository']).toString().trim() === 'true') {
+    console.error('history-index: refusing to build from a shallow clone (run `git fetch --unshallow` first). Nothing written.');
+    process.exit(1);
+  }
   const head = git(['rev-parse', 'HEAD']).toString().trim();
   const remote = (() => { try { return git(['remote', 'get-url', 'origin']).toString().trim(); } catch (e) { return null; } })();
   const repo = remote && (remote.match(/github\.com[:/](.+?)(\.git)?$/) || [])[1] || null;
@@ -121,6 +126,20 @@ function main() {
     (byDomain[w.domain] = byDomain[w.domain] || []).push(entry);
     if (parsed) prevParsed[w.domain] = parsed;
     prevHash[w.domain] = s && s.fields_hash;
+  }
+
+  // The index only ever grows. If any domain would have fewer versions than the index
+  // already on disk, something is wrong with the history being read: stop.
+  const oldIndexPath = path.join(OUT, 'index.json');
+  if (fs.existsSync(oldIndexPath)) {
+    const old = JSON.parse(fs.readFileSync(oldIndexPath, 'utf8'));
+    for (const [d, s] of Object.entries(old.domains || {})) {
+      const now = (byDomain[d] || []).length;
+      if (now < s.versions) {
+        console.error(`history-index: ${d} would drop from ${s.versions} to ${now} versions. Refusing to overwrite. Nothing written.`);
+        process.exit(1);
+      }
+    }
   }
 
   fs.mkdirSync(OUT, { recursive: true });

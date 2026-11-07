@@ -76,9 +76,13 @@ jobs:
       # Read-only over the data: indexes every committed snapshot version from git
       # history into history-index/ for the dashboard's History tab. Runs after the
       # data commit so the index includes this run. Pushed without --force.
+      # The commit action above re-fetches main with --depth=1, which makes the clone
+      # shallow. Restore full history first; the script refuses to run on a shallow clone.
       - name: Build history index
         if: always()
-        run: node src/history_index.js
+        run: |
+          if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then git fetch --unshallow origin; fi
+          node src/history_index.js
 
       - name: Commit history index
         uses: stefanzweifel/git-auto-commit-action@v5

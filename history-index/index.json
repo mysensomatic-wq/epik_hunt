@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-11-07T18:55:57.573Z",
+  "generated_at": "2026-11-07T18:57:38.875Z",
   "generator": "src/history_index.js",
-  "head": "dac43bbe63b2823b581d2103aca6656eb1039d99",
+  "head": "1d4f5a72d73086f26daebd697c119111283d9302",
   "repo": "mysensomatic-wq/epik_hunt",
   "note": "Derived from git history of snapshots/. Not evidence by itself: every entry names a commit and blob that can be checked in git.",
   "domains": {
     "cryptoweed.com": {
       "file": "cryptoweed.com.json",
-      "versions": 209,
-      "hash_changes": 208,
+      "versions": 1085,
+      "hash_changes": 1079,
       "hash_failures": 0,
-      "first": "2026-11-07T13:53:32-05:00",
-      "last": "2026-11-07T18:55:56Z"
+      "first": "2026-04-12T12:33:47-04:00",
+      "last": "2026-11-07T18:55:56+00:00"
     },
     "epikraaviolations.com": {
       "file": "epikraaviolations.com.json",
-      "versions": 209,
-      "hash_changes": 209,
+      "versions": 1085,
+      "hash_changes": 1081,
       "hash_failures": 0,
-      "first": "2026-11-07T13:53:32-05:00",
-      "last": "2026-11-07T18:55:56Z"
+      "first": "2026-04-12T12:33:47-04:00",
+      "last": "2026-11-07T18:55:56+00:00"
     },
     "epikroidsarefake.org": {
       "file": "epikroidsarefake.org.json",
-      "versions": 209,
-      "hash_changes": 207,
+      "versions": 1085,
+      "hash_changes": 1079,
       "hash_failures": 0,
-      "first": "2026-11-07T13:53:32-05:00",
-      "last": "2026-11-07T18:55:56Z"
+      "first": "2026-04-12T12:33:47-04:00",
+      "last": "2026-11-07T18:55:56+00:00"
     },
     "masterbucks.com": {
       "file": "masterbucks.com.json",
-      "versions": 209,
-      "hash_changes": 209,
+      "versions": 1085,
+      "hash_changes": 1080,
       "hash_failures": 0,
-      "first": "2026-11-07T13:53:32-05:00",
-      "last": "2026-11-07T18:55:56Z"
+      "first": "2026-04-12T12:33:47-04:00",
+      "last": "2026-11-07T18:55:56+00:00"
     },
     "forensicexam.info": {
       "file": "forensicexam.info.json",
-      "versions": 150,
-      "hash_changes": 87,
+      "versions": 751,
+      "hash_changes": 477,
       "hash_failures": 0,
-      "first": "2026-11-07T13:53:32-05:00",
-      "last": "2026-11-07T18:55:56Z"
+      "first": "2026-06-12T18:56:22+00:00",
+      "last": "2026-11-07T18:55:56+00:00"
     }
   }
 }
