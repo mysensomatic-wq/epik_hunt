@@ -1,9 +1,9 @@
 {
   "domain": "epikraaviolations.com",
   "date": "2026-11-08",
-  "queried_at": "2026-11-08T17:18:48.820Z",
-  "raw_hash": "96d5e7f7e29f19893a17d200dd5b6d1c92c0ceb5c970a8d5f7bde3f2f35750bd",
-  "fields_hash": "6c290b84766b170aa29555404c92fadf107a4899cc7defbd6d2dfa175b9748d2",
+  "queried_at": "2026-11-08T23:15:47.566Z",
+  "raw_hash": "264fc44240866329a889331076e0527c16549b1058f8458b3b89a4306797e21f",
+  "fields_hash": "d0cc7650ad586ee5f498704640815ad8a13d8210619b599a13ef5bf09a32bbe1",
   "parsed": {
     "domain": "epikraaviolations.com",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-16T13:38:10Z",
-    "updated": "2026-11-08T17:18:43Z",
+    "updated": "2026-11-08T23:15:43Z",
     "expires": "2027-03-16T13:38:10Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -39,7 +39,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-16T13:38:10Z",
-      "updated": "2026-11-08T17:18:00Z",
+      "updated": "2026-11-08T23:15:00Z",
       "expires": "2027-03-16T13:38:10Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-16T13:38:10Z",
-      "updated": "2026-11-08T17:18:43Z",
+      "updated": "2026-11-08T23:15:43Z",
       "expires": "2027-03-16T13:38:10Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -80,10 +80,10 @@
         "epik": {
           "url": "https://rdap.epik.com/domain/epikraaviolations.com",
           "http_status": 200,
-          "fetched_at": "2026-11-08T17:18:55.780Z",
+          "fetched_at": "2026-11-08T23:15:54.548Z",
           "registrar": "Epik LLC",
           "iana_id": "617",
-          "updated": "2026-11-08T17:18:00Z",
+          "updated": "2026-11-08T23:15:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "status": [
             "clientTransferProhibited"
@@ -92,7 +92,7 @@
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/epikraaviolations.com",
           "http_status": 404,
-          "fetched_at": "2026-11-08T17:18:57.689Z"
+          "fetched_at": "2026-11-08T23:15:56.171Z"
         }
       }
     },
@@ -105,8 +105,8 @@
     "marketplace_listed": []
   },
   "raw": {
-    "registrar": "Domain Name: EPIKRAAVIOLATIONS.COM\nRegistry Domain ID: 3077512874_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-03-16T13:38:11Z\nCreation Date: 2026-03-16T13:38:10Z\nRegistrar Registration Expiration Date: 2027-03-16T13:38:10Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: epikraaviolations.com-rhm3z4pmesl5@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: epikraaviolations.com-rhm3z4pmesl5@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: epikraaviolations.com-rhm3z4pmesl5@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: signedDelegation\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
-    "tld": "Domain Name: EPIKRAAVIOLATIONS.COM\nRegistry Domain ID: 3077512874_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-03-16T13:38:11Z\nCreation Date: 2026-03-16T13:38:10Z\nRegistrar Registration Expiration Date: 2027-03-16T13:38:10Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: epikraaviolations.com-rhm3z4pmesl5@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: epikraaviolations.com-rhm3z4pmesl5@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: epikraaviolations.com-rhm3z4pmesl5@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: signedDelegation\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar": "Domain Name: EPIKRAAVIOLATIONS.COM\nRegistry Domain ID: 3077512874_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-03-16T13:38:11Z\nCreation Date: 2026-03-16T13:38:10Z\nRegistrar Registration Expiration Date: 2027-03-16T13:38:10Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: epikraaviolations.com-uveok2oxl9h4@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: epikraaviolations.com-uveok2oxl9h4@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: epikraaviolations.com-uveok2oxl9h4@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: signedDelegation\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: EPIKRAAVIOLATIONS.COM\nRegistry Domain ID: 3077512874_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-03-16T13:38:11Z\nCreation Date: 2026-03-16T13:38:10Z\nRegistrar Registration Expiration Date: 2027-03-16T13:38:10Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: epikraaviolations.com-uveok2oxl9h4@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: epikraaviolations.com-uveok2oxl9h4@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: epikraaviolations.com-uveok2oxl9h4@anonymize.com\nName Server: NS3.EPIK.COM\nName Server: NS4.EPIK.COM\nDNSSEC: signedDelegation\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
     "tld_rdap": {
       "objectClassName": "domain",
       "handle": "3077512874_DOMAIN_COM-VRSN",
@@ -222,7 +222,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-08T17:18:43Z"
+          "eventDate": "2026-11-08T23:15:43Z"
         }
       ],
       "secureDNS": {
@@ -704,7 +704,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-08T17:18:00Z"
+          "eventDate": "2026-11-08T23:15:00Z"
         }
       ],
       "status": [
@@ -827,7 +827,7 @@
       "epik": {
         "url": "https://rdap.epik.com/domain/epikraaviolations.com",
         "status": 200,
-        "fetched_at": "2026-11-08T17:18:55.780Z",
+        "fetched_at": "2026-11-08T23:15:54.548Z",
         "body": {
           "objectClassName": "domain",
           "handle": "3077512874_DOMAIN_COM-VRSN",
@@ -1236,7 +1236,7 @@
             },
             {
               "eventAction": "last update of RDAP database",
-              "eventDate": "2026-11-08T17:18:00Z"
+              "eventDate": "2026-11-08T23:15:00Z"
             }
           ],
           "status": [
@@ -1357,7 +1357,7 @@
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/epikraaviolations.com",
         "status": 404,
-        "fetched_at": "2026-11-08T17:18:57.689Z",
+        "fetched_at": "2026-11-08T23:15:56.171Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -1418,7 +1418,7 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-08T17:18:57.706Z",
+      "captured_at": "2026-11-08T23:15:57.228Z",
       "dns": {
         "a": [
           "209.196.146.115"
@@ -1487,7 +1487,7 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-08T17:19:07.923Z"
+          "fetched_at": "2026-11-08T23:16:07.674Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=epikraaviolations.com",
@@ -1499,7 +1499,7 @@
           "title": "Domain Details Page",
           "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
           "error": null,
-          "fetched_at": "2026-11-08T17:19:09.670Z"
+          "fetched_at": "2026-11-08T23:16:09.327Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/epikraaviolations",
@@ -1509,9 +1509,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "6862d093af3e3d94ce32dda0de32bca16ef0f8ad96d276c8f7c6c487b63ef8a4",
+          "body_sha256": "60d1bca2a2c87e393321129bc22062b21bb2cf71b1853f53fed5feef8b36464c",
           "error": null,
-          "fetched_at": "2026-11-08T17:19:10.893Z"
+          "fetched_at": "2026-11-08T23:16:10.582Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/epikraaviolations.com",
@@ -1521,9 +1521,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "020f5f135be98f10a5e76d1c71bbfa9b25c3e093cb8ae74b5b7117c4cf1e1784",
+          "body_sha256": "75a8d196271d795a5557ff84c1b43bb4a7cf6311e2c9edfda7e7064bfe7d5234",
           "error": null,
-          "fetched_at": "2026-11-08T17:19:12.117Z"
+          "fetched_at": "2026-11-08T23:16:11.897Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/epikraaviolations.com/",
@@ -1533,9 +1533,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "fdd3f130b0a5d8d40f1a4097725e9768e510ca5536e5ca9f30efd5048975fa7b",
+          "body_sha256": "35abcbb4084d6862ffc9c5de7be1408a6b09070ab017fb0d65a1ec6a789fc178",
           "error": null,
-          "fetched_at": "2026-11-08T17:19:13.347Z"
+          "fetched_at": "2026-11-08T23:16:13.182Z"
         }
       }
     }
