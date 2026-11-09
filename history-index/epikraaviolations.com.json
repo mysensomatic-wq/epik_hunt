@@ -1,7 +1,7 @@
 {
  "domain": "epikraaviolations.com",
- "generated_at": "2026-11-09T12:16:40.003Z",
- "head": "6eea79863afb21093aadecee797022bf93686e55",
+ "generated_at": "2026-11-09T23:55:11.602Z",
+ "head": "82bf62241de2aa6247bf61029f08e92b5ddf6d12",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -22190,6 +22190,25 @@
     "site_platform",
     "site_status",
     "site_title",
+    "updated"
+   ],
+   "anomalies": [],
+   "first": false
+  },
+  {
+   "commit": "82bf62241de2aa6247bf61029f08e92b5ddf6d12",
+   "committed_at": "2026-11-09T23:55:08Z",
+   "run_id": "42723968999",
+   "path": "snapshots/2026-11-09/epikraaviolations.com.json",
+   "blob": "105d9f56a3e16c47bcedfe69033f8e1a4764e231",
+   "date": "2026-11-09",
+   "queried_at": "2026-11-09T23:54:11.814Z",
+   "fields_hash": "8caa7cfe8a409cf4fbb9bbfc1eae9f9683cecea66dcb84f2effe0e50c4a3eb92",
+   "raw_hash": "2805cfef896fab92f5d5d3e832139089e08eb8184792b3021a62aab1aaa139ef",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
     "updated"
    ],
    "anomalies": [],
