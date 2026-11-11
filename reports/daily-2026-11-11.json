@@ -1,10 +1,10 @@
 {
   "run_meta": {
     "date": "2026-11-11",
-    "started_at": "2026-11-11T11:30:13.497Z",
+    "started_at": "2026-11-11T18:56:04.258Z",
     "rotation": {
       "rotated": false,
-      "size_mb": 21.603,
+      "size_mb": 21.605,
       "archive_path": null
     },
     "domains_queried": 5,
@@ -26,7 +26,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-10T21:30:00Z",
-          "after": "2026-11-11T11:30:00Z"
+          "after": "2026-11-11T18:55:48Z"
         },
         "site_final_url": {
           "before": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
@@ -52,7 +52,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-10T21:30:56.924Z",
-          "after": "2026-11-11T11:30:56.611Z"
+          "after": "2026-11-11T18:56:48.537Z"
         },
         "site_status": {
           "before": 200,
@@ -74,12 +74,27 @@
       "changed": true,
       "first_seen": false,
       "fields_changed": [
+        "site_platform",
+        "site_status",
+        "site_title",
         "updated"
       ],
       "diff": {
         "updated": {
           "before": "2026-11-10T21:31:00Z",
-          "after": "2026-11-11T11:31:30Z"
+          "after": "2026-11-11T18:57:00Z"
+        },
+        "site_status": {
+          "before": 200,
+          "after": 403
+        },
+        "site_title": {
+          "before": "epikraaviolations.com - contact with domain owner | Epik.com",
+          "after": "403 Forbidden"
+        },
+        "site_platform": {
+          "before": "epik-parking",
+          "after": null
         }
       }
     },
@@ -94,7 +109,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-10T21:31:15Z",
-          "after": "2026-11-11T11:32:00Z"
+          "after": "2026-11-11T18:57:33Z"
         }
       }
     },
@@ -120,7 +135,7 @@
           "ns2.dynadot.com"
         ],
         "created": "2016-03-18T21:40:46Z",
-        "updated": "2026-11-11T11:30:00Z",
+        "updated": "2026-11-11T18:55:48Z",
         "expires": "2028-03-18T21:40:46Z",
         "registrant_org": "Super Privacy Service LTD c/o Dynadot",
         "registrant_country": "US",
@@ -163,7 +178,7 @@
             "ns2.dynadot.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-11-11T11:30:00Z",
+          "updated": "2026-11-11T18:55:48Z",
           "expires": "2028-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -194,12 +209,12 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/cryptoweed.com",
               "http_status": 404,
-              "fetched_at": "2026-11-11T11:30:20.973Z"
+              "fetched_at": "2026-11-11T18:56:11.819Z"
             },
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/cryptoweed.com",
               "http_status": 200,
-              "fetched_at": "2026-11-11T11:30:22.856Z",
+              "fetched_at": "2026-11-11T18:56:13.784Z",
               "registrar": "DYNADOT LLC",
               "iana_id": "472",
               "updated": "2026-11-10T08:10:15Z",
@@ -218,7 +233,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T11:30:13.506Z"
+      "queried_at": "2026-11-11T18:56:04.270Z"
     },
     "epikroidsarefake.org": {
       "parsed": {
@@ -235,7 +250,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-05T18:56:05.831Z",
-        "updated": "2026-11-11T11:30:56.611Z",
+        "updated": "2026-11-11T18:56:48.537Z",
         "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -253,7 +268,7 @@
           ],
           "nameservers": [],
           "created": "2026-03-05T18:56:05Z",
-          "updated": "2026-11-11T11:30:00Z",
+          "updated": "2026-11-11T18:56:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -275,7 +290,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05.831Z",
-          "updated": "2026-11-11T11:30:56.611Z",
+          "updated": "2026-11-11T18:56:48.537Z",
           "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -294,10 +309,10 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/epikroidsarefake.org",
               "http_status": 200,
-              "fetched_at": "2026-11-11T11:30:59.468Z",
+              "fetched_at": "2026-11-11T18:56:51.491Z",
               "registrar": "Epik LLC",
               "iana_id": "617",
-              "updated": "2026-11-11T11:30:00Z",
+              "updated": "2026-11-11T18:56:00Z",
               "expires": "2027-03-05T18:56:05Z",
               "status": [
                 "clientTransferProhibited"
@@ -306,7 +321,7 @@
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/epikroidsarefake.org",
               "http_status": 404,
-              "fetched_at": "2026-11-11T11:31:01.056Z"
+              "fetched_at": "2026-11-11T18:56:53.108Z"
             }
           }
         },
@@ -318,7 +333,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T11:30:52.591Z"
+      "queried_at": "2026-11-11T18:56:44.653Z"
     },
     "epikraaviolations.com": {
       "parsed": {
@@ -335,7 +350,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-11-11T11:31:30Z",
+        "updated": "2026-11-11T18:57:00Z",
         "expires": "2027-03-16T13:38:10Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -353,7 +368,7 @@
           ],
           "nameservers": [],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-11-11T11:31:00Z",
+          "updated": "2026-11-11T18:57:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -375,7 +390,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-11-11T11:31:30Z",
+          "updated": "2026-11-11T18:56:48Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -394,10 +409,10 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/epikraaviolations.com",
               "http_status": 200,
-              "fetched_at": "2026-11-11T11:31:52.072Z",
+              "fetched_at": "2026-11-11T18:57:20.998Z",
               "registrar": "Epik LLC",
               "iana_id": "617",
-              "updated": "2026-11-11T11:31:00Z",
+              "updated": "2026-11-11T18:57:00Z",
               "expires": "2027-03-16T13:38:10Z",
               "status": [
                 "clientTransferProhibited"
@@ -406,19 +421,19 @@
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/epikraaviolations.com",
               "http_status": 404,
-              "fetched_at": "2026-11-11T11:31:53.914Z"
+              "fetched_at": "2026-11-11T18:57:22.545Z"
             }
           }
         },
         "site_final_url": "https://epikraaviolations.com/",
-        "site_status": 200,
-        "site_title": "epikraaviolations.com - contact with domain owner | Epik.com",
+        "site_status": 403,
+        "site_title": "403 Forbidden",
         "site_sale_signals": [],
         "site_disabled": null,
-        "site_platform": "epik-parking",
+        "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T11:31:45.379Z"
+      "queried_at": "2026-11-11T18:57:13.965Z"
     },
     "masterbucks.com": {
       "parsed": {
@@ -435,7 +450,7 @@
           "christian.ns.cloudflare.com"
         ],
         "created": "2010-10-21T18:53:43Z",
-        "updated": "2026-11-11T11:32:00Z",
+        "updated": "2026-11-11T18:57:33Z",
         "expires": "2027-10-21T18:53:43Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -453,7 +468,7 @@
           ],
           "nameservers": [],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-11-11T11:32:00Z",
+          "updated": "2026-11-11T18:57:00Z",
           "expires": "2027-10-21T18:53:43Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -475,7 +490,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-11-11T11:32:00Z",
+          "updated": "2026-11-11T18:57:33Z",
           "expires": "2027-10-21T18:53:43Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -494,10 +509,10 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/masterbucks.com",
               "http_status": 200,
-              "fetched_at": "2026-11-11T11:32:17.612Z",
+              "fetched_at": "2026-11-11T18:57:42.505Z",
               "registrar": "Epik LLC",
               "iana_id": "617",
-              "updated": "2026-11-11T11:32:00Z",
+              "updated": "2026-11-11T18:57:00Z",
               "expires": "2027-10-21T18:53:43Z",
               "status": [
                 "clientTransferProhibited"
@@ -506,7 +521,7 @@
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/masterbucks.com",
               "http_status": 404,
-              "fetched_at": "2026-11-11T11:32:19.146Z"
+              "fetched_at": "2026-11-11T18:57:44.083Z"
             }
           }
         },
@@ -518,7 +533,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T11:32:11.259Z"
+      "queried_at": "2026-11-11T18:57:35.723Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -550,12 +565,12 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/forensicexam.info",
               "http_status": 404,
-              "fetched_at": "2026-11-11T11:32:32.913Z"
+              "fetched_at": "2026-11-11T18:57:58.387Z"
             },
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/forensicexam.info",
               "http_status": 404,
-              "fetched_at": "2026-11-11T11:32:34.500Z"
+              "fetched_at": "2026-11-11T18:58:00.000Z"
             }
           }
         },
@@ -567,7 +582,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T11:32:28.310Z"
+      "queried_at": "2026-11-11T18:57:53.495Z"
     }
   }
 }
