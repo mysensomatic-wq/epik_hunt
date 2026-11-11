@@ -1,10 +1,10 @@
 {
   "run_meta": {
     "date": "2026-11-11",
-    "started_at": "2026-11-11T03:26:01.238Z",
+    "started_at": "2026-11-11T11:30:13.497Z",
     "rotation": {
       "rotated": false,
-      "size_mb": 21.412,
+      "size_mb": 21.603,
       "archive_path": null
     },
     "domains_queried": 5,
@@ -19,12 +19,22 @@
       "changed": true,
       "first_seen": false,
       "fields_changed": [
+        "site_final_url",
+        "site_status",
         "updated"
       ],
       "diff": {
         "updated": {
           "before": "2026-11-10T21:30:00Z",
-          "after": "2026-11-11T03:26:00Z"
+          "after": "2026-11-11T11:30:00Z"
+        },
+        "site_final_url": {
+          "before": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+          "after": "https://registrar-transfers.com/"
+        },
+        "site_status": {
+          "before": 200,
+          "after": 500
         }
       }
     },
@@ -42,7 +52,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-10T21:30:56.924Z",
-          "after": "2026-11-11T03:26:44.401Z"
+          "after": "2026-11-11T11:30:56.611Z"
         },
         "site_status": {
           "before": 200,
@@ -64,27 +74,12 @@
       "changed": true,
       "first_seen": false,
       "fields_changed": [
-        "site_platform",
-        "site_status",
-        "site_title",
         "updated"
       ],
       "diff": {
         "updated": {
           "before": "2026-11-10T21:31:00Z",
-          "after": "2026-11-11T03:27:00Z"
-        },
-        "site_status": {
-          "before": 200,
-          "after": 403
-        },
-        "site_title": {
-          "before": "epikraaviolations.com - contact with domain owner | Epik.com",
-          "after": "403 Forbidden"
-        },
-        "site_platform": {
-          "before": "epik-parking",
-          "after": null
+          "after": "2026-11-11T11:31:30Z"
         }
       }
     },
@@ -99,7 +94,7 @@
       "diff": {
         "updated": {
           "before": "2026-11-10T21:31:15Z",
-          "after": "2026-11-11T03:27:15Z"
+          "after": "2026-11-11T11:32:00Z"
         }
       }
     },
@@ -125,7 +120,7 @@
           "ns2.dynadot.com"
         ],
         "created": "2016-03-18T21:40:46Z",
-        "updated": "2026-11-11T03:26:00Z",
+        "updated": "2026-11-11T11:30:00Z",
         "expires": "2028-03-18T21:40:46Z",
         "registrant_org": "Super Privacy Service LTD c/o Dynadot",
         "registrant_country": "US",
@@ -168,7 +163,7 @@
             "ns2.dynadot.com"
           ],
           "created": "2016-03-18T21:40:46Z",
-          "updated": "2026-11-11T03:26:00Z",
+          "updated": "2026-11-11T11:30:00Z",
           "expires": "2028-03-18T21:40:46Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -199,12 +194,12 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/cryptoweed.com",
               "http_status": 404,
-              "fetched_at": "2026-11-11T03:26:08.640Z"
+              "fetched_at": "2026-11-11T11:30:20.973Z"
             },
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/cryptoweed.com",
               "http_status": 200,
-              "fetched_at": "2026-11-11T03:26:10.271Z",
+              "fetched_at": "2026-11-11T11:30:22.856Z",
               "registrar": "DYNADOT LLC",
               "iana_id": "472",
               "updated": "2026-11-10T08:10:15Z",
@@ -215,15 +210,15 @@
             }
           }
         },
-        "site_final_url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
-        "site_status": 200,
+        "site_final_url": "https://registrar-transfers.com/",
+        "site_status": 500,
         "site_title": "Authorization",
         "site_sale_signals": [],
         "site_disabled": "temporarily disabled",
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T03:26:01.255Z"
+      "queried_at": "2026-11-11T11:30:13.506Z"
     },
     "epikroidsarefake.org": {
       "parsed": {
@@ -240,7 +235,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-05T18:56:05.831Z",
-        "updated": "2026-11-11T03:26:44.401Z",
+        "updated": "2026-11-11T11:30:56.611Z",
         "expires": "2027-03-05T18:56:05.831Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -258,7 +253,7 @@
           ],
           "nameservers": [],
           "created": "2026-03-05T18:56:05Z",
-          "updated": "2026-11-11T03:26:00Z",
+          "updated": "2026-11-11T11:30:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -280,7 +275,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-05T18:56:05.831Z",
-          "updated": "2026-11-11T03:26:44.401Z",
+          "updated": "2026-11-11T11:30:56.611Z",
           "expires": "2027-03-05T18:56:05.831Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -299,10 +294,10 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/epikroidsarefake.org",
               "http_status": 200,
-              "fetched_at": "2026-11-11T03:26:47.344Z",
+              "fetched_at": "2026-11-11T11:30:59.468Z",
               "registrar": "Epik LLC",
               "iana_id": "617",
-              "updated": "2026-11-11T03:26:00Z",
+              "updated": "2026-11-11T11:30:00Z",
               "expires": "2027-03-05T18:56:05Z",
               "status": [
                 "clientTransferProhibited"
@@ -311,7 +306,7 @@
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/epikroidsarefake.org",
               "http_status": 404,
-              "fetched_at": "2026-11-11T03:26:48.946Z"
+              "fetched_at": "2026-11-11T11:31:01.056Z"
             }
           }
         },
@@ -323,7 +318,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T03:26:40.232Z"
+      "queried_at": "2026-11-11T11:30:52.591Z"
     },
     "epikraaviolations.com": {
       "parsed": {
@@ -340,7 +335,7 @@
           "ns4.epik.com"
         ],
         "created": "2026-03-16T13:38:10Z",
-        "updated": "2026-11-11T03:27:00Z",
+        "updated": "2026-11-11T11:31:30Z",
         "expires": "2027-03-16T13:38:10Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -358,7 +353,7 @@
           ],
           "nameservers": [],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-11-11T03:27:00Z",
+          "updated": "2026-11-11T11:31:00Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -380,7 +375,7 @@
             "ns4.epik.com"
           ],
           "created": "2026-03-16T13:38:10Z",
-          "updated": "2026-11-11T03:27:00Z",
+          "updated": "2026-11-11T11:31:30Z",
           "expires": "2027-03-16T13:38:10Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -399,10 +394,10 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/epikraaviolations.com",
               "http_status": 200,
-              "fetched_at": "2026-11-11T03:27:12.679Z",
+              "fetched_at": "2026-11-11T11:31:52.072Z",
               "registrar": "Epik LLC",
               "iana_id": "617",
-              "updated": "2026-11-11T03:27:00Z",
+              "updated": "2026-11-11T11:31:00Z",
               "expires": "2027-03-16T13:38:10Z",
               "status": [
                 "clientTransferProhibited"
@@ -411,19 +406,19 @@
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/epikraaviolations.com",
               "http_status": 404,
-              "fetched_at": "2026-11-11T03:27:14.583Z"
+              "fetched_at": "2026-11-11T11:31:53.914Z"
             }
           }
         },
         "site_final_url": "https://epikraaviolations.com/",
-        "site_status": 403,
-        "site_title": "403 Forbidden",
+        "site_status": 200,
+        "site_title": "epikraaviolations.com - contact with domain owner | Epik.com",
         "site_sale_signals": [],
         "site_disabled": null,
-        "site_platform": null,
+        "site_platform": "epik-parking",
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T03:27:06.289Z"
+      "queried_at": "2026-11-11T11:31:45.379Z"
     },
     "masterbucks.com": {
       "parsed": {
@@ -440,7 +435,7 @@
           "christian.ns.cloudflare.com"
         ],
         "created": "2010-10-21T18:53:43Z",
-        "updated": "2026-11-11T03:27:15Z",
+        "updated": "2026-11-11T11:32:00Z",
         "expires": "2027-10-21T18:53:43Z",
         "registrant_org": "Anonymize LLC",
         "registrant_country": "US",
@@ -458,7 +453,7 @@
           ],
           "nameservers": [],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-11-11T03:27:00Z",
+          "updated": "2026-11-11T11:32:00Z",
           "expires": "2027-10-21T18:53:43Z",
           "registrant_org": "Anonymize LLC",
           "registrant_country": "US",
@@ -480,7 +475,7 @@
             "christian.ns.cloudflare.com"
           ],
           "created": "2010-10-21T18:53:43Z",
-          "updated": "2026-11-11T03:27:15Z",
+          "updated": "2026-11-11T11:32:00Z",
           "expires": "2027-10-21T18:53:43Z",
           "registrant_org": null,
           "registrant_country": null,
@@ -499,10 +494,10 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/masterbucks.com",
               "http_status": 200,
-              "fetched_at": "2026-11-11T03:27:36.830Z",
+              "fetched_at": "2026-11-11T11:32:17.612Z",
               "registrar": "Epik LLC",
               "iana_id": "617",
-              "updated": "2026-11-11T03:27:00Z",
+              "updated": "2026-11-11T11:32:00Z",
               "expires": "2027-10-21T18:53:43Z",
               "status": [
                 "clientTransferProhibited"
@@ -511,7 +506,7 @@
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/masterbucks.com",
               "http_status": 404,
-              "fetched_at": "2026-11-11T03:27:38.365Z"
+              "fetched_at": "2026-11-11T11:32:19.146Z"
             }
           }
         },
@@ -523,7 +518,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T03:27:30.363Z"
+      "queried_at": "2026-11-11T11:32:11.259Z"
     },
     "forensicexam.info": {
       "parsed": {
@@ -555,12 +550,12 @@
             "epik": {
               "url": "https://rdap.epik.com/domain/forensicexam.info",
               "http_status": 404,
-              "fetched_at": "2026-11-11T03:27:52.487Z"
+              "fetched_at": "2026-11-11T11:32:32.913Z"
             },
             "dynadot": {
               "url": "https://rdap.dynadot.com/domain/forensicexam.info",
               "http_status": 404,
-              "fetched_at": "2026-11-11T03:27:54.106Z"
+              "fetched_at": "2026-11-11T11:32:34.500Z"
             }
           }
         },
@@ -572,7 +567,7 @@
         "site_platform": null,
         "marketplace_listed": []
       },
-      "queried_at": "2026-11-11T03:27:47.653Z"
+      "queried_at": "2026-11-11T11:32:28.310Z"
     }
   }
 }
