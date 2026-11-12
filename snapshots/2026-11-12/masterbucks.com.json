@@ -1,0 +1,1437 @@
+{
+  "domain": "masterbucks.com",
+  "date": "2026-11-12",
+  "queried_at": "2026-11-12T01:44:38.053Z",
+  "raw_hash": "5c7809a9046ce7ac3480e526fef1a6112c8d4fb4ae618b98c6ebcc22542508ab",
+  "fields_hash": "047fc9e2cfe0056140da80df604b831a01c2816ead6c166cd138a572992788e5",
+  "parsed": {
+    "domain": "masterbucks.com",
+    "registrar": "Epik LLC",
+    "registrar_iana_id": "617",
+    "rdap_server": "https://rdap.verisign.com",
+    "rdap_build": "bc4916eb9cdfd2989b90dff6410329fcc2114a17 (2026-11-10T17:51:31Z)",
+    "status": [
+      "clientTransferProhibited"
+    ],
+    "nameservers": [
+      "amy.ns.cloudflare.com",
+      "christian.ns.cloudflare.com"
+    ],
+    "created": "2010-10-21T18:53:43Z",
+    "updated": "2026-11-12T01:44:18Z",
+    "expires": "2027-10-21T18:53:43Z",
+    "registrant_org": "Anonymize LLC",
+    "registrant_country": "US",
+    "dnssec": "unsigned",
+    "roid": "1621551184_DOMAIN_COM-VRSN",
+    "abuse_email": "abuse@epik.com",
+    "abuse_phone": "+17373015923",
+    "epik_data": {
+      "registrar": "Epik LLC",
+      "registrar_iana_id": "617",
+      "rdap_server": "https://rdap-whois.epik.com",
+      "rdap_build": "bc4916eb9cdfd2989b90dff6410329fcc2114a17 (2026-11-10T17:51:31Z)",
+      "status": [
+        "clientTransferProhibited"
+      ],
+      "nameservers": [],
+      "created": "2010-10-21T18:53:43Z",
+      "updated": "2026-11-12T01:44:00Z",
+      "expires": "2027-10-21T18:53:43Z",
+      "registrant_org": "Anonymize LLC",
+      "registrant_country": "US",
+      "dnssec": "unsigned",
+      "roid": "1621551184_DOMAIN_COM-VRSN",
+      "abuse_email": "abuse@epik.com",
+      "abuse_phone": "+17373015923"
+    },
+    "registry_data": {
+      "registrar": "Epik LLC",
+      "registrar_iana_id": "617",
+      "rdap_server": "https://rdap.verisign.com",
+      "rdap_build": null,
+      "status": [
+        "clientTransferProhibited"
+      ],
+      "nameservers": [
+        "amy.ns.cloudflare.com",
+        "christian.ns.cloudflare.com"
+      ],
+      "created": "2010-10-21T18:53:43Z",
+      "updated": "2026-11-12T01:44:18Z",
+      "expires": "2027-10-21T18:53:43Z",
+      "registrant_org": null,
+      "registrant_country": null,
+      "dnssec": "unsigned",
+      "roid": "1621551184_DOMAIN_COM-VRSN",
+      "abuse_email": "abuse@epik.com",
+      "abuse_phone": "+1.7373015923"
+    },
+    "anomalies": {},
+    "cross_registrar": {
+      "registry_registrar": "Epik LLC",
+      "registry_iana_id": "617",
+      "registrar_whois_server": "whois.epik.com",
+      "epik_whois": null,
+      "watched_rdap": {
+        "epik": {
+          "url": "https://rdap.epik.com/domain/masterbucks.com",
+          "http_status": 200,
+          "fetched_at": "2026-11-12T01:44:44.892Z",
+          "registrar": "Epik LLC",
+          "iana_id": "617",
+          "updated": "2026-11-12T01:44:00Z",
+          "expires": "2027-10-21T18:53:43Z",
+          "status": [
+            "clientTransferProhibited"
+          ]
+        },
+        "dynadot": {
+          "url": "https://rdap.dynadot.com/domain/masterbucks.com",
+          "http_status": 404,
+          "fetched_at": "2026-11-12T01:44:46.841Z"
+        }
+      }
+    },
+    "site_final_url": "https://masterbucks.com/",
+    "site_status": 200,
+    "site_title": "Masterbucks - Be The Master of Your Money",
+    "site_sale_signals": [],
+    "site_disabled": null,
+    "site_platform": null,
+    "marketplace_listed": []
+  },
+  "raw": {
+    "registrar": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-10-08T01:22:11Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2027-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-1jer1dmvv4ina@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-1jer1dmvv4ina@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-1jer1dmvv4ina@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": "Domain Name: MASTERBUCKS.COM\nRegistry Domain ID: 1621551184_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-10-08T01:22:11Z\nCreation Date: 2010-10-21T18:53:43Z\nRegistrar Registration Expiration Date: 2027-10-21T18:53:43Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: masterbucks.com-1jer1dmvv4ina@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: masterbucks.com-1jer1dmvv4ina@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: masterbucks.com-1jer1dmvv4ina@anonymize.com\nName Server: AMY.NS.CLOUDFLARE.COM\nName Server: CHRISTIAN.NS.CLOUDFLARE.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2020-08-30T05:29:17Z <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld_rdap": {
+      "objectClassName": "domain",
+      "handle": "1621551184_DOMAIN_COM-VRSN",
+      "ldhName": "MASTERBUCKS.COM",
+      "links": [
+        {
+          "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+          "rel": "self",
+          "href": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+          "type": "application/rdap+json"
+        },
+        {
+          "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+          "rel": "related",
+          "href": "https://rdap-whois.epik.com/domain/MASTERBUCKS.COM",
+          "type": "application/rdap+json"
+        }
+      ],
+      "status": [
+        "client transfer prohibited"
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "617",
+          "roles": [
+            "registrar"
+          ],
+          "links": [
+            {
+              "href": "http://www.epik.com",
+              "type": "text/html",
+              "value": "https://rdap-whois.epik.com/",
+              "rel": "about"
+            }
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "617"
+            }
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Epik LLC"
+              ]
+            ]
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "roles": [
+                "abuse"
+              ],
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    ""
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "email",
+                    {},
+                    "text",
+                    "abuse@epik.com"
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2010-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-10-08T01:22:11Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-11-12T01:44:18Z"
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": false
+      },
+      "nameservers": [
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "AMY.NS.CLOUDFLARE.COM"
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "CHRISTIAN.NS.CLOUDFLARE.COM"
+        }
+      ],
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_technical_implementation_guide_1",
+        "icann_rdap_response_profile_1"
+      ],
+      "notices": [
+        {
+          "title": "Terms of Service",
+          "description": [
+            "Service subject to Terms of Use."
+          ],
+          "links": [
+            {
+              "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+              "rel": "terms-of-service"
+            }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "href": "https://icann.org/epp",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+              "rel": "glossary"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "href": "https://icann.org/wicf",
+              "type": "text/html",
+              "value": "https://rdap.verisign.com/com/v1/domain/masterbucks.com",
+              "rel": "help"
+            }
+          ]
+        }
+      ]
+    },
+    "registrar_rdap": {
+      "objectClassName": "domain",
+      "handle": "1621551184_DOMAIN_COM-VRSN",
+      "ldhName": "masterbucks.com",
+      "lang": "en",
+      "secureDNS": {
+        "delegationSigned": false
+      },
+      "links": [
+        {
+          "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+          "rel": "self",
+          "href": "https://rdap-whois.epik.com/domain/masterbucks.com",
+          "type": "application/rdap+json"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "REG_9E88ED417B1F2336-VRSN",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Privacy Administrator"
+              ],
+              [
+                "org",
+                {
+                  "type": "work"
+                },
+                "text",
+                "Anonymize LLC"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "30 N Gould St STE E",
+                  "Sheridan",
+                  "WY",
+                  "82801",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.7373015923"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
+              ]
+            ]
+          ],
+          "roles": [
+            "registrant"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-08T01:22:11Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "ADM_136F4F70E922CC6F-VRSN",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Privacy Administrator"
+              ],
+              [
+                "org",
+                {
+                  "type": "work"
+                },
+                "text",
+                "Anonymize LLC"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "30 N Gould St STE E",
+                  "Sheridan",
+                  "WY",
+                  "82801",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.7373015923"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
+              ]
+            ]
+          ],
+          "roles": [
+            "administrative"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-08T01:22:11Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "TEC_0053B11944C9AD02-VRSN",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Privacy Administrator"
+              ],
+              [
+                "org",
+                {
+                  "type": "work"
+                },
+                "text",
+                "Anonymize LLC"
+              ],
+              [
+                "adr",
+                {
+                  "cc": "US"
+                },
+                "text",
+                [
+                  "",
+                  "",
+                  "30 N Gould St STE E",
+                  "Sheridan",
+                  "WY",
+                  "82801",
+                  ""
+                ]
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.7373015923"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
+              ]
+            ]
+          ],
+          "roles": [
+            "technical"
+          ],
+          "events": [
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-08T01:22:11Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "entity",
+          "handle": "617",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "org"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Epik LLC"
+              ],
+              [
+                "org",
+                {},
+                "text",
+                "Epik LLC"
+              ],
+              [
+                "contact-uri",
+                {},
+                "uri",
+                "https://www.epik.com/contact"
+              ]
+            ]
+          ],
+          "roles": [
+            "registrar"
+          ],
+          "publicIds": [
+            {
+              "type": "IANA Registrar ID",
+              "identifier": "617"
+            }
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Epik LLC"
+                  ],
+                  [
+                    "email",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "abuse@epik.com"
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+17373015923"
+                  ]
+                ]
+              ],
+              "roles": [
+                "abuse"
+              ]
+            }
+          ],
+          "links": [
+            {
+              "value": "https://rdap-whois.epik.com/",
+              "rel": "about",
+              "href": "https://www.epik.com",
+              "type": "text/html"
+            },
+            {
+              "value": "https://rdap.epik.com/help/terms",
+              "rel": "terms-of-service",
+              "href": "https://rdap.epik.com/help/terms",
+              "type": "text/html"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2010-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2026-10-08T01:22:11Z"
+        },
+        {
+          "eventAction": "expiration",
+          "eventDate": "2027-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "registrar expiration",
+          "eventDate": "2027-10-21T18:53:43Z"
+        },
+        {
+          "eventAction": "last update of RDAP database",
+          "eventDate": "2026-11-12T01:44:00Z"
+        }
+      ],
+      "status": [
+        "client transfer prohibited"
+      ],
+      "notices": [
+        {
+          "title": "Server Information",
+          "description": [
+            "RDAP Server Version: 1.3.1-bc4916eb9cdf",
+            "Build: bc4916eb9cdfd2989b90dff6410329fcc2114a17 (2026-11-10T17:51:31Z)",
+            "Environment: production"
+          ]
+        },
+        {
+          "title": "Terms of Service",
+          "description": [
+            "Service subject to Terms of Service."
+          ],
+          "links": [
+            {
+              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "rel": "terms-of-service",
+              "href": "https://www.epik.com/tos",
+              "type": "text/html"
+            },
+            {
+              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "rel": "terms-of-service",
+              "href": "https://rdap-whois.epik.com/help/terms",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "Status Codes",
+          "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+          ],
+          "links": [
+            {
+              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "rel": "glossary",
+              "href": "https://icann.org/epp",
+              "type": "text/html"
+            }
+          ]
+        },
+        {
+          "title": "RDDS Inaccuracy Complaint Form",
+          "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+          ],
+          "links": [
+            {
+              "value": "https://rdap-whois.epik.com/domain/masterbucks.com",
+              "rel": "help",
+              "href": "https://icann.org/wicf",
+              "type": "text/html"
+            }
+          ]
+        }
+      ],
+      "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_response_profile_1",
+        "icann_rdap_technical_implementation_guide_1",
+        "redacted"
+      ],
+      "redacted": [
+        {
+          "name": {
+            "type": "Registrant Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Admin Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        },
+        {
+          "name": {
+            "type": "Tech Email"
+          },
+          "prePath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
+          "replacementPath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='contact-uri')]",
+          "pathLang": "jsonpath",
+          "method": "replacementValue",
+          "reason": {
+            "description": "Server policy"
+          }
+        }
+      ]
+    },
+    "registrar_whois_server": "whois.epik.com",
+    "epik_whois": null,
+    "watched_rdap": {
+      "epik": {
+        "url": "https://rdap.epik.com/domain/masterbucks.com",
+        "status": 200,
+        "fetched_at": "2026-11-12T01:44:44.892Z",
+        "body": {
+          "objectClassName": "domain",
+          "handle": "1621551184_DOMAIN_COM-VRSN",
+          "ldhName": "masterbucks.com",
+          "lang": "en",
+          "secureDNS": {
+            "delegationSigned": false
+          },
+          "links": [
+            {
+              "value": "https://rdap.epik.com/domain/masterbucks.com",
+              "rel": "self",
+              "href": "https://rdap.epik.com/domain/masterbucks.com",
+              "type": "application/rdap+json"
+            }
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "handle": "REG_9E88ED417B1F2336-VRSN",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Privacy Administrator"
+                  ],
+                  [
+                    "org",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "Anonymize LLC"
+                  ],
+                  [
+                    "adr",
+                    {
+                      "cc": "US"
+                    },
+                    "text",
+                    [
+                      "",
+                      "",
+                      "30 N Gould St STE E",
+                      "Sheridan",
+                      "WY",
+                      "82801",
+                      ""
+                    ]
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
+                  ]
+                ]
+              ],
+              "roles": [
+                "registrant"
+              ],
+              "events": [
+                {
+                  "eventAction": "last changed",
+                  "eventDate": "2026-10-08T01:22:11Z"
+                }
+              ]
+            },
+            {
+              "objectClassName": "entity",
+              "handle": "ADM_136F4F70E922CC6F-VRSN",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Privacy Administrator"
+                  ],
+                  [
+                    "org",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "Anonymize LLC"
+                  ],
+                  [
+                    "adr",
+                    {
+                      "cc": "US"
+                    },
+                    "text",
+                    [
+                      "",
+                      "",
+                      "30 N Gould St STE E",
+                      "Sheridan",
+                      "WY",
+                      "82801",
+                      ""
+                    ]
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
+                  ]
+                ]
+              ],
+              "roles": [
+                "administrative"
+              ],
+              "events": [
+                {
+                  "eventAction": "last changed",
+                  "eventDate": "2026-10-08T01:22:11Z"
+                }
+              ]
+            },
+            {
+              "objectClassName": "entity",
+              "handle": "TEC_0053B11944C9AD02-VRSN",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Privacy Administrator"
+                  ],
+                  [
+                    "org",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "Anonymize LLC"
+                  ],
+                  [
+                    "adr",
+                    {
+                      "cc": "US"
+                    },
+                    "text",
+                    [
+                      "",
+                      "",
+                      "30 N Gould St STE E",
+                      "Sheridan",
+                      "WY",
+                      "82801",
+                      ""
+                    ]
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact-domain-owner/?domainName=masterbucks.com"
+                  ]
+                ]
+              ],
+              "roles": [
+                "technical"
+              ],
+              "events": [
+                {
+                  "eventAction": "last changed",
+                  "eventDate": "2026-10-08T01:22:11Z"
+                }
+              ]
+            },
+            {
+              "objectClassName": "entity",
+              "handle": "617",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Epik LLC"
+                  ],
+                  [
+                    "org",
+                    {},
+                    "text",
+                    "Epik LLC"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact"
+                  ]
+                ]
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "publicIds": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "617"
+                }
+              ],
+              "entities": [
+                {
+                  "objectClassName": "entity",
+                  "vcardArray": [
+                    "vcard",
+                    [
+                      [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                      ],
+                      [
+                        "kind",
+                        {},
+                        "text",
+                        "org"
+                      ],
+                      [
+                        "fn",
+                        {},
+                        "text",
+                        "Epik LLC"
+                      ],
+                      [
+                        "email",
+                        {
+                          "type": "work"
+                        },
+                        "text",
+                        "abuse@epik.com"
+                      ],
+                      [
+                        "tel",
+                        {
+                          "type": "voice"
+                        },
+                        "uri",
+                        "tel:+17373015923"
+                      ]
+                    ]
+                  ],
+                  "roles": [
+                    "abuse"
+                  ]
+                }
+              ],
+              "links": [
+                {
+                  "value": "https://rdap-whois.epik.com/",
+                  "rel": "about",
+                  "href": "https://www.epik.com",
+                  "type": "text/html"
+                },
+                {
+                  "value": "https://rdap.epik.com/help/terms",
+                  "rel": "terms-of-service",
+                  "href": "https://rdap.epik.com/help/terms",
+                  "type": "text/html"
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "eventAction": "registration",
+              "eventDate": "2010-10-21T18:53:43Z"
+            },
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-10-08T01:22:11Z"
+            },
+            {
+              "eventAction": "expiration",
+              "eventDate": "2027-10-21T18:53:43Z"
+            },
+            {
+              "eventAction": "registrar expiration",
+              "eventDate": "2027-10-21T18:53:43Z"
+            },
+            {
+              "eventAction": "last update of RDAP database",
+              "eventDate": "2026-11-12T01:44:00Z"
+            }
+          ],
+          "status": [
+            "client transfer prohibited"
+          ],
+          "notices": [
+            {
+              "title": "Server Information",
+              "description": [
+                "RDAP Server Version: 1.3.1-bc4916eb9cdf",
+                "Build: bc4916eb9cdfd2989b90dff6410329fcc2114a17 (2026-11-10T17:51:31Z)",
+                "Environment: production"
+              ]
+            },
+            {
+              "title": "Terms of Service",
+              "description": [
+                "Service subject to Terms of Service."
+              ],
+              "links": [
+                {
+                  "value": "https://rdap.epik.com/domain/masterbucks.com",
+                  "rel": "terms-of-service",
+                  "href": "https://www.epik.com/tos",
+                  "type": "text/html"
+                },
+                {
+                  "value": "https://rdap.epik.com/domain/masterbucks.com",
+                  "rel": "terms-of-service",
+                  "href": "https://rdap.epik.com/help/terms",
+                  "type": "text/html"
+                }
+              ]
+            },
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "value": "https://rdap.epik.com/domain/masterbucks.com",
+                  "rel": "glossary",
+                  "href": "https://icann.org/epp",
+                  "type": "text/html"
+                }
+              ]
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "value": "https://rdap.epik.com/domain/masterbucks.com",
+                  "rel": "help",
+                  "href": "https://icann.org/wicf",
+                  "type": "text/html"
+                }
+              ]
+            }
+          ],
+          "rdapConformance": [
+            "rdap_level_0",
+            "icann_rdap_response_profile_1",
+            "icann_rdap_technical_implementation_guide_1",
+            "redacted"
+          ],
+          "redacted": [
+            {
+              "name": {
+                "type": "Registrant Email"
+              },
+              "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+              "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')]",
+              "pathLang": "jsonpath",
+              "method": "replacementValue",
+              "reason": {
+                "description": "Server policy"
+              }
+            },
+            {
+              "name": {
+                "type": "Admin Email"
+              },
+              "prePath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='email')]",
+              "replacementPath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')]",
+              "pathLang": "jsonpath",
+              "method": "replacementValue",
+              "reason": {
+                "description": "Server policy"
+              }
+            },
+            {
+              "name": {
+                "type": "Tech Email"
+              },
+              "prePath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
+              "replacementPath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='contact-uri')]",
+              "pathLang": "jsonpath",
+              "method": "replacementValue",
+              "reason": {
+                "description": "Server policy"
+              }
+            }
+          ]
+        }
+      },
+      "dynadot": {
+        "url": "https://rdap.dynadot.com/domain/masterbucks.com",
+        "status": 404,
+        "fetched_at": "2026-11-12T01:44:46.841Z",
+        "body": {
+          "rdapConformance": [
+            "rdap_level_0",
+            "icann_rdap_response_profile_1",
+            "icann_rdap_technical_implementation_guide_1",
+            "redacted"
+          ],
+          "notices": [
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "rel": "glossary",
+                  "value": "https://rdap.dynadot.com/domain/masterbucks.com",
+                  "href": "https://icann.org/epp",
+                  "type": "text/html"
+                }
+              ]
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "rel": "help",
+                  "value": "https://rdap.dynadot.com/domain/masterbucks.com",
+                  "href": "https://icann.org/wicf",
+                  "type": "text/html"
+                }
+              ]
+            },
+            {
+              "title": "Terms of Service",
+              "description": [
+                "URL of the Dynadot terms of service: https://www.dynadot.com/registration_agreement.html"
+              ],
+              "links": [
+                {
+                  "rel": "terms-of-service",
+                  "value": "https://rdap.dynadot.com/domain/masterbucks.com",
+                  "href": "https://www.dynadot.com/registration_agreement.html",
+                  "type": "text/html"
+                }
+              ]
+            }
+          ],
+          "errorCode": 404,
+          "title": "Error in processing the request",
+          "description": [
+            "Not found"
+          ]
+        }
+      }
+    },
+    "web": {
+      "captured_at": "2026-11-12T01:44:47.072Z",
+      "dns": {
+        "a": [
+          "104.21.67.89",
+          "172.67.219.35"
+        ],
+        "ns": [
+          "amy.ns.cloudflare.com",
+          "christian.ns.cloudflare.com"
+        ],
+        "errors": []
+      },
+      "http": {
+        "start_url": "http://masterbucks.com/",
+        "hops": [
+          {
+            "url": "http://masterbucks.com/",
+            "status": 301,
+            "location": "https://masterbucks.com/",
+            "server": "cloudflare",
+            "error": null
+          },
+          {
+            "url": "https://masterbucks.com/",
+            "status": 200,
+            "location": null,
+            "server": "cloudflare",
+            "error": null
+          }
+        ],
+        "final_url": "https://masterbucks.com/",
+        "final_status": 200,
+        "final_error": null,
+        "content_type": "text/html",
+        "title": "Masterbucks - Be The Master of Your Money",
+        "body_sha256": "980097eb40dbe9fbe0b68d1278a85ac503c827d5973651fbebbd71a5f56fce8e",
+        "body_length": 18833,
+        "text_excerpt": "Masterbucks - Be The Master of Your Money"
+      },
+      "https": {
+        "start_url": "https://masterbucks.com/",
+        "hops": [
+          {
+            "url": "https://masterbucks.com/",
+            "status": 200,
+            "location": null,
+            "server": "cloudflare",
+            "error": null
+          }
+        ],
+        "final_url": "https://masterbucks.com/",
+        "final_status": 200,
+        "final_error": null,
+        "content_type": "text/html",
+        "title": "Masterbucks - Be The Master of Your Money",
+        "body_sha256": "980097eb40dbe9fbe0b68d1278a85ac503c827d5973651fbebbd71a5f56fce8e",
+        "body_length": 18833,
+        "text_excerpt": "Masterbucks - Be The Master of Your Money"
+      },
+      "marketplaces": {
+        "afternic": {
+          "url": "https://www.afternic.com/domain/masterbucks.com",
+          "http_status": 307,
+          "location": "https://www.afternic.com/_error",
+          "state": "unknown",
+          "mentions": 0,
+          "blocked": false,
+          "title": null,
+          "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
+          "error": null,
+          "fetched_at": "2026-11-12T01:44:50.382Z"
+        },
+        "sedo": {
+          "url": "https://sedo.com/search/details/?domain=masterbucks.com",
+          "http_status": 200,
+          "location": null,
+          "state": "unknown",
+          "mentions": 0,
+          "blocked": false,
+          "title": "Domain Details Page",
+          "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
+          "error": null,
+          "fetched_at": "2026-11-12T01:44:53.611Z"
+        },
+        "atom": {
+          "url": "https://www.atom.com/name/masterbucks",
+          "http_status": 403,
+          "location": null,
+          "state": "blocked",
+          "mentions": 0,
+          "blocked": true,
+          "title": "Just a moment...",
+          "body_sha256": "7c04713d1ee7f50af9c7d8bc52d680ca8c35e5702670498344aa3d0f619fbdec",
+          "error": null,
+          "fetched_at": "2026-11-12T01:44:54.834Z"
+        },
+        "dynadot_market": {
+          "url": "https://www.dynadot.com/market/user-listings/masterbucks.com",
+          "http_status": 302,
+          "location": "https://www.dynadot.com/market/user-listings",
+          "state": "unknown",
+          "mentions": 0,
+          "blocked": false,
+          "title": null,
+          "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
+          "error": null,
+          "fetched_at": "2026-11-12T01:44:56.195Z"
+        },
+        "namecheap_market": {
+          "url": "https://www.namecheap.com/market/buynow/masterbucks.com/",
+          "http_status": 403,
+          "location": null,
+          "state": "blocked",
+          "mentions": 0,
+          "blocked": true,
+          "title": "Just a moment...",
+          "body_sha256": "de82b41c8ae699d0570a81230d04bb7e98b05650b325bf89bd36353129e184b7",
+          "error": null,
+          "fetched_at": "2026-11-12T01:44:57.428Z"
+        }
+      }
+    }
+  }
+}
