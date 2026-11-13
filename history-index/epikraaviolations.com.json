@@ -1,7 +1,7 @@
 {
  "domain": "epikraaviolations.com",
- "generated_at": "2026-11-13T00:47:28.396Z",
- "head": "2bae6ef493f72a6e4f030fc2974356dabdc1e595",
+ "generated_at": "2026-11-13T11:41:39.324Z",
+ "head": "df183874e86573cd308593deaf025ed9f8b7133e",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -22432,6 +22432,32 @@
    "raw_hash_ok": true,
    "hash_changed": true,
    "changed": [
+    "site_platform",
+    "site_status",
+    "site_title",
+    "updated"
+   ],
+   "anomalies": [],
+   "first": false
+  },
+  {
+   "commit": "df183874e86573cd308593deaf025ed9f8b7133e",
+   "committed_at": "2026-11-13T11:41:35Z",
+   "run_id": "43418803282",
+   "path": "snapshots/2026-11-13/epikraaviolations.com.json",
+   "blob": "b65d6f44200a6e0fd8289e8fa612ddb077a06b97",
+   "date": "2026-11-13",
+   "queried_at": "2026-11-13T11:40:38.569Z",
+   "fields_hash": "d0bea4e5378c0e644bc5ffbe32d099e14274895f5ff114d5f70b3949ba8aefee",
+   "raw_hash": "9039356992a153e77e114d1bc1edae5a76c877e86d34172a143674e7a486523b",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "abuse_phone",
+    "rdap_build",
+    "registrant_country",
+    "registrant_org",
     "site_platform",
     "site_status",
     "site_title",
