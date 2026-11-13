@@ -1,7 +1,7 @@
 {
  "domain": "epikroidsarefake.org",
- "generated_at": "2026-11-13T11:41:39.324Z",
- "head": "df183874e86573cd308593deaf025ed9f8b7133e",
+ "generated_at": "2026-11-13T18:53:12.172Z",
+ "head": "52039dff8c40ca17fdcb00992fb2005aa3d7a2a8",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -22877,6 +22877,28 @@
    "date": "2026-11-13",
    "queried_at": "2026-11-13T11:40:20.981Z",
    "fields_hash": "0b4f820924a26c332a670eacf80905b5118b3b2e7368ce14909db22aa2e3398f",
+   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "site_platform",
+    "site_status",
+    "site_title",
+    "updated"
+   ],
+   "anomalies": [],
+   "first": false
+  },
+  {
+   "commit": "52039dff8c40ca17fdcb00992fb2005aa3d7a2a8",
+   "committed_at": "2026-11-13T18:53:08Z",
+   "run_id": "43486571720",
+   "path": "snapshots/2026-11-13/epikroidsarefake.org.json",
+   "blob": "bfb132b4618cf87ef53a1af50b3b64eaf8c6d256",
+   "date": "2026-11-13",
+   "queried_at": "2026-11-13T18:51:52.653Z",
+   "fields_hash": "1f89335fdfc04a4a5742740c09b282922743f0459a74b103a23e8c3a8d8bb2bc",
    "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
    "fields_hash_ok": true,
    "raw_hash_ok": true,
