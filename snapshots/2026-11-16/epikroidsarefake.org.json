@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-11-16",
-  "queried_at": "2026-11-16T12:09:48.141Z",
+  "queried_at": "2026-11-16T23:53:32.597Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "bf0f26d4ffa76296fffbdeb3e3a25251df9424e36d6645b16402ccaf246bcec5",
+  "fields_hash": "e02dc589a75dd2563873dcdc16a20e2387c363ee024eda00383384e9af4e0d43",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-11-16T12:09:51.139Z",
+    "updated": "2026-11-16T23:53:36.559Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -36,7 +36,7 @@
       ],
       "nameservers": [],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-11-16T12:09:00Z",
+      "updated": "2026-11-16T23:53:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -58,7 +58,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-11-16T12:09:51.139Z",
+      "updated": "2026-11-16T23:53:36.559Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -77,10 +77,10 @@
         "epik": {
           "url": "https://rdap.epik.com/domain/epikroidsarefake.org",
           "http_status": 200,
-          "fetched_at": "2026-11-16T12:09:54.048Z",
+          "fetched_at": "2026-11-16T23:53:39.553Z",
           "registrar": "Epik LLC",
           "iana_id": "617",
-          "updated": "2026-11-16T12:09:00Z",
+          "updated": "2026-11-16T23:53:00Z",
           "expires": "2027-03-05T18:56:05Z",
           "status": [
             "clientTransferProhibited"
@@ -89,7 +89,7 @@
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/epikroidsarefake.org",
           "http_status": 404,
-          "fetched_at": "2026-11-16T12:09:55.720Z"
+          "fetched_at": "2026-11-16T23:53:41.285Z"
         }
       }
     },
@@ -218,7 +218,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-16T12:09:51.139Z"
+          "eventDate": "2026-11-16T23:53:36.559Z"
         }
       ],
       "entities": [
@@ -688,7 +688,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-16T12:09:00Z"
+          "eventDate": "2026-11-16T23:53:00Z"
         }
       ],
       "status": [
@@ -814,7 +814,7 @@
       "epik": {
         "url": "https://rdap.epik.com/domain/epikroidsarefake.org",
         "status": 200,
-        "fetched_at": "2026-11-16T12:09:54.048Z",
+        "fetched_at": "2026-11-16T23:53:39.553Z",
         "body": {
           "objectClassName": "domain",
           "ldhName": "epikroidsarefake.org",
@@ -1182,7 +1182,7 @@
             },
             {
               "eventAction": "last update of RDAP database",
-              "eventDate": "2026-11-16T12:09:00Z"
+              "eventDate": "2026-11-16T23:53:00Z"
             }
           ],
           "status": [
@@ -1306,7 +1306,7 @@
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/epikroidsarefake.org",
         "status": 404,
-        "fetched_at": "2026-11-16T12:09:55.720Z",
+        "fetched_at": "2026-11-16T23:53:41.285Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -1367,7 +1367,7 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-16T12:09:55.744Z",
+      "captured_at": "2026-11-16T23:53:41.612Z",
       "dns": {
         "a": [
           "209.196.146.115"
@@ -1436,7 +1436,7 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-16T12:09:59.203Z"
+          "fetched_at": "2026-11-16T23:53:45.699Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=epikroidsarefake.org",
@@ -1448,7 +1448,7 @@
           "title": "Domain Details Page",
           "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
           "error": null,
-          "fetched_at": "2026-11-16T12:10:00.945Z"
+          "fetched_at": "2026-11-16T23:53:47.305Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/epikroidsarefake",
@@ -1458,9 +1458,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "1d3bf900206f77010a20c11a2dfd110244f4ef1c6f721e2cb854e5468cacf7f4",
+          "body_sha256": "6e3ab50be5aa4baa7684b203ea500e5c392c12e6970d2e97f683281496214ba1",
           "error": null,
-          "fetched_at": "2026-11-16T12:10:02.161Z"
+          "fetched_at": "2026-11-16T23:53:48.528Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/epikroidsarefake.org",
@@ -1472,7 +1472,7 @@
           "title": null,
           "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
           "error": null,
-          "fetched_at": "2026-11-16T12:10:03.513Z"
+          "fetched_at": "2026-11-16T23:53:49.903Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/epikroidsarefake.org/",
@@ -1482,9 +1482,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "4a099a8161b086ee31dcbe187f9ca33f2ac8e61229bca09e6a6a635b86984a63",
+          "body_sha256": "7ea2ef9edc2918e317f40f96bd8c67dd16937be7b6395ce9ff0029e06288f421",
           "error": null,
-          "fetched_at": "2026-11-16T12:10:04.736Z"
+          "fetched_at": "2026-11-16T23:53:51.125Z"
         }
       }
     }
