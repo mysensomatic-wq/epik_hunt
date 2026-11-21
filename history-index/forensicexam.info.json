@@ -1,7 +1,7 @@
 {
  "domain": "forensicexam.info",
- "generated_at": "2026-11-21T15:44:17.672Z",
- "head": "2d7f3f8fa61ff86cd0af324d8a3e38b69393ac66",
+ "generated_at": "2026-11-21T21:16:58.625Z",
+ "head": "547b7e06845dc12c9e1ab978843fb1aa7d1dc3a7",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -16641,6 +16641,25 @@
    "blob": "a6d7d92939b62caaa7057586d02af22a50a8e150",
    "date": "2026-11-21",
    "queried_at": "2026-11-21T15:43:58.003Z",
+   "fields_hash": "5a4f9e3e883bfbb38c6a6bd438c72a1060916e1286897e4dd59ce3b736c0e3bc",
+   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": false,
+   "changed": [],
+   "anomalies": [
+    "status"
+   ],
+   "first": false
+  },
+  {
+   "commit": "547b7e06845dc12c9e1ab978843fb1aa7d1dc3a7",
+   "committed_at": "2026-11-21T21:16:54Z",
+   "run_id": "44950533429",
+   "path": "snapshots/2026-11-21/forensicexam.info.json",
+   "blob": "8a239be54cc8b3a0860c016b5108411adf423c3d",
+   "date": "2026-11-21",
+   "queried_at": "2026-11-21T21:16:38.935Z",
    "fields_hash": "5a4f9e3e883bfbb38c6a6bd438c72a1060916e1286897e4dd59ce3b736c0e3bc",
    "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
    "fields_hash_ok": true,
