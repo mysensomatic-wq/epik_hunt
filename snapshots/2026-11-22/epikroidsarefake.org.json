@@ -1,9 +1,9 @@
 {
   "domain": "epikroidsarefake.org",
   "date": "2026-11-22",
-  "queried_at": "2026-11-22T03:45:22.301Z",
+  "queried_at": "2026-11-22T12:04:23.007Z",
   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
-  "fields_hash": "1cefa9ccc0924ac403b6bb0a5f7a81d073d446b56dbff16e13496bf33952bd7c",
+  "fields_hash": "a095a13fe7a42bab92bc188dace4e682c97a30c8f6ef39182fe22ce26a664968",
   "parsed": {
     "domain": "epikroidsarefake.org",
     "registrar": "Epik LLC",
@@ -18,7 +18,7 @@
       "ns4.epik.com"
     ],
     "created": "2026-03-05T18:56:05.831Z",
-    "updated": "2026-11-22T03:45:25.938Z",
+    "updated": "2026-11-22T12:04:26.253Z",
     "expires": "2027-03-05T18:56:05.831Z",
     "registrant_org": "Anonymize LLC",
     "registrant_country": "US",
@@ -36,7 +36,7 @@
       ],
       "nameservers": [],
       "created": "2026-03-05T18:56:05Z",
-      "updated": "2026-11-22T03:45:00Z",
+      "updated": "2026-11-22T12:04:00Z",
       "expires": "2027-03-05T18:56:05Z",
       "registrant_org": "Anonymize LLC",
       "registrant_country": "US",
@@ -58,7 +58,7 @@
         "ns4.epik.com"
       ],
       "created": "2026-03-05T18:56:05.831Z",
-      "updated": "2026-11-22T03:45:25.938Z",
+      "updated": "2026-11-22T12:04:26.253Z",
       "expires": "2027-03-05T18:56:05.831Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -76,14 +76,20 @@
       "watched_rdap": {
         "epik": {
           "url": "https://rdap.epik.com/domain/epikroidsarefake.org",
-          "http_status": null,
-          "fetched_at": "2026-11-22T03:45:28.809Z",
-          "error": "request to https://rdap.epik.com/domain/epikroidsarefake.org failed, reason: socket hang up"
+          "http_status": 200,
+          "fetched_at": "2026-11-22T12:04:29.095Z",
+          "registrar": "Epik LLC",
+          "iana_id": "617",
+          "updated": "2026-11-22T12:04:00Z",
+          "expires": "2027-03-05T18:56:05Z",
+          "status": [
+            "clientTransferProhibited"
+          ]
         },
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/epikroidsarefake.org",
           "http_status": 404,
-          "fetched_at": "2026-11-22T03:45:30.057Z"
+          "fetched_at": "2026-11-22T12:04:30.664Z"
         }
       }
     },
@@ -212,7 +218,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-22T03:45:25.938Z"
+          "eventDate": "2026-11-22T12:04:26.253Z"
         }
       ],
       "entities": [
@@ -682,7 +688,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-22T03:45:00Z"
+          "eventDate": "2026-11-22T12:04:00Z"
         }
       ],
       "status": [
@@ -807,14 +813,500 @@
     "watched_rdap": {
       "epik": {
         "url": "https://rdap.epik.com/domain/epikroidsarefake.org",
-        "status": null,
-        "fetched_at": "2026-11-22T03:45:28.809Z",
-        "error": "request to https://rdap.epik.com/domain/epikroidsarefake.org failed, reason: socket hang up"
+        "status": 200,
+        "fetched_at": "2026-11-22T12:04:29.095Z",
+        "body": {
+          "objectClassName": "domain",
+          "ldhName": "epikroidsarefake.org",
+          "lang": "en",
+          "secureDNS": {
+            "delegationSigned": false
+          },
+          "links": [
+            {
+              "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "rel": "self",
+              "href": "https://rdap.epik.com/domain/epikroidsarefake.org",
+              "type": "application/rdap+json"
+            }
+          ],
+          "entities": [
+            {
+              "objectClassName": "entity",
+              "handle": "REG_681F1CA574335BBA-VRSN",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Privacy Administrator"
+                  ],
+                  [
+                    "org",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "Anonymize LLC"
+                  ],
+                  [
+                    "adr",
+                    {
+                      "cc": "US"
+                    },
+                    "text",
+                    [
+                      "",
+                      "",
+                      "30 N Gould St STE E",
+                      "Sheridan",
+                      "WY",
+                      "82801",
+                      ""
+                    ]
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact-domain-owner/?domainName=epikroidsarefake.org"
+                  ]
+                ]
+              ],
+              "roles": [
+                "registrant"
+              ],
+              "events": [
+                {
+                  "eventAction": "last changed",
+                  "eventDate": "2026-08-12T03:25:43Z"
+                }
+              ]
+            },
+            {
+              "objectClassName": "entity",
+              "handle": "ADM_FF9ECCC3795CAAE7-VRSN",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Privacy Administrator"
+                  ],
+                  [
+                    "org",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "Anonymize LLC"
+                  ],
+                  [
+                    "adr",
+                    {
+                      "cc": "US"
+                    },
+                    "text",
+                    [
+                      "",
+                      "",
+                      "30 N Gould St STE E",
+                      "Sheridan",
+                      "WY",
+                      "82801",
+                      ""
+                    ]
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact-domain-owner/?domainName=epikroidsarefake.org"
+                  ]
+                ]
+              ],
+              "roles": [
+                "administrative"
+              ],
+              "events": [
+                {
+                  "eventAction": "last changed",
+                  "eventDate": "2026-08-12T03:25:43Z"
+                }
+              ]
+            },
+            {
+              "objectClassName": "entity",
+              "handle": "TEC_A0BB58F1FBB7E046-VRSN",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Privacy Administrator"
+                  ],
+                  [
+                    "org",
+                    {
+                      "type": "work"
+                    },
+                    "text",
+                    "Anonymize LLC"
+                  ],
+                  [
+                    "adr",
+                    {
+                      "cc": "US"
+                    },
+                    "text",
+                    [
+                      "",
+                      "",
+                      "30 N Gould St STE E",
+                      "Sheridan",
+                      "WY",
+                      "82801",
+                      ""
+                    ]
+                  ],
+                  [
+                    "tel",
+                    {
+                      "type": "voice"
+                    },
+                    "uri",
+                    "tel:+1.7373015923"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact-domain-owner/?domainName=epikroidsarefake.org"
+                  ]
+                ]
+              ],
+              "roles": [
+                "technical"
+              ],
+              "events": [
+                {
+                  "eventAction": "last changed",
+                  "eventDate": "2026-08-12T03:25:43Z"
+                }
+              ]
+            },
+            {
+              "objectClassName": "entity",
+              "handle": "617",
+              "vcardArray": [
+                "vcard",
+                [
+                  [
+                    "version",
+                    {},
+                    "text",
+                    "4.0"
+                  ],
+                  [
+                    "kind",
+                    {},
+                    "text",
+                    "org"
+                  ],
+                  [
+                    "fn",
+                    {},
+                    "text",
+                    "Epik LLC"
+                  ],
+                  [
+                    "org",
+                    {},
+                    "text",
+                    "Epik LLC"
+                  ],
+                  [
+                    "contact-uri",
+                    {},
+                    "uri",
+                    "https://www.epik.com/contact"
+                  ]
+                ]
+              ],
+              "roles": [
+                "registrar"
+              ],
+              "publicIds": [
+                {
+                  "type": "IANA Registrar ID",
+                  "identifier": "617"
+                }
+              ],
+              "entities": [
+                {
+                  "objectClassName": "entity",
+                  "vcardArray": [
+                    "vcard",
+                    [
+                      [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                      ],
+                      [
+                        "kind",
+                        {},
+                        "text",
+                        "org"
+                      ],
+                      [
+                        "fn",
+                        {},
+                        "text",
+                        "Epik LLC"
+                      ],
+                      [
+                        "email",
+                        {
+                          "type": "work"
+                        },
+                        "text",
+                        "abuse@epik.com"
+                      ],
+                      [
+                        "tel",
+                        {
+                          "type": "voice"
+                        },
+                        "uri",
+                        "tel:+17373015923"
+                      ]
+                    ]
+                  ],
+                  "roles": [
+                    "abuse"
+                  ]
+                }
+              ],
+              "links": [
+                {
+                  "value": "https://rdap-whois.epik.com/",
+                  "rel": "about",
+                  "href": "https://www.epik.com",
+                  "type": "text/html"
+                },
+                {
+                  "value": "https://rdap.epik.com/help/terms",
+                  "rel": "terms-of-service",
+                  "href": "https://rdap.epik.com/help/terms",
+                  "type": "text/html"
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "eventAction": "registration",
+              "eventDate": "2026-03-05T18:56:05Z"
+            },
+            {
+              "eventAction": "last changed",
+              "eventDate": "2026-08-12T03:25:43Z"
+            },
+            {
+              "eventAction": "expiration",
+              "eventDate": "2027-03-05T18:56:05Z"
+            },
+            {
+              "eventAction": "registrar expiration",
+              "eventDate": "2027-03-05T18:56:05Z"
+            },
+            {
+              "eventAction": "last update of RDAP database",
+              "eventDate": "2026-11-22T12:04:00Z"
+            }
+          ],
+          "status": [
+            "client transfer prohibited"
+          ],
+          "notices": [
+            {
+              "title": "Server Information",
+              "description": [
+                "RDAP Server Version: 1.3.1-bc4916eb9cdf",
+                "Build: bc4916eb9cdfd2989b90dff6410329fcc2114a17 (2026-11-10T17:51:31Z)",
+                "Environment: production"
+              ]
+            },
+            {
+              "title": "Terms of Service",
+              "description": [
+                "Service subject to Terms of Service."
+              ],
+              "links": [
+                {
+                  "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+                  "rel": "terms-of-service",
+                  "href": "https://www.epik.com/tos",
+                  "type": "text/html"
+                },
+                {
+                  "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+                  "rel": "terms-of-service",
+                  "href": "https://rdap.epik.com/help/terms",
+                  "type": "text/html"
+                }
+              ]
+            },
+            {
+              "title": "Status Codes",
+              "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+              ],
+              "links": [
+                {
+                  "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+                  "rel": "glossary",
+                  "href": "https://icann.org/epp",
+                  "type": "text/html"
+                }
+              ]
+            },
+            {
+              "title": "RDDS Inaccuracy Complaint Form",
+              "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+              ],
+              "links": [
+                {
+                  "value": "https://rdap.epik.com/domain/epikroidsarefake.org",
+                  "rel": "help",
+                  "href": "https://icann.org/wicf",
+                  "type": "text/html"
+                }
+              ]
+            }
+          ],
+          "rdapConformance": [
+            "rdap_level_0",
+            "icann_rdap_response_profile_1",
+            "icann_rdap_technical_implementation_guide_1",
+            "redacted"
+          ],
+          "redacted": [
+            {
+              "name": {
+                "type": "Registrant Email"
+              },
+              "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+              "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='contact-uri')]",
+              "pathLang": "jsonpath",
+              "method": "replacementValue",
+              "reason": {
+                "description": "Server policy"
+              }
+            },
+            {
+              "name": {
+                "type": "Admin Email"
+              },
+              "prePath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='email')]",
+              "replacementPath": "$.entities[?(@.roles[0]=='administrative')].vcardArray[1][?(@[0]=='contact-uri')]",
+              "pathLang": "jsonpath",
+              "method": "replacementValue",
+              "reason": {
+                "description": "Server policy"
+              }
+            },
+            {
+              "name": {
+                "type": "Tech Email"
+              },
+              "prePath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='email')]",
+              "replacementPath": "$.entities[?(@.roles[0]=='technical')].vcardArray[1][?(@[0]=='contact-uri')]",
+              "pathLang": "jsonpath",
+              "method": "replacementValue",
+              "reason": {
+                "description": "Server policy"
+              }
+            },
+            {
+              "name": {
+                "type": "Registry Domain ID"
+              },
+              "prePath": "$.handle",
+              "pathLang": "jsonpath",
+              "method": "removal",
+              "reason": {
+                "description": "Server policy"
+              }
+            }
+          ]
+        }
       },
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/epikroidsarefake.org",
         "status": 404,
-        "fetched_at": "2026-11-22T03:45:30.057Z",
+        "fetched_at": "2026-11-22T12:04:30.664Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -875,7 +1367,7 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-22T03:45:30.291Z",
+      "captured_at": "2026-11-22T12:04:30.859Z",
       "dns": {
         "a": [
           "209.196.146.115"
@@ -944,19 +1436,19 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-22T03:45:33.404Z"
+          "fetched_at": "2026-11-22T12:04:34.233Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=epikroidsarefake.org",
-          "http_status": 200,
+          "http_status": 503,
           "location": null,
           "state": "unknown",
           "mentions": 0,
           "blocked": false,
-          "title": "Domain Details Page",
-          "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
+          "title": "The page is temporarily unavailable",
+          "body_sha256": "a4fa55b806875843183aa71e20f3291b360e0910ccae858fe3d80c41772ddc0e",
           "error": null,
-          "fetched_at": "2026-11-22T03:45:35.000Z"
+          "fetched_at": "2026-11-22T12:04:35.735Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/epikroidsarefake",
@@ -966,9 +1458,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "66cb8ca2998fcc742dd38e11762e66d6bde0ccdd8cec20e90faf48c8363b578b",
+          "body_sha256": "7dfe301c977758051cb7bcb6bce03b2e9059a2ef7af96c17afd42de95ebf59d3",
           "error": null,
-          "fetched_at": "2026-11-22T03:45:36.231Z"
+          "fetched_at": "2026-11-22T12:04:36.964Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/epikroidsarefake.org",
@@ -980,7 +1472,7 @@
           "title": null,
           "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
           "error": null,
-          "fetched_at": "2026-11-22T03:45:37.589Z"
+          "fetched_at": "2026-11-22T12:04:38.330Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/epikroidsarefake.org/",
@@ -990,9 +1482,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "f1f1d2ce501d090d11d023946d1916d804460a599688a7addfe617a3f78265c7",
+          "body_sha256": "947e5cb7169619c864cfa03285ff6c5af5c7443657caaca295849661c77152c9",
           "error": null,
-          "fetched_at": "2026-11-22T03:45:38.840Z"
+          "fetched_at": "2026-11-22T12:04:39.577Z"
         }
       }
     }
