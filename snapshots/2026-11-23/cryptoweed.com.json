@@ -1,9 +1,9 @@
 {
   "domain": "cryptoweed.com",
   "date": "2026-11-23",
-  "queried_at": "2026-11-23T04:21:28.081Z",
-  "raw_hash": "419191658973d0c965e8ab4baffb95d5d71a13599c2cf4a60a9666b47e82c63a",
-  "fields_hash": "21630f182ac8dd710975585344e4dcc4c7a802c78c2ae1921b0fdefa5ab2c054",
+  "queried_at": "2026-11-23T19:33:52.656Z",
+  "raw_hash": "152a6f2b3959d4e15879e58f15ff318803aec983abf5e37a47064eaebbc82690",
+  "fields_hash": "587ab9a7b4c8817ff07f65dd0eee694e92ffe19081896cc83d0de05ef683fc10",
   "parsed": {
     "domain": "cryptoweed.com",
     "registrar": "DYNADOT LLC",
@@ -18,7 +18,7 @@
       "ns2.dynadot.com"
     ],
     "created": "2016-03-18T21:40:46Z",
-    "updated": "2026-11-23T04:21:15Z",
+    "updated": "2026-11-23T19:34:15Z",
     "expires": "2028-03-18T21:40:46Z",
     "registrant_org": "Super Privacy Service LTD c/o Dynadot",
     "registrant_country": "US",
@@ -61,7 +61,7 @@
         "ns2.dynadot.com"
       ],
       "created": "2016-03-18T21:40:46Z",
-      "updated": "2026-11-23T04:21:15Z",
+      "updated": "2026-11-23T19:34:15Z",
       "expires": "2028-03-18T21:40:46Z",
       "registrant_org": null,
       "registrant_country": null,
@@ -72,32 +72,23 @@
     },
     "anomalies": {
       "status": "Status mismatch: Registrar (transferProhibited) vs Registry (clientTransferProhibited)",
-      "stale_sponsorship": "whois.epik.com reports epik llc (IANA 617) as registrar; registry reports Dynadot Inc (IANA 472)",
       "site_disabled": "temporarily disabled"
     },
     "cross_registrar": {
       "registry_registrar": "Dynadot Inc",
       "registry_iana_id": "472",
-      "registrar_whois_server": "whois.dynadot.com",
-      "epik_whois": {
-        "registrar": "epik llc",
-        "iana_id": "617",
-        "updated": "2026-11-01t21:44:58z",
-        "expires": "2027-03-18t21:40:46z",
-        "status": [
-          "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
-        ]
-      },
+      "registrar_whois_server": "whois.epik.com",
+      "epik_whois": null,
       "watched_rdap": {
         "epik": {
           "url": "https://rdap.epik.com/domain/cryptoweed.com",
           "http_status": 404,
-          "fetched_at": "2026-11-23T04:21:35.685Z"
+          "fetched_at": "2026-11-23T19:34:28.689Z"
         },
         "dynadot": {
           "url": "https://rdap.dynadot.com/domain/cryptoweed.com",
           "http_status": 200,
-          "fetched_at": "2026-11-23T04:21:37.504Z",
+          "fetched_at": "2026-11-23T19:34:30.706Z",
           "registrar": "DYNADOT LLC",
           "iana_id": "472",
           "updated": "2026-11-20T22:46:13Z",
@@ -108,8 +99,8 @@
         }
       }
     },
-    "site_final_url": "https://registrar-transfers.com/",
-    "site_status": 500,
+    "site_final_url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+    "site_status": 200,
     "site_title": "Authorization",
     "site_sale_signals": [],
     "site_disabled": "temporarily disabled",
@@ -117,8 +108,8 @@
     "marketplace_listed": []
   },
   "raw": {
-    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.dynadot.com\nRegistrar URL: http://www.dynadot.com\nUpdated Date: 2026-11-01T21:44:58.0Z\nCreation Date: 2016-03-18T21:40:46.0Z\nRegistrar Registration Expiration Date: 2028-03-18T21:40:46.0Z\nRegistrar: DYNADOT LLC\nRegistrar IANA ID: 472\nRegistrar Abuse Contact Email: abuse@dynadot.com\nRegistrar Abuse Contact Phone: +1.6502620100\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: REDACTED FOR PRIVACY\nRegistrant Organization: Super Privacy Service LTD c/o Dynadot\nRegistrant Street: PO Box 701\nRegistrant Street: \nRegistrant City: San Mateo\nRegistrant State/Province: California\nRegistrant Postal Code: 94401\nRegistrant Country: US\nRegistrant Phone: +1.6505854708\nRegistrant Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Admin ID: \nAdmin Name: REDACTED FOR PRIVACY\nAdmin Organization: Super Privacy Service LTD c/o Dynadot\nAdmin Street: PO Box 701\nAdmin Street: \nAdmin City: San Mateo\nAdmin State/Province: California\nAdmin Postal Code: 94401\nAdmin Country: US\nAdmin Phone: +1.6505854708\nAdmin Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Tech ID: \nTech Name: REDACTED FOR PRIVACY\nTech Organization: Super Privacy Service LTD c/o Dynadot\nTech Street: PO Box 701\nTech Street: \nTech City: San Mateo\nTech State/Province: California\nTech Postal Code: 94401\nTech Country: US\nTech Phone: +1.6505854708\nTech Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nName Server: ns1.dynadot.com\nName Server: ns2.dynadot.com\nDNSSEC: unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2026-11-01 13:44:58 -0800 <<<\n\n",
-    "tld": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.dynadot.com\nRegistrar URL: http://www.dynadot.com\nUpdated Date: 2026-11-01T21:44:58.0Z\nCreation Date: 2016-03-18T21:40:46.0Z\nRegistrar Registration Expiration Date: 2028-03-18T21:40:46.0Z\nRegistrar: DYNADOT LLC\nRegistrar IANA ID: 472\nRegistrar Abuse Contact Email: abuse@dynadot.com\nRegistrar Abuse Contact Phone: +1.6502620100\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: REDACTED FOR PRIVACY\nRegistrant Organization: Super Privacy Service LTD c/o Dynadot\nRegistrant Street: PO Box 701\nRegistrant Street: \nRegistrant City: San Mateo\nRegistrant State/Province: California\nRegistrant Postal Code: 94401\nRegistrant Country: US\nRegistrant Phone: +1.6505854708\nRegistrant Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Admin ID: \nAdmin Name: REDACTED FOR PRIVACY\nAdmin Organization: Super Privacy Service LTD c/o Dynadot\nAdmin Street: PO Box 701\nAdmin Street: \nAdmin City: San Mateo\nAdmin State/Province: California\nAdmin Postal Code: 94401\nAdmin Country: US\nAdmin Phone: +1.6505854708\nAdmin Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nRegistry Tech ID: \nTech Name: REDACTED FOR PRIVACY\nTech Organization: Super Privacy Service LTD c/o Dynadot\nTech Street: PO Box 701\nTech Street: \nTech City: San Mateo\nTech State/Province: California\nTech Postal Code: 94401\nTech Country: US\nTech Phone: +1.6505854708\nTech Email: https://www.dynadot.com/domain/contact-request?domain=cryptoweed.com\nName Server: ns1.dynadot.com\nName Server: ns2.dynadot.com\nDNSSEC: unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2026-11-01 13:44:58 -0800 <<<\n\n",
+    "registrar": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-11-01T21:44:58Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-1ib6gv8ehlicz@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-1ib6gv8ehlicz@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-1ib6gv8ehlicz@anonymize.com\nName Server: NS1.DYNADOT.COM\nName Server: NS2.DYNADOT.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "tld": null,
     "tld_rdap": {
       "objectClassName": "domain",
       "handle": "2013616432_DOMAIN_COM-VRSN",
@@ -234,7 +225,7 @@
         },
         {
           "eventAction": "last update of RDAP database",
-          "eventDate": "2026-11-23T04:21:15Z"
+          "eventDate": "2026-11-23T19:34:15Z"
         }
       ],
       "secureDNS": {
@@ -856,13 +847,13 @@
         "transfer prohibited"
       ]
     },
-    "registrar_whois_server": "whois.dynadot.com",
-    "epik_whois": "Domain Name: CRYPTOWEED.COM\nRegistry Domain ID: 2013616432_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.epik.com\nRegistrar URL: https://www.epik.com\nUpdated Date: 2026-11-01T21:44:58Z\nCreation Date: 2016-03-18T21:40:46Z\nRegistrar Registration Expiration Date: 2027-03-18T21:40:46Z\nRegistrar: Epik LLC\nRegistrar IANA ID: 617\nRegistrar Abuse Contact Email: abuse@epik.com\nRegistrar Abuse Contact Phone: +1.7373015923\nReseller: \nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nRegistry Registrant ID: \nRegistrant Name: Privacy Administrator\nRegistrant Organization: Anonymize LLC\nRegistrant Street: 30 N Gould St STE E\nRegistrant City: Sheridan\nRegistrant State/Province: WY\nRegistrant Postal Code: 82801\nRegistrant Country: US\nRegistrant Phone: +1.7373015923\nRegistrant Phone Ext: \nRegistrant Fax: \nRegistrant Fax Ext: \nRegistrant Email: cryptoweed.com-trtkhm1f3jad@anonymize.com\nRegistry Admin ID: \nAdmin Name: Privacy Administrator\nAdmin Organization: Anonymize LLC\nAdmin Street: 30 N Gould St STE E\nAdmin City: Sheridan\nAdmin State/Province: WY\nAdmin Postal Code: 82801\nAdmin Country: US\nAdmin Phone: +1.7373015923\nAdmin Phone Ext: \nAdmin Fax: \nAdmin Fax Ext: \nAdmin Email: cryptoweed.com-trtkhm1f3jad@anonymize.com\nRegistry Tech ID: \nTech Name: Privacy Administrator\nTech Organization: Anonymize LLC\nTech Street: 30 N Gould St STE E\nTech City: Sheridan\nTech State/Province: WY\nTech Postal Code: 82801\nTech Country: US\nTech Phone: +1.7373015923\nTech Phone Ext: \nTech Fax: \nTech Fax Ext: \nTech Email: cryptoweed.com-trtkhm1f3jad@anonymize.com\nName Server: NS1.DYNADOT.COM\nName Server: NS2.DYNADOT.COM\nDNSSEC: Unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database:  <<<\n\nAll registrar data, including registrant WHOIS data, is provided for public, non-commerical use only.  Any information made available by Epik LLC and its affiliate registrars shall not be collected, distributed or used for any commercial activity.  Third parties to agree not to use the data to allow, enable, or otherwise support any marketing activities, regardless of the medium used. Such media include but are not limited to e-mail, telephone, facsimile, postal mail, SMS, and wireless alerts.\n",
+    "registrar_whois_server": "whois.epik.com",
+    "epik_whois": null,
     "watched_rdap": {
       "epik": {
         "url": "https://rdap.epik.com/domain/cryptoweed.com",
         "status": 404,
-        "fetched_at": "2026-11-23T04:21:35.685Z",
+        "fetched_at": "2026-11-23T19:34:28.689Z",
         "body": {
           "errorCode": 404,
           "title": "Not Found",
@@ -876,7 +867,7 @@
       "dynadot": {
         "url": "https://rdap.dynadot.com/domain/cryptoweed.com",
         "status": 200,
-        "fetched_at": "2026-11-23T04:21:37.504Z",
+        "fetched_at": "2026-11-23T19:34:30.706Z",
         "body": {
           "rdapConformance": [
             "rdap_level_0",
@@ -1436,10 +1427,10 @@
       }
     },
     "web": {
-      "captured_at": "2026-11-23T04:21:37.569Z",
+      "captured_at": "2026-11-23T19:34:30.735Z",
       "dns": {
         "a": [
-          "137.131.40.164"
+          "132.226.59.218"
         ],
         "ns": [
           "ns1.dynadot.com",
@@ -1453,26 +1444,26 @@
           {
             "url": "http://cryptoweed.com/",
             "status": 301,
-            "location": "https://registrar-transfers.com/?whois-suspension-bluehost.jsp",
+            "location": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
             "server": null,
             "error": null
           },
           {
-            "url": "https://registrar-transfers.com/?whois-suspension-bluehost.jsp",
-            "status": 500,
+            "url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+            "status": 200,
             "location": null,
             "server": "cloudflare",
             "error": null
           }
         ],
-        "final_url": "https://registrar-transfers.com/?whois-suspension-bluehost.jsp",
-        "final_status": 500,
+        "final_url": "http://www.registrar-transfers.com/en_US/whois-suspension-register.jsp",
+        "final_status": 200,
         "final_error": null,
         "content_type": "text/html;charset=ISO-8859-1",
         "title": "Authorization",
-        "body_sha256": "2074f7a38c8b8280556c6174c1efe7e6a28b868cac1cafb3c17225457d1c59de",
-        "body_length": 1995,
-        "text_excerpt": "Authorization This domain has been temporarily disabled. If you own this domain,please log in to your account manager to re-enable the domain."
+        "body_sha256": "9eb62bbb4fbcfb7209cc8fc849f35c27dccd08808f8e489a887b2c98caa94ba6",
+        "body_length": 1765,
+        "text_excerpt": "Authorization Domain Temporarily Disabled This domain has been temporarily disabled. If you own this domain,please log in to your account manager to re-enable the domain."
       },
       "https": {
         "start_url": "https://cryptoweed.com/",
@@ -1505,7 +1496,7 @@
           "title": null,
           "body_sha256": "57f5351b99dc9ff2cc5a8a9fd33cd26ec591e2036662d4ea834b0bd320d5e3a3",
           "error": null,
-          "fetched_at": "2026-11-23T04:22:00.759Z"
+          "fetched_at": "2026-11-23T19:34:54.405Z"
         },
         "sedo": {
           "url": "https://sedo.com/search/details/?domain=cryptoweed.com",
@@ -1517,7 +1508,7 @@
           "title": "Domain Details Page",
           "body_sha256": "dd816efb17fdff7c139868702f36b1656d4669835f0355630fd0cb9cb69d2f23",
           "error": null,
-          "fetched_at": "2026-11-23T04:22:02.810Z"
+          "fetched_at": "2026-11-23T19:34:56.153Z"
         },
         "atom": {
           "url": "https://www.atom.com/name/cryptoweed",
@@ -1527,9 +1518,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "c641a35c68d18199737af85d1c3aca65a104343b4a68ab821f25a87898175772",
+          "body_sha256": "b5d77f3a22dbf904fb30f5312297f5daa2f9b6653ea2f972c9809b291b20a3a3",
           "error": null,
-          "fetched_at": "2026-11-23T04:22:04.091Z"
+          "fetched_at": "2026-11-23T19:34:57.431Z"
         },
         "dynadot_market": {
           "url": "https://www.dynadot.com/market/user-listings/cryptoweed.com",
@@ -1541,7 +1532,7 @@
           "title": null,
           "body_sha256": "e9080b56cd3d6948aa8339d561ba5101f8c5288a5fb757551ee293b84206b654",
           "error": null,
-          "fetched_at": "2026-11-23T04:22:05.492Z"
+          "fetched_at": "2026-11-23T19:34:58.789Z"
         },
         "namecheap_market": {
           "url": "https://www.namecheap.com/market/buynow/cryptoweed.com/",
@@ -1551,9 +1542,9 @@
           "mentions": 0,
           "blocked": true,
           "title": "Just a moment...",
-          "body_sha256": "ed4cf4333a49cb7ac23a1252a3647faf07b43be7b411ab3231aac675c4a138d9",
+          "body_sha256": "014287667991e92dc86c05fc3b738490ff1d32e051f95e2a20303a06a19e6287",
           "error": null,
-          "fetched_at": "2026-11-23T04:22:06.760Z"
+          "fetched_at": "2026-11-23T19:35:00.048Z"
         }
       }
     }
