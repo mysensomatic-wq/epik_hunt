@@ -1,7 +1,7 @@
 {
  "domain": "masterbucks.com",
- "generated_at": "2026-11-23T19:36:15.599Z",
- "head": "5ec4d09f3dddd6685c7ef013b3c3b03abd9a5f0f",
+ "generated_at": "2026-11-24T04:30:44.376Z",
+ "head": "8f70c15bcad2d7a5716886b1580f05f673cbf2e9",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -23039,6 +23039,29 @@
    "raw_hash_ok": true,
    "hash_changed": true,
    "changed": [
+    "updated"
+   ],
+   "anomalies": [],
+   "first": false
+  },
+  {
+   "commit": "8f70c15bcad2d7a5716886b1580f05f673cbf2e9",
+   "committed_at": "2026-11-24T04:30:39Z",
+   "run_id": "45326643803",
+   "path": "snapshots/2026-11-24/masterbucks.com.json",
+   "blob": "740650fa820a5be409868a4d9a6b3be8d019d367",
+   "date": "2026-11-24",
+   "queried_at": "2026-11-24T04:30:04.450Z",
+   "fields_hash": "0757fdd4eaa4a6ac96075c9a7aa23713c733aaf39c87b83ba49ef9fbaf60e6ff",
+   "raw_hash": "df71881ab77f4e0f9431ee29f5d02a047791549a21025240f58d2a14df2f369d",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "abuse_phone",
+    "rdap_build",
+    "registrant_country",
+    "registrant_org",
     "updated"
    ],
    "anomalies": [],

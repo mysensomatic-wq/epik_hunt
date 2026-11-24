@@ -1,7 +1,7 @@
 {
  "domain": "epikroidsarefake.org",
- "generated_at": "2026-11-23T19:36:15.599Z",
- "head": "5ec4d09f3dddd6685c7ef013b3c3b03abd9a5f0f",
+ "generated_at": "2026-11-24T04:30:44.376Z",
+ "head": "8f70c15bcad2d7a5716886b1580f05f673cbf2e9",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -23512,6 +23512,32 @@
    "raw_hash_ok": true,
    "hash_changed": true,
    "changed": [
+    "updated"
+   ],
+   "anomalies": [],
+   "first": false
+  },
+  {
+   "commit": "8f70c15bcad2d7a5716886b1580f05f673cbf2e9",
+   "committed_at": "2026-11-24T04:30:39Z",
+   "run_id": "45326643803",
+   "path": "snapshots/2026-11-24/epikroidsarefake.org.json",
+   "blob": "9ff35114c52490bbe3aae09f82d0c5ee98b26694",
+   "date": "2026-11-24",
+   "queried_at": "2026-11-24T04:29:27.561Z",
+   "fields_hash": "0376889c8fa3400deb92f1caa9ffe5fff591e930218d95774e21f7398b7f8fe8",
+   "raw_hash": "10c306fd56bf7dc8f6737fabdfefd491d1523efeca3da15c5af35f8da55f6b9f",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "abuse_phone",
+    "rdap_build",
+    "registrant_country",
+    "registrant_org",
+    "site_platform",
+    "site_status",
+    "site_title",
     "updated"
    ],
    "anomalies": [],
