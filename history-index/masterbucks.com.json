@@ -1,7 +1,7 @@
 {
  "domain": "masterbucks.com",
- "generated_at": "2026-11-25T13:42:06.940Z",
- "head": "632139bf261b295f2a11511067abab85203f5f95",
+ "generated_at": "2026-11-25T23:52:07.838Z",
+ "head": "5c360036a41f28186acddc012e4fb76e72567123",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -23120,6 +23120,26 @@
    "queried_at": "2026-11-25T13:41:29.223Z",
    "fields_hash": "5c3ec54f97deb0ec634805234db38aafcd571a8e7e8480bbcf6a0ea1d2e4cf27",
    "raw_hash": "bf52c4d5c4e7cec1fa0ea3eedf1f81aeb8322914967c4fcb23de615f20e4136f",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "rdap_build",
+    "updated"
+   ],
+   "anomalies": [],
+   "first": false
+  },
+  {
+   "commit": "5c360036a41f28186acddc012e4fb76e72567123",
+   "committed_at": "2026-11-25T23:52:03Z",
+   "run_id": "45724310282",
+   "path": "snapshots/2026-11-25/masterbucks.com.json",
+   "blob": "ab47d823cec1a6c8f6cab7861142fc3e92a67d21",
+   "date": "2026-11-25",
+   "queried_at": "2026-11-25T23:51:25.405Z",
+   "fields_hash": "87076c6b87c157df53e650e327519d6499ce0bdd1c571c1189ee47cd8f681fc8",
+   "raw_hash": "bfe6726f99508c6c861559a1044b6f7da083b774fd4adaacf35b8220b123e992",
    "fields_hash_ok": true,
    "raw_hash_ok": true,
    "hash_changed": true,
