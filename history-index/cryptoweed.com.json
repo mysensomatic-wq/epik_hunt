@@ -1,7 +1,7 @@
 {
  "domain": "cryptoweed.com",
- "generated_at": "2026-11-25T23:52:07.838Z",
- "head": "5c360036a41f28186acddc012e4fb76e72567123",
+ "generated_at": "2026-11-26T05:43:21.464Z",
+ "head": "152cc8162272725078bec9308764b41d7ab15c2e",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -23675,6 +23675,31 @@
    "raw_hash_ok": true,
    "hash_changed": true,
    "changed": [
+    "updated"
+   ],
+   "anomalies": [
+    "site_disabled",
+    "stale_sponsorship",
+    "status"
+   ],
+   "first": false
+  },
+  {
+   "commit": "152cc8162272725078bec9308764b41d7ab15c2e",
+   "committed_at": "2026-11-26T05:43:17Z",
+   "run_id": "45763207543",
+   "path": "snapshots/2026-11-26/cryptoweed.com.json",
+   "blob": "762a9cbcea547765809c40ec135e333d60420910",
+   "date": "2026-11-26",
+   "queried_at": "2026-11-26T05:41:29.384Z",
+   "fields_hash": "1a8f1eaa00bae186a49153b143615e5982bd6f6727b43cd573355d7675997f2c",
+   "raw_hash": "419191658973d0c965e8ab4baffb95d5d71a13599c2cf4a60a9666b47e82c63a",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "site_final_url",
+    "site_status",
     "updated"
    ],
    "anomalies": [
