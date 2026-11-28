@@ -1,7 +1,7 @@
 {
  "domain": "cryptoweed.com",
- "generated_at": "2026-11-28T05:16:24.022Z",
- "head": "a88c7b2eada83fca00573405ac50b39f77860832",
+ "generated_at": "2026-11-28T16:28:48.735Z",
+ "head": "5b60dd62de5f29274324c9255a6697d9e3843616",
  "repo": "mysensomatic-wq/epik_hunt",
  "versions": [
   {
@@ -23823,6 +23823,37 @@
     "site_disabled",
     "stale_sponsorship",
     "status"
+   ],
+   "first": false
+  },
+  {
+   "commit": "5b60dd62de5f29274324c9255a6697d9e3843616",
+   "committed_at": "2026-11-28T16:28:45Z",
+   "run_id": "46165190794",
+   "path": "snapshots/2026-11-28/cryptoweed.com.json",
+   "blob": "3f67b9c9f789c1a672e0ad22e5a995e80b7f29bd",
+   "date": "2026-11-28",
+   "queried_at": "2026-11-28T16:26:55.942Z",
+   "fields_hash": "43b8776c81e510b113e2d735f08f4776fac0b0d52bd5e82f42a160750a65b91b",
+   "raw_hash": "419191658973d0c965e8ab4baffb95d5d71a13599c2cf4a60a9666b47e82c63a",
+   "fields_hash_ok": true,
+   "raw_hash_ok": true,
+   "hash_changed": true,
+   "changed": [
+    "abuse_phone",
+    "created",
+    "expires",
+    "rdap_server",
+    "registrant_country",
+    "registrant_org",
+    "registrar",
+    "roid",
+    "status",
+    "updated"
+   ],
+   "anomalies": [
+    "site_disabled",
+    "stale_sponsorship"
    ],
    "first": false
   }
